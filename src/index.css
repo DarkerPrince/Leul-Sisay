@@ -1,0 +1,63 @@
+/* tailwindcss files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.tag {
+  @apply bg-white/20 rounded-md inline px-4 py-2;
+}
+
+.tag3 {
+  @apply bg-white/20 border-solid border-2 border-leulePrime/50 text-slate-50 rounded-md inline px-4 py-2;
+}
+
+
+.tag2 {
+  @apply bg-slate-300 rounded-md inline py-1 px-4 text-xs bg-white/20 text-slate-50;
+}
+
+.tag-selected {
+  @apply shadow-lg flex items-center justify-center bg-leulePrime text-white rounded-md px-4 py-2;
+}
+
+
+.shadow {
+  @apply shadow-md shadow-slate-400;
+  ;
+}
+
+.shadow-2 {
+  @apply shadow-lg shadow-slate-400;
+}
+
+.ratingBar {
+  @apply h-4 bg-slate-200 rounded w-72;
+}
+
+.ratingBar2 {
+  @apply h-4 bg-orange-500 rounded-sm w-3/4;
+}
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
