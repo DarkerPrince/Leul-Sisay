@@ -4,7 +4,6 @@ import NavigationBar from "./navigationbar";
 function HeroPage() {
   return (
     <div className="bg-slate-800">
-      <NavigationBar />
       <div className="flex relative justify-center h-screen items-center bg-contain bg-center bg-no-repeat object-contain">
         <div className="flex bg-center gap-32 w-full mx-12  bg-no-repeat bg-contain items-center justify-center">
           <div

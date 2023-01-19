@@ -1,23 +1,19 @@
-import HeroPage from "./heropage";
-import WorkGallery from "./gallerypage";
-import SkillsPage from "./skillspage";
-import CertificationPage from "./certificationpage";
-import CarrerSummary from "./careersummary";
-
+import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 import Blog from "./blog";
 import BlogDetial from "./blogdetail";
+import Homepage from "./homepage";
+import NavigationBar from "./navigationbar";
 
 function App() {
   return (
-    <div className="bg-slate-800 space-y-20">
-      <HeroPage />
-      {/* <Blog /> */}
-      {/* <BlogDetial /> */}
-      <WorkGallery />
-      <SkillsPage />
-      <CertificationPage />
-      <CarrerSummary />
-    </div>
+    <BrowserRouter>
+      <NavigationBar />
+      <Routes>
+        <Route path="/" element={<Homepage />}></Route>
+        <Route path="blog" element={<Blog />} />
+        <Route path="blogs" element={<BlogDetial />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

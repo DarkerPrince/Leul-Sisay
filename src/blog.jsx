@@ -8,7 +8,6 @@ import NavigationBar from "./navigationbar";
 function Blog() {
   return (
     <div className=" px-24 flex flex-col justify-between">
-      <NavigationBar />
       <div className=" grid grid-cols-2 lg:grid-cols-1 gap-3">
         <div
           className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
