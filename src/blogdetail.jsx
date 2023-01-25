@@ -1,4 +1,5 @@
 import DingImg from "./assets/UX/Ding/mobDing.png";
+import blogFiles from "./files";
 
 function BlogDetail() {
   return (
@@ -9,7 +10,7 @@ function BlogDetail() {
           <img
             className="flex lg:h-1/2 w-full object-cover lg:rounded-md
                     lg:w-5/6"
-            src={DingImg}
+            src={require(`./assets/${blogFiles[0].pictures[2]}`)}
             alt="Ding design"
           />
 
@@ -34,101 +35,40 @@ function BlogDetail() {
                     className="flex flex-col text-xl font-semibold
                                     text-orange-500"
                   >
-                    Ding Mobile Topup
+                    {blogFiles[0].title}
                   </h2>
 
                   <div className="flex items-center">
-                    <span className="text-sm">3 👍</span>
-                    <span className="text-sm mx-6">jan 2 , 2022</span>
+                    <span className="text-sm">
+                      {blogFiles[0].comments.length} 👍
+                    </span>
+                    <span className="text-sm mx-6">
+                      {blogFiles[0].postedDate}
+                    </span>
                   </div>
                 </div>
 
                 {/* <!-- blog details in paragraph --> */}
-                <p className="mt-6">
-                  It is estimated that more than 3 million Ethiopians reside
-                  abroad. North America, Europe, and the Gulf are Ethiopian
-                  migrants' top destinations. Most of the time, they find it
-                  tough to find ways to assist their loved ones, and most of the
-                  time it takes longer time, and about 90% of them have
-                  relatives living inside of Ethiopia, which they support by any
-                  form of income they gained there. The majority of them
-                  struggle with how to transmit any kind of assistance, like
-                  money, documents, or in our case, cell top-up platforms,
-                  across the country. However, there are some that can aid them
-                  with this process but are a bit challenging for them to use.
-                </p>
-                <p className="mt-6">
-                  I discovered a website called [Ding] that aids those other
-                  nations in assisting them in resolving the issues they were
-                  having, in showing their love and support for those in need
-                  by, among other things, providing them with gifts that include
-                  mobile top-ups from their country, which will greatly benefit
-                  them and make them smile. This sample design is simply a copy
-                  of the website changed into a mobile application, which I had
-                  the opportunity to register for and use a few times. It's a
-                  wonderful way to support your family and a kind gesture. Once
-                  you enter their phone number on the app, sending a mobile
-                  top-up to your loved ones living in Ethiopia takes just one
-                  click. You can even send them money on a weekly, biweekly, or
-                  monthly basis.
-                </p>
+                <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
+                <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
 
-                <p className="mt-6">
-                  I truly hope that this concept is embraced by my country and
-                  that many of my fellow countrymen use it. It is estimated that
-                  more than 3 million Ethiopians reside abroad. North America,
-                  Europe, and the Gulf are Ethiopian migrants' top destinations.
-                  Most of the time, they find it tough to find ways to assist
-                  their loved ones, and most of the time it takes longer time,
-                  and about 90% of them have relatives living inside of
-                  Ethiopia, which they support by any form of income they gained
-                  there. The majority of them struggle with how to transmit any
-                  kind of assistance, like money, documents, or in our case,
-                  cell top-up platforms, across the country. However, there are
-                  some that can aid them with this process but are a bit
-                  challenging for them to use.
-                </p>
+                <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
               </div>
 
               {/* <!-- side detail with the tags of the blog --> */}
               <div className="w-full lg:w-1/2 lg:pl-6 lg:mt-16">
-                <p className="mt-6">
-                  It is estimated that more than 3 million Ethiopians reside
-                  abroad. North America, Europe, and the Gulf are Ethiopian
-                  migrants' top destinations. Most of the time, they find it
-                  tough to find ways to assist their loved ones, and most of the
-                  time it takes longer time, and about 90% of them have
-                  relatives living inside of Ethiopia, which they support by any
-                  form of income they gained there. The majority of them
-                  struggle with how to transmit any kind of assistance, like
-                  money, documents, or in our case, cell top-up platforms,
-                  across the country. However, there are some that can aid them
-                  with this process but are a bit challenging for them to use.
-                  It is estimated that more than 3 million Ethiopians reside
-                  abroad.
-                </p>
+                <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
 
-                <p className="mt-6">
-                  North America, Europe, and the Gulf are Ethiopian migrants'
-                  top destinations. Most of the time, they find it tough to find
-                  ways to assist their loved ones, and most of the time it takes
-                  longer time, and about 90% of them have relatives living
-                  inside of Ethiopia, which they support by any form of income
-                  they gained there. The majority of them struggle with how to
-                  transmit any kind of assistance, like money, documents, or in
-                  our case, cell top-up platforms, across the country. However,
-                  there are some that can aid them with this process but are a
-                  bit challenging for them to use.
-                </p>
+                <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
 
                 <div className="flex text-sm flex-wrap gap-3 my-6 ">
-                  <div className="tag2">Developed</div>
-                  <div className="tag2">UI Design</div>
-                  <div className="tag2">Case Studies</div>
+                  <div className="tag2">{blogFiles[0].tags[0]}</div>
+                  <div className="tag2">{blogFiles[0].tags[1]}</div>
+                  <div className="tag2">{blogFiles[0].tags[2]}</div>
 
-                  <div className="tag2">Business Cards</div>
-                  <div className="tag2">Booklets</div>
-                  <div className="tag2">UI Design</div>
+                  <div className="tag2">{blogFiles[0].tags[0]}</div>
+                  <div className="tag2">{blogFiles[0].tags[0]}</div>
+                  <div className="tag2">{blogFiles[0].tags[0]}</div>
                 </div>
               </div>
             </div>

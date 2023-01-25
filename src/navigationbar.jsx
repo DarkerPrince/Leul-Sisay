@@ -21,19 +21,19 @@ const NavigationBar = (props) => {
             <span className="text-sm"> Contact me </span>
           </div>
           <div className="flex gap-6">
-            <a href="">
+            <a href="/">
               <div className="font-semibold text-leulePrime border-b-2 border-leulePrime">
                 <span>Portfolio</span>
               </div>
             </a>
 
-            <a href="/blog">
+            <a href="blog">
               <div className="font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime">
                 <span>Blog posts</span>
               </div>
             </a>
 
-            <a href="/blogs">
+            <a href="blogs">
               <div className="font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime">
                 <span>Go to</span>
               </div>
