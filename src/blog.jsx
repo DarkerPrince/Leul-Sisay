@@ -1,64 +1,72 @@
-
 import blogFiles from "./files";
-import {MdCommentBank} from "react-icons/md"
+import { useNavigate } from "react-router-dom";
+import { MdCommentBank } from "react-icons/md";
 
 function Blog() {
+  const navigate = useNavigate();
+
+  function navigatingMethod() {
+    navigate("/blogs");
+  }
 
   return (
-    <div className=" px-24 flex flex-col justify-between">
-      {
-        blogFiles.map((file)=>
-        <div className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
-        <div
-          className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
+    <div
+      onClick={navigatingMethod}
+      className=" px-8 lg:px-24 flex flex-col justify-between"
+    >
+      {blogFiles.map((file) => (
+        <div key={file.id} className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
+          <div
+            className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
             mb-4
             rounded-xl
             bg-white/5
-
             text-white
             p-4"
-        >
-          <img
-            src={require(`./assets/${file.pictures[0]}`)}
-            alt=""
-            className="rounded-lg object-cover h-64 w-full lg:w-1/2
+          >
+            <img
+              src={require(`./assets/${file.pictures[0]}`)}
+              alt=""
+              className="rounded-lg object-cover h-64 w-full lg:w-1/2
                 bg-slate-50"
-          />
-          <div
-            className="flex flex-col lg:w-1/2 justify-between gap-1
+            />
+            <div
+              className="flex flex-col lg:w-1/2 justify-between gap-1
                 pl-5
                 text-start"
-          >
-            <div>
-              <div className="flex justify-between my-3">
-                <h2 className="font-medium text-lg">
-                  <a href="/blogs">{file.title}</a>
-                </h2>
-                <div className="flex items-center">
-                  <span>{file.comments.length} </span>
-                  <MdCommentBank/>
-                  <span className="mx-4 text-sm text-slate-500">
-                    {file.postedDate}
-                  </span>
+            >
+              <div>
+                <div className="flex items-start justify-between mt-8 mb-4 pb-3 border-b border-leulePrime">
+                  <div className="flex flex-col items-start">
+                    <a href="blogs">
+                      <h2
+                        className="flex flex-col text-xl font-semibold
+                  text-leulePrime"
+                      >
+                        {file.title}
+                      </h2>
+                    </a>
+                    <span className="text-sm">{file.postedDate}</span>
+                  </div>
+
+                  <div className="flex items-center">
+                    <span className="text-sm mx-1">{file.comments.length}</span>
+                    <MdCommentBank className="text-leulePrime" />
+                  </div>
                 </div>
+                <p className="text-sm">{file.content}</p>
               </div>
-              <p className="text-sm">
-              {file.content}
-              </p>
-            </div>
-            <div className=" flex text-sm flex-wrap gap-3">
-            
-              <div className="tag2">{file.tags[0]}</div>
-              <div className="tag2">{file.tags[1]}</div>  
-              <div className="tag2">{file.tags[2]}</div>  
-              <div className="tag2">{file.tags[3]}</div> 
-               <div className="tag2">{file.tags[0]}</div>
+              <div className=" flex text-sm flex-wrap gap-3 mt-4">
+                <div className="tag2">{file.tags[0]}</div>
+                <div className="tag2">{file.tags[1]}</div>
+                <div className="tag2">{file.tags[2]}</div>
+                <div className="tag2">{file.tags[3]}</div>
+                <div className="tag2">{file.tags[0]}</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>)
-      }
-    
+      ))}
 
       {/* 
     <!-- <div className="blogFilteringCard">

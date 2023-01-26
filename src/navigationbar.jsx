@@ -1,13 +1,10 @@
-
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { BsPersonCircle } from "react-icons/bs";
 
-function NavigationBar () {
+function NavigationBar() {
   // let { id } = useParams();
   const loc = useLocation();
-
-  console.log(`Locatio is ${loc.pathname}`);
 
   switch (loc.pathname) {
     case "/":
@@ -73,6 +70,6 @@ function NavigationBar () {
         </nav>
       );
   }
-};
+}
 
 export default NavigationBar;
