@@ -1,5 +1,4 @@
 import myfaceImage from "./myface4.png";
-import NavigationBar from "./navigationbar";
 
 function HeroPage() {
   return (
