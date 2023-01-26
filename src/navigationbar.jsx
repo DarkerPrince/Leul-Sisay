@@ -1,9 +1,9 @@
-import myfaceImage2 from "./myface.png";
+
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { BsPersonCircle } from "react-icons/bs";
 
-const NavigationBar = (props) => {
+function NavigationBar () {
   // let { id } = useParams();
   const loc = useLocation();
 

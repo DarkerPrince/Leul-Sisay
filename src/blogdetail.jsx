@@ -1,5 +1,6 @@
-import DingImg from "./assets/UX/Ding/mobDing.png";
+
 import blogFiles from "./files";
+import {MdCommentBank} from "react-icons/md"
 
 function BlogDetail() {
   return (
@@ -7,19 +8,39 @@ function BlogDetail() {
       {/* <!-- http://drive.google.com/uc?export=view&id=1oR8IS8-zduKYzl4YdMachbtCpoP6zz-9 --> */}
       <div className="flex justify-center text-white">
         <div className="flex items-center flex-col">
-          <img
+        <img
             className="flex lg:h-1/2 w-full object-cover lg:rounded-md
                     lg:w-5/6"
-            src={require(`./assets/${blogFiles[0].pictures[2]}`)}
+            src={require(`./assets/${blogFiles[0].pictures[0]}`)}
             alt="Ding design"
           />
+        
+         <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
+         <img
+            className="flex lg:h-full w-48 object-cover lg:rounded-md mt-2"
+            src={require(`./assets/${blogFiles[0].pictures[1]}`)}
+            alt="Ding design"
+          />
+           <img
+            className="flex lg:h-full w-48 object-cover lg:rounded-md mt-2"
+            src={require(`./assets/${blogFiles[0].pictures[2]}`)}
+            alt="Ding design"
+          />  
+          <img
+          className="flex lg:h-full w-48 object-cover lg:rounded-md mt-2"
+          src={require(`./assets/${blogFiles[0].pictures[2]}`)}
+          alt="Ding design"
+        />
+         </div>
+       
+         
 
           <div
-            className=" flex flex-col w-full h-screen
+            className=" flex flex-col lg:w-5/6 h-screen
                     items-center"
           >
             <div
-              className=" flex flex-wrap w-3/4 justify-start
+              className=" flex flex-wrap justify-start
                         text-justify
                         text-sm"
             >
@@ -39,9 +60,10 @@ function BlogDetail() {
                   </h2>
 
                   <div className="flex items-center">
-                    <span className="text-sm">
-                      {blogFiles[0].comments.length} 👍
+                    <span className="text-sm mx-1">
+                      {blogFiles[0].comments.length} 
                     </span>
+                    <MdCommentBank className="text-leulePrime"/>
                     <span className="text-sm mx-6">
                       {blogFiles[0].postedDate}
                     </span>
@@ -51,7 +73,6 @@ function BlogDetail() {
                 {/* <!-- blog details in paragraph --> */}
                 <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
                 <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
-
                 <p className="mt-6">{blogFiles[0].moreContent[0]}</p>
               </div>
 
