@@ -10,12 +10,11 @@ function Blog() {
   }
 
   return (
-    <div
-      onClick={navigatingMethod}
+    <div   
       className=" px-8 lg:px-24 flex flex-col justify-between"
     >
       {blogFiles.map((file) => (
-        <div key={file.id} className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
+        <div key={file.id} onClick={navigatingMethod} className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
           <div
             className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
             mb-4
@@ -57,56 +56,14 @@ function Blog() {
                 <p className="text-sm">{file.content}</p>
               </div>
               <div className=" flex text-sm flex-wrap gap-3 mt-4">
-                <div className="tag2">{file.tags[0]}</div>
-                <div className="tag2">{file.tags[1]}</div>
-                <div className="tag2">{file.tags[2]}</div>
-                <div className="tag2">{file.tags[3]}</div>
-                <div className="tag2">{file.tags[0]}</div>
+                {
+                  file.tags.map((tag)=><div className="tag2">{tag}</div>)
+                }
               </div>
             </div>
           </div>
         </div>
       ))}
-
-      {/* 
-    <!-- <div className="blogFilteringCard">
-    <Input type="search" placeholder="🔎 Search projects" style="height: 40px; border-radius: 4px; width: 70%; padding: .5rem;"></Input>
-    <div style="display: flex; flex-wrap:
-        wrap; gap: 10px; margin-top: 24px;
-        justify-content: center;
-        ">
-
-        <div className="tag shadow">
-            Developed
-        </div>
-        <div className="tag shadow">
-            UI Design
-        </div>
-        <div className="tag shadow">
-            Case Studies
-        </div>
-
-        <div className="tag shadow">
-            Business Cards
-        </div>
-        <div className="tag shadow">
-            Booklets
-        </div>
-        <div className="tag shadow">
-            Banners
-        </div>
-        <div className="tag shadow">
-            Social Media Posts
-        </div>
-        <div className="tag shadow">
-            Logo Designs
-        </div>
-        <div className="tag shadow">
-            Others
-        </div>
-    </div>
-
-</div> --> */}
     </div>
   );
 }
