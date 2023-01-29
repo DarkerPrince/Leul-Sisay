@@ -1,20 +1,18 @@
 import blogFiles from "./files";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { MdCommentBank } from "react-icons/md";
 
 function Blog() {
   const navigate = useNavigate();
 
-  function navigatingMethod() {
-    navigate("/blogs");
-  }
+  // function navigatingMethod(path) {
+  //   "blogs/" + path;
+  // }
 
   return (
-    <div   
-      className=" px-8 lg:px-24 flex flex-col justify-between"
-    >
+    <div className=" px-8 lg:px-24 flex flex-col justify-between">
       {blogFiles.map((file) => (
-        <div key={file.id} onClick={navigatingMethod} className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
+        <div key={file.id} className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
           <div
             className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
             mb-4
@@ -37,14 +35,14 @@ function Blog() {
               <div>
                 <div className="flex items-start justify-between mt-8 mb-4 pb-3 border-b border-leulePrime">
                   <div className="flex flex-col items-start">
-                    <a href="blogs">
+                    <Link to={"blogs/" + file.id}>
                       <h2
                         className="flex flex-col text-xl font-semibold
                   text-leulePrime"
                       >
                         {file.title}
                       </h2>
-                    </a>
+                    </Link>
                     <span className="text-sm">{file.postedDate}</span>
                   </div>
 
@@ -56,9 +54,9 @@ function Blog() {
                 <p className="text-sm">{file.content}</p>
               </div>
               <div className=" flex text-sm flex-wrap gap-3 mt-4">
-                {
-                  file.tags.map((tag)=><div className="tag2">{tag}</div>)
-                }
+                {file.tags.map((tag) => (
+                  <div className="tag2">{tag}</div>
+                ))}
               </div>
             </div>
           </div>

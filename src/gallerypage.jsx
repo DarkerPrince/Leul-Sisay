@@ -1,16 +1,7 @@
-import CoopImg from "./assets/UX/Coop/mobCoop.png";
-import DingImg from "./assets/UX/Ding/mobDing.png";
-import HospitalSchedulerImg from "./assets/UX/hospital/deskHospital.png";
-import AnbessaPassengerImg from "./assets/UX/Anbessa/AnbessaPassenger/mobAnbessa.png";
-import EthioMartImg from "./assets/UX/Ethiomart/mobMart.png";
-import AlenJobImg from "./assets/UX/Alenjob/mobAlen.png";
-import SzimpleImg from "./assets/UX/Szimple/mobSzimple.png";
-import EventTimeImg from "./assets/UX/ET/mobET.png";
-import AnbessaDriverImg from "./assets/UX/Anbessa/AnbessaDriver/TabAnbessa.png";
-import HospitalSchedulerAdminImg from "./assets/UX/hospital/webHospital.png";
-import Data360Img from "./assets/UX/360/both360.png";
+import { uiImages } from "./files";
 
 function WorkGallery() {
+  var imageDisplay = uiImages;
   return (
     <div id="my_work">
       <div className="mx-24">
@@ -74,79 +65,200 @@ function WorkGallery() {
       </div>
 
       <div className="grid grid-cols-6 w-full gap-3">
-        <img
-          className="bg-cover bg-center w-full h-full object-cover bg-no-repeat hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-100 hover:overflow-hidden rounded-md
+        <div className=" relative overflow-visible col-start-1 col-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id} Coop Feedback collector app
+            </p>
+            <p className=" flex items-center justify-center text-xs font-light">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover bg-center w-full h-full object-cover bg-no-repeat group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden rounded-md
             col-start-1 col-span-2"
-          src={CoopImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit bg-center row-span-2 rounded-md"
-          src={DingImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md row-span-2 col-span-2"
-          src={HospitalSchedulerImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md row-span-2 bg-center"
-          src={AnbessaPassengerImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md"
-          src={EthioMartImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit bg-center row-span-2 rounded-md"
-          src={AlenJobImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md"
-          src={SzimpleImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md col-span-2"
-          src={EventTimeImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md col-span-2 row-span-2"
-          src={AnbessaDriverImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md col-span-2"
-          src={DingImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md"
-          src={HospitalSchedulerAdminImg}
-          alt=""
-          srcset=""
-        />
-        <img
-          className="bg-cover w-full h-full object-cover hover:scale-150 transition-all duration-300 ease-in-out hover:z-50 hover:delay-300 hover:bg-fit rounded-md"
-          src={Data360Img}
-          alt=""
-          srcset=""
-        />
+            src={require(`./assets/${imageDisplay[0].picture[0]}`)}
+            title="COOP bank is the best ⭐🌟🌟"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible row-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit bg-center  rounded-md"
+            src={require(`./assets/${imageDisplay[1].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible row-span-2 col-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
+            src={require(`./assets/${imageDisplay[2].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible row-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit rounded-md bg-center"
+            src={require(`./assets/${imageDisplay[3].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
+            src={require(`./assets/${imageDisplay[4].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible row-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit bg-center rounded-md"
+            src={require(`./assets/${imageDisplay[5].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
+            src={require(`./assets/${imageDisplay[6].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible col-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
+            src={require(`./assets/${imageDisplay[7].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible col-span-2 row-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
+            src={require(`./assets/${imageDisplay[8].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible col-span-2 group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
+            src={require(`./assets/${imageDisplay[9].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible group">
+          <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
+            src={require(`./assets/${imageDisplay[10].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div className=" relative overflow-visible group">
+          <div className="invisible group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
+            <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
+              {imageDisplay[0].id}
+            </p>
+            <p className=" flex items-center justify-center text-sm font-medium ">
+              Content of the display here also
+            </p>
+          </div>
+          <img
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
+            src={require(`./assets/${imageDisplay[11].picture[0]}`)}
+            alt=""
+            srcset=""
+          />
+        </div>
       </div>
     </div>
   );

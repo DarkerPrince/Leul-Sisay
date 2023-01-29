@@ -1,18 +1,21 @@
 import blogFiles from "./files";
 import { MdCommentBank } from "react-icons/md";
+import { useParams } from "react-router-dom";
 
 function BlogDetail() {
+  const params = useParams();
+  const id = params.id - 1;
   const leftPara = [];
   const rightPara = [];
-  const totalparagraphSize = blogFiles[0].moreContent.length;
-  console.log("Blog details info is", blogFiles[0]);
+  const totalparagraphSize = blogFiles[id].moreContent.length;
+  console.log("Blog details info is", blogFiles[id]);
   let paragSecSize = Math.ceil(totalparagraphSize / 2);
   console.log("the paragraph contains splitted", paragSecSize);
   for (let i = 0; i < totalparagraphSize; i++) {
     if (i < paragSecSize) {
-      leftPara.push(`${blogFiles[0].moreContent[i]}`);
+      leftPara.push(`${blogFiles[id].moreContent[i]}`);
     } else {
-      rightPara.push(`${blogFiles[0].moreContent[i]}`);
+      rightPara.push(`${blogFiles[id].moreContent[i]}`);
     }
   }
 
@@ -22,12 +25,12 @@ function BlogDetail() {
         <img
           className="flex lg:h-1/2 w-full object-cover lg:rounded-md
                     lg:w-5/6"
-          src={require(`./assets/${blogFiles[0].pictures[1]}`)}
+          src={require(`./assets/${blogFiles[id].pictures[1]}`)}
           alt="Ding design"
         />
 
         <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
-          {blogFiles[0].pictures.map((pics) => (
+          {blogFiles[id].pictures.map((pics) => (
             <img
               className="flex lg:h-full w-48 object-cover lg:rounded-md mt-2"
               key={Math.random()}
@@ -54,14 +57,14 @@ function BlogDetail() {
                     className="flex flex-col text-xl font-semibold
                   text-leulePrime"
                   >
-                    {blogFiles[0].title}
+                    {blogFiles[id].title}
                   </h2>
-                  <span className="text-sm">{blogFiles[0].postedDate}</span>
+                  <span className="text-sm">{blogFiles[id].postedDate}</span>
                 </div>
 
                 <div className="flex items-center">
                   <span className="text-sm mx-1">
-                    {blogFiles[0].comments.length}
+                    {blogFiles[id].comments.length}
                   </span>
                   <MdCommentBank className="text-leulePrime" />
                 </div>
@@ -84,7 +87,7 @@ function BlogDetail() {
                 </p>
               ))}
               <div className="flex text-sm flex-wrap gap-3 my-6 ">
-                {blogFiles[0].tags.map((tags) => (
+                {blogFiles[id].tags.map((tags) => (
                   <div key={Math.random()} className="tag2">
                     {tags}
                   </div>

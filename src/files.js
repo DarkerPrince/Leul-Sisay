@@ -539,4 +539,67 @@ var blogFiles = [
   },
 ];
 
+export const uiImages = [
+  {
+    id: 1,
+    picture: ["UX/Coop/mobCoop.png", "UX/Coop/mobCoop.png"],
+  },
+  {
+    id: 2,
+    picture: ["UX/Ding/mobDing.png", "UX/Ding/mobDing.png"],
+  },
+  {
+    id: 3,
+    picture: [
+      "UX/360/both360.png",
+      "UX/360/web360.png",
+      "UX/360/mobile360.png",
+    ],
+  },
+  {
+    id: 4,
+    picture: [
+      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
+      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
+      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
+    ],
+  },
+  {
+    id: 5,
+    picture: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
+  },
+  {
+    id: 6,
+    picture: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+  },
+  {
+    id: 7,
+    picture: ["UX/ET/mobET.png"],
+  },
+  {
+    id: 8,
+    picture: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+  },
+  {
+    id: 9,
+    picture: ["UX/Alenjob/mobAlen.png"],
+  },
+  {
+    id: 10,
+    picture: ["UX/Ethiomart/mobMart.png", "UX/Ethiomart/mobMart2.png"],
+  },
+  {
+    id: 11,
+    picture: ["UX/negat/mobNegat2.png", "UX/negat/mobNegat2.png"],
+  },
+  {
+    id: 12,
+    picture: ["UX/Szimple/mobSzimple.png"],
+  },
+];
+
 export default blogFiles;

@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { BsPersonCircle } from "react-icons/bs";
 
 function NavigationBar() {
@@ -17,24 +17,19 @@ function NavigationBar() {
             <BsPersonCircle className="bg-cover rounded-full w-6 h-6 mr-2" />
             <span className="text-sm"> Contact me </span>
           </div>
+
           <div className="flex gap-6">
-            <a href="/">
+            <Link to={"/"}>
               <div className="font-semibold text-leulePrime border-b-2 border-leulePrime">
                 <span>Portfolio</span>
               </div>
-            </a>
+            </Link>
 
-            <a href="blog">
+            <Link to={"blog"}>
               <div className="font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime">
                 <span>Blog posts</span>
               </div>
-            </a>
-
-            <a href="blogs">
-              <div className="font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime">
-                <span>Go to</span>
-              </div>
-            </a>
+            </Link>
           </div>
         </nav>
       );
@@ -49,23 +44,17 @@ function NavigationBar() {
             <span className="text-sm"> Contact me </span>
           </div>
           <div className="flex gap-6">
-            <a href="/">
+            <Link to={"/"}>
               <div className="font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime">
                 <span>Portfolio</span>
               </div>
-            </a>
+            </Link>
 
-            <a href="blog">
+            <Link to={"blog"}>
               <div className="font-semibold text-leulePrime border-b-2 border-leulePrime">
                 <span>Blog posts</span>
               </div>
-            </a>
-
-            <a href="blog">
-              <div className="font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime">
-                <span>Go to</span>
-              </div>
-            </a>
+            </Link>
           </div>
         </nav>
       );
