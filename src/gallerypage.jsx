@@ -65,7 +65,7 @@ function WorkGallery() {
       </div>
 
       <div className="grid grid-cols-6 w-full gap-3">
-        <div className=" relative overflow-visible col-start-1 col-span-2 group">
+        <div className="relative overflow-hidden  rounded-md col-start-1 col-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id} Coop Feedback collector app
@@ -83,12 +83,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible row-span-2 group">
+        <div className="relative overflow-hidden  rounded-md row-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -99,12 +99,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible row-span-2 col-span-2 group">
+        <div className=" relative overflow-hidden  rounded-md row-span-2 col-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -115,23 +115,23 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible row-span-2 group">
+        <div className=" relative overflow-hidden  rounded-md row-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
           <img
-            className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit rounded-md bg-center"
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit rounded-md bg-center"
             src={require(`./assets/${imageDisplay[3].picture[0]}`)}
             alt=""
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible group">
+        <div className=" relative overflow-hidden  rounded-md group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
@@ -147,28 +147,28 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible row-span-2 group">
+        <div className=" relative overflow-hidden  rounded-md row-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
           <img
-            className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit bg-center rounded-md"
+            className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit bg-center rounded-md"
             src={require(`./assets/${imageDisplay[5].picture[0]}`)}
             alt=""
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible group">
+        <div className=" relative overflow-hidden  rounded-md group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -179,12 +179,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible col-span-2 group">
+        <div className=" relative overflow-hidden  rounded-md col-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -195,12 +195,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible col-span-2 row-span-2 group">
+        <div className=" relative overflow-hidden  rounded-md col-span-2 row-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -211,12 +211,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible col-span-2 group">
+        <div className=" relative overflow-hidden  rounded-md col-span-2 group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -227,12 +227,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible group">
+        <div className=" relative overflow-hidden  rounded-md group">
           <div className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
@@ -243,12 +243,12 @@ function WorkGallery() {
             srcset=""
           />
         </div>
-        <div className=" relative overflow-visible group">
+        <div className=" relative overflow-hidden  rounded-md group">
           <div className="invisible group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
             <p className=" flex items-center justify-center text-sm font-medium text-leulePrime">
               {imageDisplay[0].id}
             </p>
-            <p className=" flex items-center justify-center text-sm font-medium ">
+            <p className=" flex items-center justify-center text-xs font-light ">
               Content of the display here also
             </p>
           </div>
