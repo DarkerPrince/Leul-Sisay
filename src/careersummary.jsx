@@ -32,16 +32,16 @@ function CarrerSummary() {
             <h3 className="m-0 font-medium text-leulePrime">
               AIT IT Solutions and Cybersecurity
             </h3>
-            <p className="m-0 w-3/4">
+            <p className=" m-0 w-3/4">
               I've been working as a UI/UX designer and a graphics designer on a
               mobile platform that performs ecommerce.
             </p>
 
             <button
-              className=" flex relative flex-col gap-2 group
+              className="inline-flex relative flex-col gap-2 group
                      "
             >
-              <p className="text-leulePrime text-sm rounded-md bg-slate-600 px-2">
+              <p className=" mb-3 text-leulePrime text-sm rounded-md bg-slate-600 px-2">
                 More
               </p>
 

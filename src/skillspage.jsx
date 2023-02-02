@@ -36,7 +36,7 @@ function SkillsPage() {
         >
           {/* <!-- 00beff -->
                 <!-- 00d47b --> */}
-          <div className="flex flex-col bg-gradient-to-br from-[#1c1a1a] to-[#1c1a1a] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#1c1a1a] to-[#1c1a1a] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
@@ -49,7 +49,7 @@ function SkillsPage() {
             </span>
           </div>
 
-          <div className="flex flex-col bg-gradient-to-tr to-[#ff61f6] from-[#470137] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-tr to-[#ff61f6] from-[#470137] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
@@ -61,7 +61,7 @@ function SkillsPage() {
               for UI Design, sharing design contents using links
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-tr from-[#ea6c00] to-[#fdad00]  rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-tr from-[#ea6c00] to-[#fdad00]  rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
@@ -73,7 +73,7 @@ function SkillsPage() {
               for UI design
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-br from-[#310607] to-[#592f30] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#310607] to-[#592f30] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
@@ -87,7 +87,7 @@ function SkillsPage() {
               Creating graphic design contents and illustrations
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-br from-[#001834] to-[#06448b] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#001834] to-[#06448b] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
@@ -101,7 +101,7 @@ function SkillsPage() {
               Editing photos and creating design mockups
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-br from-[#00005b] to-[#383899] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#00005b] to-[#383899] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
@@ -134,7 +134,7 @@ function SkillsPage() {
           className="grid grid-cols-2 gap-8 justify-center align-middle
             p-12 rounded-lg"
         >
-          <div className="flex flex-col rounded-lg hover:scale-110 p-4  gap-2 items-start bg-gradient-to-br from-[#027DFD] to-[#0553B1]">
+          <div className="flex flex-col rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start bg-gradient-to-br from-[#027DFD] to-[#0553B1]">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                 h-[50px] rounded-md"
@@ -146,7 +146,7 @@ function SkillsPage() {
               Crossplatform Mobile application development framework
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-br from-[#0b6981] to-[#3d9db5] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#0b6981] to-[#3d9db5] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                 h-[50px] rounded-md"
@@ -159,7 +159,7 @@ function SkillsPage() {
             </span>
           </div>
 
-          <div className="flex flex-col bg-gradient-to-br from-[#8d2a12] to-[#e34c26] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#8d2a12] to-[#e34c26] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                 h-[50px] rounded-md"
@@ -171,7 +171,7 @@ function SkillsPage() {
               Frontend web development / HTML5
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-tr from-[#027DFD] to-[#0553B1] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-tr from-[#027DFD] to-[#0553B1] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                 h-[50px] rounded-md"
@@ -183,7 +183,7 @@ function SkillsPage() {
               Frontend web development
             </span>
           </div>
-          <div className="flex flex-col bg-gradient-to-br from-[#f99b34] to-[#f48131] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#f99b34] to-[#f48131] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                 h-[50px] rounded-md"
@@ -198,7 +198,7 @@ function SkillsPage() {
             </span>
           </div>
 
-          <div className="flex flex-col bg-gradient-to-br from-[#027DFD] to-[#0553B1] rounded-lg hover:scale-110 p-4  gap-2 items-start">
+          <div className="flex flex-col bg-gradient-to-br from-[#027DFD] to-[#0553B1] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
                 h-[50px] rounded-md"

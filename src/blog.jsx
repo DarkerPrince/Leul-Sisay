@@ -17,6 +17,7 @@ function Blog() {
             className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
             mb-4
             rounded-xl
+            items-start
             bg-white/5
             text-white
             p-4"
@@ -33,7 +34,7 @@ function Blog() {
                 text-start"
             >
               <div>
-                <div className="flex items-start justify-between mt-8 mb-4 pb-3 border-b border-leulePrime">
+                <div className="flex items-start justify-between mb-4 pb-3 border-b border-white/25">
                   <div className="flex flex-col items-start">
                     <Link to={"blogs/" + file.id}>
                       <h2
@@ -43,7 +44,7 @@ function Blog() {
                         {file.title}
                       </h2>
                     </Link>
-                    <span className="text-sm">{file.postedDate}</span>
+                    <span className="text-sm text-gray-400">{file.postedDate}</span>
                   </div>
 
                   <div className="flex items-center">
