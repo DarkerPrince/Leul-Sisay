@@ -407,7 +407,10 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
-   imageID:["http://drive.google.com/uc?export=view&id=1sc0W_ZR4TBBiiffTzCl37Z1SLF9ggakD"],
+   imageID:["http://drive.google.com/uc?export=view&id=1hSD7WvJ5Dr8ZunyQp8QMo_qqlf2Yv4KH",
+  "http://drive.google.com/uc?export=view&id=14ECN-A5LDlcqW0CArbEr2V5GOqeHHCpb",
+  "http://drive.google.com/uc?export=view&id=1xia0OEukZ-4zDv6QNnmMdWcHunU50CG2"
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -453,7 +456,13 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
-   imageID:["http://drive.google.com/uc?export=view&id=1sc0W_ZR4TBBiiffTzCl37Z1SLF9ggakD",],
+   imageID:[
+  "http://drive.google.com/uc?export=view&id=1LnNQn5Y5XoMKVToNmnJbuT1E_lGymH8y",
+  "http://drive.google.com/uc?export=view&id=1ZosnUhCvTfIaPfh8wFvLU0xpJ2ShbY-y",
+  "http://drive.google.com/uc?export=view&id=1BF0095g7XGW0qpaNBuJXjhuMbP1sTxuc",
+  "http://drive.google.com/uc?export=view&id=1XWlTC6nUpRkLR9RD8OvHNVwS62PZyku6",
+  "http://drive.google.com/uc?export=view&id=1rmi-Nyc-glI3z--oSYZHN88CahDiql2N",
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -591,9 +600,8 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:[
+  "http://drive.google.com/uc?export=view&id=1U-Mc1cvrrAJNqHZjwEgXM_5BaM_F_573"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -642,9 +650,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["http://drive.google.com/uc?export=view&id=1dU1FJ8esKevrwXSQ8hmsfTkrNjoByowl",
+   "http://drive.google.com/uc?export=view&id=1sO_Z8_dlo2hNMDXV81kqwBg_D4VGBHav",
+   "http://drive.google.com/uc?export=view&id=1XhDGbLtEmo-9amatz7kS4OvcuDHCOJZM"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
