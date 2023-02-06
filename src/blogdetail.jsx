@@ -25,16 +25,16 @@ function BlogDetail() {
         <img
           className="flex lg:h-1/2 w-full object-cover lg:rounded-md
                     lg:w-5/6"
-          src={require(`./assets/${blogFiles[id].pictures[1]}`)}
+          src={`${blogFiles[id].imageID[0]}`}
           alt="Ding design"
         />
 
         <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
-          {blogFiles[id].pictures.map((pics) => (
+          {blogFiles[id].imageID.map((pics) => (
             <img
               className="flex lg:h-full w-48 object-cover lg:rounded-md mt-2"
               key={Math.random()}
-              src={require(`./assets/${pics}`)}
+              src={pics}
               alt={""}
             />
           ))}

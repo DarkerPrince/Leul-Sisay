@@ -23,11 +23,11 @@ function Blog() {
             p-4"
           >
             <img
-              src={require(`./assets/${file.pictures[0]}`)}
-              alt=""
-              className="rounded-lg object-cover h-64 w-full lg:w-1/2
+              src={`${file.imageID[0]}`}
+              alt={file.title + " image here"}
+              className="rounded-lg text-black object-cover h-64 w-full lg:w-1/2
                 bg-slate-50"
-            />
+            />         
             <div
               className="flex flex-col lg:w-1/2 justify-between gap-1
                 pl-5
@@ -41,7 +41,7 @@ function Blog() {
                         className="flex flex-col text-xl font-semibold
                   text-leulePrime"
                       >
-                        {file.title}
+                        {`#${file.id} ${file.title}`}
                       </h2>
                     </Link>
                     <span className="text-sm text-gray-400">{file.postedDate}</span>
@@ -56,7 +56,7 @@ function Blog() {
               </div>
               <div className=" flex text-sm flex-wrap gap-3 mt-4">
                 {file.tags.map((tag) => (
-                  <div className="tag2">{tag}</div>
+                  <div key={tag} className="tag2">{tag}</div>
                 ))}
               </div>
             </div>

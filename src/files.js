@@ -23,6 +23,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Coop/mobCoop.png", "UX/Coop/mobCoop.png"],
+    imageID:["http://drive.google.com/uc?export=view&id=1_ra3_ODkI2yHgm8vdhFnw9kpNyq0LhqV"],
     hint: "Coop's first compliant giving mobile application platform",
     developer: "Leul sisay",
     comments: [
@@ -68,6 +69,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Ding/mobDing.png", "UX/Ding/mobDing.png"],
+    imageID:["http://drive.google.com/uc?export=view&id=1jPqcSPCDNB5dSDH44N0lgRGOQleJCQM2"],
     hint: "Mobile car topup application for every country with thier service providers",
     developer: "Leul sisay",
     comments: [
@@ -118,6 +120,7 @@ var blogFiles = [
       "UX/360/web360.png",
       "UX/360/mobile360.png",
     ],
+    imageID:["http://drive.google.com/uc?export=view&id=1ZMlxZLjGN_aCZgTro9EGsqxjnjWutEdF","http://drive.google.com/uc?export=view&id=11lOXSL-kE7WaPl7PAJmNWN7AV8hXKSyL","http://drive.google.com/uc?export=view&id=1At5OEl3yfQBPfb3adL6j80DLT1s3X4BP","http://drive.google.com/uc?export=view&id=1OF3fmX5fcMnW1PjLJ6MFl2LB83ue-3u5"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -165,6 +168,11 @@ var blogFiles = [
       "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
       "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
     ],
+    imageID:[
+      "http://drive.google.com/uc?export=view&id=19ZBE1mubm8jfiYl7EnebVRdhse7ObH9s",
+      "http://drive.google.com/uc?export=view&id=1Uo3fqe4epDt2qjctxo2I4gD0L_jX-NNZ",
+       "http://drive.google.com/uc?export=view&id=1KsaUn5oUfyov8Pl68Rkqi8lnPphmJFTw",    
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -209,10 +217,16 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: [
-      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
-      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
-      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
+      "UX/Telebirr/mobTelebirr.png",
+      "UX/Telebirr/mobTelebirr2.png",
+      "UX/Telebirr/mobTelebirr3.png",
+      "UX/Telebirr/mobTelebirr4.png"
     ],
+   imageID:["http://drive.google.com/uc?export=view&id=1FiR2V4vQgmEAwS9-QGEO7nUL0yezZnZK",
+         "http://drive.google.com/uc?export=view&id=14Qv3eB2X0pCFkGQevT0tCVYbsnbnq-nz",
+         "http://drive.google.com/uc?export=view&id=1a_2lGIR1E4TeX1IconO9OwJ_FYEw9wly",
+         "http://drive.google.com/uc?export=view&id=1lFx2FoD-tCkxlh1nEJSQZbq9s_LwU6bk",
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -253,10 +267,10 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: [
-      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
-      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
-      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
+      "UX/Musinka/mobMusinka.png",
+      "UX/Musinka/mobMusinka.png",
     ],
+   imageID:["http://drive.google.com/uc?export=view&id=1dl8sN_vu10T1vI2wJyUc2OWq1OHdHbgJ"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -300,6 +314,9 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
+   imageID:["http://drive.google.com/uc?export=view&id=1V_SKTUSmoK1jXXbex2HyvSLaMEOX9IP0",
+    "http://drive.google.com/uc?export=view&id=1zO66aOwAmtZdXSOk5a3Jil5us292S3mu",
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -344,6 +361,9 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+   imageID:["http://drive.google.com/uc?export=view&id=1AHq6s2oLMs7vDVm2UR9iFEampCzTPl8J",
+  "http://drive.google.com/uc?export=view&id=1ZCqmownFTR8WSTwF_fCCSNn3jB0jWKYF"
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -387,6 +407,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+   imageID:["http://drive.google.com/uc?export=view&id=1sc0W_ZR4TBBiiffTzCl37Z1SLF9ggakD"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -432,6 +453,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+   imageID:["http://drive.google.com/uc?export=view&id=1sc0W_ZR4TBBiiffTzCl37Z1SLF9ggakD",],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -470,7 +492,8 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: ["UX/ET/mobET.png"],
+    pictures: ["UX/ET/mobET.png","UX/ET/mobET.png"],
+   imageID:["http://drive.google.com/uc?export=view&id=1LatbKcSj2KVU4NvbnnJH1n6EL-G-tLic"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -517,6 +540,470 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: "Wedding Website",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 14,
+    title: "Quiz Bet",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "Investment Web",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Ethiopian Labor Market Information System Job portal",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "Ethiopian Labor Market Information System Biometrics Registration",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 18,
+    title: "Ethiopian Labor Market Information System Landing page",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "Ethiopian Migrants Database Management system",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 20,
+    title: "ELMIS - Job Demand Management System",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
+  },
+  {
+    id: 21,
+    title: "Project Freedom",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+  
+  ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -566,11 +1053,11 @@ export const uiImages = [
   },
   {
     id: 5,
-    picture: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
+    picture: ["UX/Szimple/mobSzimple.png"],
   },
   {
     id: 6,
-    picture: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+    picture: ["UX/Ethiomart/mobMart.png", "UX/Ethiomart/mobMart2.png"],
   },
   {
     id: 7,
@@ -586,11 +1073,12 @@ export const uiImages = [
   },
   {
     id: 9,
-    picture: ["UX/Alenjob/mobAlen.png"],
+    picture: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
   },
   {
     id: 10,
-    picture: ["UX/Ethiomart/mobMart.png", "UX/Ethiomart/mobMart2.png"],
+    picture: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+   
   },
   {
     id: 11,
@@ -598,7 +1086,8 @@ export const uiImages = [
   },
   {
     id: 12,
-    picture: ["UX/Szimple/mobSzimple.png"],
+    picture: ["UX/Alenjob/mobAlen.png"],
+    
   },
 ];
 
