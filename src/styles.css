@@ -39,3 +39,8 @@
 .ratingBar2 {
     @apply h-4 bg-orange-500 rounded-sm w-3/4;
 }
+
+.contactmeTag{
+    @apply flex delay-500 items-center h-12 text-white shadow-md bg-leulePrime
+    justify-start rounded-full px-4;
+}

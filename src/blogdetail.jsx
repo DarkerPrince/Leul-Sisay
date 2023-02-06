@@ -1,9 +1,11 @@
 import blogFiles from "./files";
 import { MdCommentBank } from "react-icons/md";
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 
 function BlogDetail() {
   const params = useParams();
+  const [imgindex, setImgIndex] = useState(0);
   const id = params.id - 1;
   const leftPara = [];
   const rightPara = [];
@@ -19,24 +21,30 @@ function BlogDetail() {
     }
   }
 
+
   return (
     <div className="flex justify-center text-white">
       <div className="flex items-center flex-col">
         <img
           className="flex lg:h-1/2 w-full object-cover lg:rounded-md
                     lg:w-5/6"
-          src={`${blogFiles[id].imageID[0]}`}
+          src={`${blogFiles[id].imageID[imgindex]}`}
           alt="Ding design"
         />
 
         <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
-          {blogFiles[id].imageID.map((pics) => (
+          {blogFiles[id].imageID.map((pics,index) => (
+            <div  className ={`flex lg:h-full w-48 lg:rounded-md mt-2 opacity-20 ${imgindex===index?"border-solid border-2 border-leulePrime opacity-100":""}`} key={index} 
+            onClick={()=>{
+              setImgIndex(index)
+              console.log("Change the image index" , index)
+            }}>
             <img
-              className="flex lg:h-full w-48 object-cover lg:rounded-md mt-2"
-              key={Math.random()}
+              className="object-cover"
               src={pics}
               alt={""}
-            />
+              />
+              </div>
           ))}
         </div>
 
