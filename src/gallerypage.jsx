@@ -79,8 +79,7 @@ function WorkGallery() {
             col-start-1 col-span-2"
             src={`${imageDisplay[0].picture[0]}`}
             title="COOP bank is the best ⭐🌟🌟"
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className="relative overflow-hidden  rounded-md row-span-2 group">
@@ -95,8 +94,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit bg-center  rounded-md"
             src={`${imageDisplay[1].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md row-span-2 col-span-2 group">
@@ -111,8 +109,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[2].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md row-span-2 group">
@@ -127,8 +124,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit rounded-md bg-center"
             src={`${imageDisplay[3].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -143,8 +139,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[4].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md row-span-2 group">
@@ -159,8 +154,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit bg-center rounded-md"
             src={`${imageDisplay[5].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -175,8 +169,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[6].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md col-span-2 group">
@@ -191,8 +184,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
             src={`${imageDisplay[7].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md col-span-2 row-span-2 group">
@@ -207,8 +199,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
             src={`${imageDisplay[8].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md col-span-2 group">
@@ -223,8 +214,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[9].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -239,8 +229,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[10].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -255,8 +244,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[11].picture[0]}`}
-            alt=""
-            srcset=""
+           alt={" image here"}
           />
         </div>
       </div>
