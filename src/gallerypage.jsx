@@ -4,62 +4,62 @@ function WorkGallery() {
   var imageDisplay = uiImages;
   return (
     <div id="my_work">
-      <div className="mx-24">
+      <div className="mx-4 md:mx-24">
         <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
             text-leulePrime"
         >
           My works
         </h2>
-        <div className="text-sm flex flex-wrap gap-3 mb-6">
-          <div className="tag-selected">UI Design</div>
+        <div className="text-sm flex w-full overflow-x-auto gap-3 mb-6">
+          <div className="tag-selected w-max">UI Design</div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Developed</span>{" "}
+            <span className="w-max">Developed</span>{" "}
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Case Studies</span>
+            <span className="w-max">Case Studies</span>
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Business Cards</span>
+            <span className="w-max">Business Cards</span>
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Booklets</span>
+            <span className="w-max">Booklets</span>
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Banners</span>
+            <span className="w-max">Banners</span>
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Social Media Posts</span>
+            <span className="w-max">Social Media Posts</span>
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Logo Designs</span>
+            <span className="w-max">Logo Designs</span>
           </div>
           <div
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
-            <span>Others</span>
+            <span className="w-max">Others</span>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ function WorkGallery() {
             col-start-1 col-span-2"
             src={`${imageDisplay[0].picture[0]}`}
             title="COOP bank is the best ⭐🌟🌟"
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className="relative overflow-hidden  rounded-md row-span-2 group">
@@ -94,7 +94,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit bg-center  rounded-md"
             src={`${imageDisplay[1].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md row-span-2 col-span-2 group">
@@ -109,7 +109,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[2].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md row-span-2 group">
@@ -124,7 +124,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit rounded-md bg-center"
             src={`${imageDisplay[3].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -139,7 +139,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[4].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md row-span-2 group">
@@ -154,7 +154,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit bg-center rounded-md"
             src={`${imageDisplay[5].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -169,7 +169,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[6].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md col-span-2 group">
@@ -184,7 +184,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
             src={`${imageDisplay[7].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md col-span-2 row-span-2 group">
@@ -199,7 +199,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
             src={`${imageDisplay[8].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md col-span-2 group">
@@ -214,7 +214,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[9].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -229,7 +229,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[10].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
         <div className=" relative overflow-hidden  rounded-md group">
@@ -244,7 +244,7 @@ function WorkGallery() {
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
             src={`${imageDisplay[11].picture[0]}`}
-           alt={" image here"}
+           alt={" here"}
           />
         </div>
       </div>

@@ -7,7 +7,7 @@ function NavigationBar() {
   const loc = useLocation();
 
   return(
-    <nav className="flex sticky top-0 z-50 bg-slate-800 items-start justify-between px-24 text-white text-sm gap-12 py-6">
+    <nav className="flex sticky top-0 z-50 bg-slate-800 items-center justify-between px-6 md:px-24 text-white text-sm gap-12 py-6">
     <Contactme/>
      <div className="flex gap-6">
        <Link to={"/"}>
@@ -18,7 +18,7 @@ function NavigationBar() {
 
        <Link to={"blog"}>
          <div className={`${loc.pathname === "/blog"?"font-semibold text-leulePrime border-b-2 border-leulePrime":"font-semibold text-white hover:text-leulePrime hover:border-b-2 hover:border-leulePrime"}`}>
-           <span>Blog posts</span>
+           <span className="w-full">Blog posts</span>
          </div>
        </Link>
      </div>

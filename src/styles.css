@@ -10,7 +10,7 @@
 }
 
 .tag3 {
-    @apply bg-white/20 border-solid border-2 border-leulePrime/50 text-slate-50 rounded-md inline px-4 py-2;
+    @apply bg-white/20 border-solid border-2 border-leulePrime/50 text-slate-50 rounded-md inline px-4 py-2 w-max; 
 }
 
 

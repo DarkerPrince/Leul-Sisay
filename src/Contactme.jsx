@@ -21,12 +21,12 @@ function copytoclipboard (){
   return (
     <div className="relative">
       <div
-        className="flex delay-500 items-center h-12 text-white shadow-md bg-leulePrime
-        justify-start rounded-full px-4"
+        className="flex delay-500 items-center h-12 w-12 md:w-auto text-white shadow-md bg-leulePrime
+        md:justify-start  justify-center  rounded-full md:px-4"
         onClick={() => setShowDropdown((prev) => !prev)}
       >
-        <BsPersonCircle className="bg-cover rounded-full w-6 h-6 mr-2" />
-        <span className="text-sm"> Contact me </span>
+        <BsPersonCircle className="bg-cover rounded-full w-6 h-6 md:mr-2" />
+        <span className="text-sm md:block hidden"> Contact me </span>
       </div>
       {
         showDropdown && <>

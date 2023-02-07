@@ -24,14 +24,14 @@ function SkillsPage() {
       }}
     >
       <div
-        className="flex flex-col w-[650px] h-[700px] text-center rounded-md
+        className="mx-4 flex flex-col md:w-[650px] md:h-[700px] text-center rounded-md
          justify-center bg-white/5 items-center"
       >
         <h3 className="text-lg text-white font-semibold tracking-wider pt-6 ">
           🎨 Design
         </h3>
         <div
-          className="grid grid-cols-2 gap-8 justify-center align-middle
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center align-middle
                 p-12 rounded-lg"
         >
           {/* <!-- 00beff -->
@@ -123,7 +123,7 @@ function SkillsPage() {
             &
         </h1> --> */}
       <div
-        className="flex flex-col w-[650px] h-[700px] text-center rounded-md justify-center bg-white/5
+        className="mx-4 flex flex-col md:w-[650px] md:h-[700px] text-center rounded-md justify-center bg-white/5
         items-center"
       >
         <h3 className="text-lg text-white font-semibold tracking-wider pt-6 ">
@@ -131,7 +131,7 @@ function SkillsPage() {
           💻 Programming
         </h3>
         <div
-          className="grid grid-cols-2 gap-8 justify-center align-middle
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center align-middle
             p-12 rounded-lg"
         >
           <div className="flex flex-col rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start bg-gradient-to-br from-[#027DFD] to-[#0553B1]">
