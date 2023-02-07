@@ -5,10 +5,6 @@ import { MdCommentBank } from "react-icons/md";
 function Blog() {
   const navigate = useNavigate();
 
-  // function navigatingMethod(path) {
-  //   "blogs/" + path;
-  // }
-
   return (
     <div className=" px-8 lg:px-24 flex flex-col justify-between">
       {blogFiles.map((file) => (
