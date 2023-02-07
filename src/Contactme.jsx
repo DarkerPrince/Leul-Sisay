@@ -37,7 +37,7 @@ function copytoclipboard (){
       justify-start rounded-full px-4"
               >
                 <AiFillBehanceCircle className="bg-cover rounded-full w-6 h-6 mr-2" />
-            <a href="https://www.behance.net/luel_sisay" target="_blank">
+            <a href="https://www.behance.net/luel_sisay" rel="noreferrer" target="_blank">
                 <span className="text-sm"> Behance </span>
             </a>
               </div>
@@ -58,7 +58,7 @@ function copytoclipboard (){
         justify-start rounded-full px-4"
             >
               <AiFillLinkedin className="bg-cover rounded-full w-6 h-6 mr-2" />
-            <a href="https://www.linkedin.com/in/luel-sisay-637494224/" target="_blank">
+            <a href="https://www.linkedin.com/in/luel-sisay-637494224/" rel="noreferrer" target="_blank">
 
               <span className="text-sm"> Linkedin </span>
             </a>

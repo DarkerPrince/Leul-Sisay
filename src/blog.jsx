@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { MdCommentBank } from "react-icons/md";
 
 function Blog() {
-  const navigate = useNavigate();
+  
 
   return (
     <div className=" px-8 lg:px-24 flex flex-col justify-between">

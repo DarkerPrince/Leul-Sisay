@@ -40,7 +40,7 @@ function HeroPage() {
           <img
             className="w-[540px] object-contain"
             src={myfaceImage}
-            alt="Text here of the image"
+            alt="Text here of the"
           />
         </div>
       </div>
