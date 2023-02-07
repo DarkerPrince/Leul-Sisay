@@ -1,5 +1,5 @@
 import blogFiles from "./files";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { MdCommentBank } from "react-icons/md";
 
 function Blog() {
