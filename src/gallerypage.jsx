@@ -77,7 +77,7 @@ function WorkGallery() {
           <img
             className="bg-cover bg-center w-full h-full object-cover bg-no-repeat group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden rounded-md
             col-start-1 col-span-2"
-            src={require(`./assets/${imageDisplay[0].picture[0]}`)}
+            src={imageDisplay[0].picture[0]}
             title="COOP bank is the best ⭐🌟🌟"
             alt=""
             srcset=""
@@ -94,7 +94,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 hover:bg-fit bg-center  rounded-md"
-            src={require(`./assets/${imageDisplay[1].picture[0]}`)}
+            src={imageDisplay[1].picture[0]}
             alt=""
             srcset=""
           />
@@ -110,7 +110,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
-            src={require(`./assets/${imageDisplay[2].picture[0]}`)}
+            src={imageDisplay[2].picture[0]}
             alt=""
             srcset=""
           />
@@ -126,7 +126,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit rounded-md bg-center"
-            src={require(`./assets/${imageDisplay[3].picture[0]}`)}
+            src={imageDisplay[3].picture[0]}
             alt=""
             srcset=""
           />
@@ -142,7 +142,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
-            src={require(`./assets/${imageDisplay[4].picture[0]}`)}
+            src={imageDisplay[4].picture[0]}
             alt=""
             srcset=""
           />
@@ -158,7 +158,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out hovergroup-hover:delay-100 group-hover:bg-fit bg-center rounded-md"
-            src={require(`./assets/${imageDisplay[5].picture[0]}`)}
+            src={imageDisplay[5].picture[0]}
             alt=""
             srcset=""
           />
@@ -174,7 +174,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
-            src={require(`./assets/${imageDisplay[6].picture[0]}`)}
+            src={imageDisplay[6].picture[0]}
             alt=""
             srcset=""
           />
@@ -190,7 +190,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
-            src={require(`./assets/${imageDisplay[7].picture[0]}`)}
+            src={imageDisplay[7].picture[0]}
             alt=""
             srcset=""
           />
@@ -206,7 +206,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md "
-            src={require(`./assets/${imageDisplay[8].picture[0]}`)}
+            src={imageDisplay[8].picture[0]}
             alt=""
             srcset=""
           />
@@ -222,7 +222,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
-            src={require(`./assets/${imageDisplay[9].picture[0]}`)}
+            src={imageDisplay[9].picture[0]}
             alt=""
             srcset=""
           />
@@ -238,7 +238,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
-            src={require(`./assets/${imageDisplay[10].picture[0]}`)}
+            src={imageDisplay[10].picture[0]}
             alt=""
             srcset=""
           />
@@ -254,7 +254,7 @@ function WorkGallery() {
           </div>
           <img
             className="bg-cover w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:bg-fit rounded-md"
-            src={require(`./assets/${imageDisplay[11].picture[0]}`)}
+            src={imageDisplay[11].picture[0]}
             alt=""
             srcset=""
           />

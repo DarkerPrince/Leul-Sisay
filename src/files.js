@@ -1037,64 +1037,58 @@ var blogFiles = [
 export const uiImages = [
   {
     id: 1,
-    picture: ["UX/Coop/mobCoop.png", "UX/Coop/mobCoop.png"],
+    picture: [ "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 2,
-    picture: ["UX/Ding/mobDing.png", "UX/Ding/mobDing.png"],
+    picture: [ "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 3,
     picture: [
-      "UX/360/both360.png",
-      "UX/360/web360.png",
-      "UX/360/mobile360.png",
+      "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
     ],
   },
   {
     id: 4,
     picture: [
-      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
-      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
-      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
+      "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
     ],
   },
   {
     id: 5,
-    picture: ["UX/Szimple/mobSzimple.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 6,
-    picture: ["UX/Ethiomart/mobMart.png", "UX/Ethiomart/mobMart2.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 7,
-    picture: ["UX/ET/mobET.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 8,
     picture: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
+      "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
     ],
   },
   {
     id: 9,
-    picture: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 10,
-    picture: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
    
   },
   {
     id: 11,
-    picture: ["UX/negat/mobNegat2.png", "UX/negat/mobNegat2.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 12,
-    picture: ["UX/Alenjob/mobAlen.png"],
+    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
     
   },
 ];
