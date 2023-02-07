@@ -11,8 +11,8 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
-          <Route path="blog" element={<Blog />} />
-          <Route path="blog/blogs/:id" element={<BlogDetial />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/blogs/:id" element={<BlogDetial />} />
         </Routes>
       </BrowserRouter>
     </div>
