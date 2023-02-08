@@ -23,7 +23,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Coop/mobCoop.png", "UX/Coop/mobCoop.png"],
-    imageID:["http://drive.google.com/uc?export=view&id=1_ra3_ODkI2yHgm8vdhFnw9kpNyq0LhqV"],
+    imageID:["https://drive.google.com/uc?export=view&id=1_ra3_ODkI2yHgm8vdhFnw9kpNyq0LhqV"],
     hint: "Coop's first compliant giving mobile application platform",
     developer: "Leul sisay",
     comments: [
@@ -69,7 +69,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Ding/mobDing.png", "UX/Ding/mobDing.png"],
-    imageID:["http://drive.google.com/uc?export=view&id=1jPqcSPCDNB5dSDH44N0lgRGOQleJCQM2"],
+    imageID:["https://drive.google.com/uc?export=view&id=1jPqcSPCDNB5dSDH44N0lgRGOQleJCQM2"],
     hint: "Mobile car topup application for every country with thier service providers",
     developer: "Leul sisay",
     comments: [
@@ -120,7 +120,7 @@ var blogFiles = [
       "UX/360/web360.png",
       "UX/360/mobile360.png",
     ],
-    imageID:["http://drive.google.com/uc?export=view&id=1ZMlxZLjGN_aCZgTro9EGsqxjnjWutEdF","http://drive.google.com/uc?export=view&id=11lOXSL-kE7WaPl7PAJmNWN7AV8hXKSyL","http://drive.google.com/uc?export=view&id=1At5OEl3yfQBPfb3adL6j80DLT1s3X4BP","http://drive.google.com/uc?export=view&id=1OF3fmX5fcMnW1PjLJ6MFl2LB83ue-3u5"],
+    imageID:["https://drive.google.com/uc?export=view&id=1ZMlxZLjGN_aCZgTro9EGsqxjnjWutEdF","https://drive.google.com/uc?export=view&id=11lOXSL-kE7WaPl7PAJmNWN7AV8hXKSyL","https://drive.google.com/uc?export=view&id=1At5OEl3yfQBPfb3adL6j80DLT1s3X4BP","https://drive.google.com/uc?export=view&id=1OF3fmX5fcMnW1PjLJ6MFl2LB83ue-3u5"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -169,9 +169,9 @@ var blogFiles = [
       "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
     ],
     imageID:[
-      "http://drive.google.com/uc?export=view&id=19ZBE1mubm8jfiYl7EnebVRdhse7ObH9s",
-      "http://drive.google.com/uc?export=view&id=1Uo3fqe4epDt2qjctxo2I4gD0L_jX-NNZ",
-       "http://drive.google.com/uc?export=view&id=1KsaUn5oUfyov8Pl68Rkqi8lnPphmJFTw",    
+      "https://drive.google.com/uc?export=view&id=19ZBE1mubm8jfiYl7EnebVRdhse7ObH9s",
+      "https://drive.google.com/uc?export=view&id=1Uo3fqe4epDt2qjctxo2I4gD0L_jX-NNZ",
+       "https://drive.google.com/uc?export=view&id=1KsaUn5oUfyov8Pl68Rkqi8lnPphmJFTw",    
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -222,10 +222,10 @@ var blogFiles = [
       "UX/Telebirr/mobTelebirr3.png",
       "UX/Telebirr/mobTelebirr4.png"
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1FiR2V4vQgmEAwS9-QGEO7nUL0yezZnZK",
-         "http://drive.google.com/uc?export=view&id=14Qv3eB2X0pCFkGQevT0tCVYbsnbnq-nz",
-         "http://drive.google.com/uc?export=view&id=1a_2lGIR1E4TeX1IconO9OwJ_FYEw9wly",
-         "http://drive.google.com/uc?export=view&id=1lFx2FoD-tCkxlh1nEJSQZbq9s_LwU6bk",
+   imageID:["https://drive.google.com/uc?export=view&id=1FiR2V4vQgmEAwS9-QGEO7nUL0yezZnZK",
+         "https://drive.google.com/uc?export=view&id=14Qv3eB2X0pCFkGQevT0tCVYbsnbnq-nz",
+         "https://drive.google.com/uc?export=view&id=1a_2lGIR1E4TeX1IconO9OwJ_FYEw9wly",
+         "https://drive.google.com/uc?export=view&id=1lFx2FoD-tCkxlh1nEJSQZbq9s_LwU6bk",
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -270,7 +270,7 @@ var blogFiles = [
       "UX/Musinka/mobMusinka.png",
       "UX/Musinka/mobMusinka.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1dl8sN_vu10T1vI2wJyUc2OWq1OHdHbgJ"],
+   imageID:["https://drive.google.com/uc?export=view&id=1dl8sN_vu10T1vI2wJyUc2OWq1OHdHbgJ"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -314,8 +314,8 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
-   imageID:["http://drive.google.com/uc?export=view&id=1V_SKTUSmoK1jXXbex2HyvSLaMEOX9IP0",
-    "http://drive.google.com/uc?export=view&id=1zO66aOwAmtZdXSOk5a3Jil5us292S3mu",
+   imageID:["https://drive.google.com/uc?export=view&id=1V_SKTUSmoK1jXXbex2HyvSLaMEOX9IP0",
+    "https://drive.google.com/uc?export=view&id=1zO66aOwAmtZdXSOk5a3Jil5us292S3mu",
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -361,8 +361,8 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
-   imageID:["http://drive.google.com/uc?export=view&id=1AHq6s2oLMs7vDVm2UR9iFEampCzTPl8J",
-  "http://drive.google.com/uc?export=view&id=1ZCqmownFTR8WSTwF_fCCSNn3jB0jWKYF"
+   imageID:["https://drive.google.com/uc?export=view&id=1AHq6s2oLMs7vDVm2UR9iFEampCzTPl8J",
+  "https://drive.google.com/uc?export=view&id=1ZCqmownFTR8WSTwF_fCCSNn3jB0jWKYF"
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -407,9 +407,9 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
-   imageID:["http://drive.google.com/uc?export=view&id=1hSD7WvJ5Dr8ZunyQp8QMo_qqlf2Yv4KH",
-  "http://drive.google.com/uc?export=view&id=14ECN-A5LDlcqW0CArbEr2V5GOqeHHCpb",
-  "http://drive.google.com/uc?export=view&id=1xia0OEukZ-4zDv6QNnmMdWcHunU50CG2"
+   imageID:["https://drive.google.com/uc?export=view&id=1hSD7WvJ5Dr8ZunyQp8QMo_qqlf2Yv4KH",
+  "https://drive.google.com/uc?export=view&id=14ECN-A5LDlcqW0CArbEr2V5GOqeHHCpb",
+  "https://drive.google.com/uc?export=view&id=1xia0OEukZ-4zDv6QNnmMdWcHunU50CG2"
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -457,11 +457,11 @@ var blogFiles = [
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
    imageID:[
-  "http://drive.google.com/uc?export=view&id=1LnNQn5Y5XoMKVToNmnJbuT1E_lGymH8y",
-  "http://drive.google.com/uc?export=view&id=1ZosnUhCvTfIaPfh8wFvLU0xpJ2ShbY-y",
-  "http://drive.google.com/uc?export=view&id=1BF0095g7XGW0qpaNBuJXjhuMbP1sTxuc",
-  "http://drive.google.com/uc?export=view&id=1XWlTC6nUpRkLR9RD8OvHNVwS62PZyku6",
-  "http://drive.google.com/uc?export=view&id=1rmi-Nyc-glI3z--oSYZHN88CahDiql2N",
+  "https://drive.google.com/uc?export=view&id=1LnNQn5Y5XoMKVToNmnJbuT1E_lGymH8y",
+  "https://drive.google.com/uc?export=view&id=1ZosnUhCvTfIaPfh8wFvLU0xpJ2ShbY-y",
+  "https://drive.google.com/uc?export=view&id=1BF0095g7XGW0qpaNBuJXjhuMbP1sTxuc",
+  "https://drive.google.com/uc?export=view&id=1XWlTC6nUpRkLR9RD8OvHNVwS62PZyku6",
+  "https://drive.google.com/uc?export=view&id=1rmi-Nyc-glI3z--oSYZHN88CahDiql2N",
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -502,7 +502,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/ET/mobET.png","UX/ET/mobET.png"],
-   imageID:["http://drive.google.com/uc?export=view&id=1LatbKcSj2KVU4NvbnnJH1n6EL-G-tLic"],
+   imageID:["https://drive.google.com/uc?export=view&id=1LatbKcSj2KVU4NvbnnJH1n6EL-G-tLic"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -549,9 +549,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -601,7 +601,7 @@ var blogFiles = [
       "UX/hospital/webHospital.png",
     ],
    imageID:[
-  "http://drive.google.com/uc?export=view&id=1U-Mc1cvrrAJNqHZjwEgXM_5BaM_F_573"
+  "https://drive.google.com/uc?export=view&id=1U-Mc1cvrrAJNqHZjwEgXM_5BaM_F_573"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -650,9 +650,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1dU1FJ8esKevrwXSQ8hmsfTkrNjoByowl",
-   "http://drive.google.com/uc?export=view&id=1sO_Z8_dlo2hNMDXV81kqwBg_D4VGBHav",
-   "http://drive.google.com/uc?export=view&id=1XhDGbLtEmo-9amatz7kS4OvcuDHCOJZM"
+   imageID:["https://drive.google.com/uc?export=view&id=1dU1FJ8esKevrwXSQ8hmsfTkrNjoByowl",
+   "https://drive.google.com/uc?export=view&id=1sO_Z8_dlo2hNMDXV81kqwBg_D4VGBHav",
+   "https://drive.google.com/uc?export=view&id=1XhDGbLtEmo-9amatz7kS4OvcuDHCOJZM"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -701,9 +701,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -752,9 +752,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -803,9 +803,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -854,9 +854,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -905,9 +905,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -956,9 +956,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -1007,9 +1007,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["http://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "http://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
+  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
+  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -1037,58 +1037,58 @@ var blogFiles = [
 export const uiImages = [
   {
     id: 1,
-    picture: [ "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [ "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 2,
-    picture: [ "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [ "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 3,
     picture: [
-      "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
+      "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
     ],
   },
   {
     id: 4,
     picture: [
-      "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
+      "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
     ],
   },
   {
     id: 5,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 6,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 7,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 8,
     picture: [
-      "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
+      "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
     ],
   },
   {
     id: 9,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 10,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
    
   },
   {
     id: 11,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
   },
   {
     id: 12,
-    picture: [  "http://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
+    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
     
   },
 ];
