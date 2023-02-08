@@ -1,0 +1,22 @@
+
+        /* Makes the animation pause on hover */
+        .moving-text:hover{
+            animation-play-state: paused;
+            z-index: 10;
+        }
+ 
+        /* The animation */
+        @keyframes marquee{
+            0%{transform: translateX(30%);}
+            20%{transform: translateX(-10%);}
+        }
+ 
+        /* media query to enable animation for only those who want it */
+        @media (prefers-reduced-motion: no-preference) {
+            .moving-text{
+                animation: marquee 15s linear infinite;
+                animation-delay: 0s;
+                animation-direction: alternate-reverse;
+
+            }
+        }

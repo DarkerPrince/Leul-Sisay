@@ -10,7 +10,7 @@
 }
 
 .tag3 {
-  @apply bg-white/20 border-solid border-2 border-leulePrime/50 text-slate-50 rounded-md inline px-4 py-2;
+  @apply bg-white/20 text-slate-50  w-max rounded-md inline px-4 py-2;
 }
 
 
@@ -40,24 +40,12 @@
   @apply h-4 bg-orange-500 rounded-sm w-3/4;
 }
 
-
-
-
-
-
-
-
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
