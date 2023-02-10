@@ -1,5 +1,4 @@
 import HeroPage from "./heropage";
-import WorkGallery from "./gallerypage";
 import SkillsPage from "./skillspage";
 import CertificationPage from "./certificationpage";
 import CarrerSummary from "./careersummary";

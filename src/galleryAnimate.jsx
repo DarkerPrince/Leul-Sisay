@@ -1,22 +1,18 @@
 import styles from './gallerycss.module.css'
 import blogFiles from './files'
-import { useNavigate } from 'react-router-dom';
+
 import GalleryItem from './galleryItem';
 
 
 function GalleryAnimate() {
 
-  const navigate = useNavigate();
 
   let parti = Math.ceil(blogFiles.length / 3);
   let galleryList1 = [];
   let galleryList2 = [];
   let galleryList3 = [];
  
-  function navigateMethod(idindex){
-    console.log("navigating on the gallery function")
-    navigate(`/blog/blogs/${idindex}`);
-  }
+
   
 
   for(let i=0; i<blogFiles.length; i++){
@@ -102,7 +98,7 @@ function GalleryAnimate() {
     <div className='flex flex-col gap-2 w-[80%] items-center mx-24'>
     <div className={`flex  h-32 w-fit gap-2 ${styles[`moving-text`]} `}>
     {galleryList1.map((index) => (
-            <GalleryItem val={index}/>   
+            <GalleryItem val={index} />   
           ))}   
     </div>
     <div className={`flex  h-32 w-fit gap-2 ${styles[`moving-text`]} `}>
