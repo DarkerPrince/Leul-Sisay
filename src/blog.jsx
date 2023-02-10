@@ -8,22 +8,18 @@ function Blog() {
   return (
     <div className=" px-8 lg:px-24 flex flex-col justify-between">
       {blogFiles.map((file) => (
-        <div key={file.id} className=" grid grid-cols-1 lg:grid-cols-1 gap-3">
+        <div key={file.id} className=" grid  grid-cols-1 py-4 lg:grid-cols-1 gap-3 border-b-2 border-white/5 ">
           <div
-            className="flex flex-col flex-wrap lg:flex-row lg:w-3/4
-            mb-4
-            rounded-xl
-            items-start
-            bg-white/5
-            text-white
-            p-4"
+            className={`flex flex-col   overflow-visible justify-end  lg:flex-row w-full
+            mb-4 rounded-xl items-start text-white   p-4`}
+    
           >
-            <img
+            <img 
               src={`${file.imageID[0]}`}
-              alt={file.title + " image here"}
-              className="rounded-lg text-black object-cover h-64 w-full lg:w-1/2
-                bg-slate-50"
-            />         
+              alt={file.title + " here"}
+              className={`rounded-lg hover:scale-125 opacity-100 transition-all left-4 duration-[0.8s] ease-in-out text-black object-contain h-64  w-full lg:w-1/2
+            `}/>    
+            
             <div
               className="flex flex-col lg:w-1/2 justify-between gap-1
                 pl-5

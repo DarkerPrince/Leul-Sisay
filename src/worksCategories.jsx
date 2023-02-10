@@ -1,0 +1,1 @@
+// here you shoulld change all the tags to cards and add them as a new page for your design

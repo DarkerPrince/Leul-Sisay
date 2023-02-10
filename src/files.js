@@ -1,6 +1,7 @@
 var blogFiles = [
   {
     id: 1,
+    color:"bg-[#edfafe]",
     title: "COOP - Cooperative Bank of Oromia",
     content:
       "The Cooperative Bank of Oromia (also known as Coopbank) is a community-oriented bank that provides banking services to individuals, cooperatives, businesses, foreigners, and Ethiopians in the Diaspora. Coopbank has more than 567 branch networks, 8.8 million account holders, and 11,500+ employees.",
@@ -46,6 +47,7 @@ var blogFiles = [
   },
   {
     id: 2,
+    color:"bg-[#dbdbda]",
     title: "Ding - Ideal for Mobile topup for ethiopia",
     content:
       "The Cooperative Bank of Oromia (also known as Coopbank) is a community-oriented bank that provides banking services to individuals, cooperatives, businesses, foreigners, and Ethiopians in the Diaspora. Coopbank has more than 567 branch networks, 8.8 million account holders, and 11,500+ employees.",
@@ -92,6 +94,7 @@ var blogFiles = [
   },
   {
     id: 3,
+    color:"bg-[#5e8ca8]",
     title: "360\nData analyzer and research handling platform",
     content:
       "While many still prefer the tried and tested methods of research management (like paper lab notebooks), more and more researchers are maximizing their research efforts with technology.",
@@ -143,6 +146,7 @@ var blogFiles = [
   },
   {
     id: 4,
+    color:"bg-[#f44336]",
     title: "Anbessa Bus\nPassenger and Driver side application",
     content:
       " It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
@@ -195,6 +199,7 @@ var blogFiles = [
   },
   {
     id: 5,
+    color:"bg-[#f9f9f9]",
     title: "Telebirr Mobile topup application",
     content:
       "Telebirr is a mobile money service developed by Huawei that is owned and was launched by Ethio telecom, the state owned telecommunication and Internet service provider in Ethiopia. It took five months for Huawei to develop the end-to-end service.",
@@ -249,6 +254,7 @@ var blogFiles = [
   },
   {
     id: 6,
+    color:"bg-[#ec372d]",
     title: "Musinka App",
     content:
       "Muscinka is the first music app I created for a client so that he could see what his concept might look like.",
@@ -293,6 +299,7 @@ var blogFiles = [
   },
   {
     id: 7,
+    color:"bg-[#f2f2f1]",
     title: "X-ethiopia",
     content:
       "X-ethiopia is conceptual design what might look like a great ethiopian featured mobile app",
@@ -339,6 +346,7 @@ var blogFiles = [
   },
   {
     id: 8,
+    color:"bg-[#5432A1]",
     title: "Yene Park",
     content:
       "I therefore had the opportunity to develop this start-up concept for drivers to see where guaranteed parking spaces are located, how much it will cost them per hour, and other reasons to use, and not only will it show them other parking spaces but also help the find garages and car washes so that they don't get into trouble with the service they need with their car in handling process and be secured with where they place their cars and other items.",
@@ -386,6 +394,7 @@ var blogFiles = [
   },
   {
     id: 9,
+    color:"bg-[#5432A1]",
     title: "Kibur college web design",
     content:
       "KIBUR college is an institution of higher education currently awarding academic degrees in five disciplines. Envisioning private tertiary education in Ethiopia to rise back to its intended dignity and  standard, the college focuses on quality and employability of graduates at its fullest capacity.",
@@ -433,6 +442,7 @@ var blogFiles = [
   },
   {
     id: 10,
+    color:"bg-[#5432A1]",
     title: "B2B - Business to Business Mobile Application",
     content:
       "There are three platforms that I created for a client: the Distributer side, the Retailer side, and the driver/delivery side of the program. Each of these has its own unique functionalities, and they are all interconnected through other functionalities.",
@@ -485,6 +495,7 @@ var blogFiles = [
   },
   {
     id: 11,
+    color:"bg-[#5432A1]",
     title: "Event-Time",
     content: "A mobile app that allows you to search for events",
     moreContent: [
@@ -525,6 +536,7 @@ var blogFiles = [
   },
   {
     id: 12,
+    color:"bg-[#5432A1]",
     title: "Hospital Platform",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -576,6 +588,7 @@ var blogFiles = [
   },
   {
     id: 13,
+    color:"bg-[#5432A1]",
     title: "Wedding Website",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -626,6 +639,7 @@ var blogFiles = [
   },
   {
     id: 14,
+    color:"bg-[#5432A1]",
     title: "Quiz Bet",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -677,6 +691,7 @@ var blogFiles = [
   },
   {
     id: 15,
+    color:"bg-[#5432A1]",
     title: "Investment Web",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -728,6 +743,7 @@ var blogFiles = [
   },
   {
     id: 16,
+    color:"bg-[#5432A1]",
     title: "Ethiopian Labor Market Information System Job portal",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -779,6 +795,7 @@ var blogFiles = [
   },
   {
     id: 17,
+    color:"bg-[#5432A1]",
     title: "Ethiopian Labor Market Information System Biometrics Registration",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -830,6 +847,7 @@ var blogFiles = [
   },
   {
     id: 18,
+    color:"bg-[#5432A1]",
     title: "Ethiopian Labor Market Information System Landing page",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -881,6 +899,7 @@ var blogFiles = [
   },
   {
     id: 19,
+    color:"bg-[#5432A1]",
     title: "Ethiopian Migrants Database Management system",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -932,6 +951,7 @@ var blogFiles = [
   },
   {
     id: 20,
+    color:"bg-[#5432A1]",
     title: "ELMIS - Job Demand Management System",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
@@ -983,6 +1003,7 @@ var blogFiles = [
   },
   {
     id: 21,
+    color:"bg-[#5432A1]",
     title: "Project Freedom",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",

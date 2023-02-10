@@ -1,9 +1,10 @@
 import myfaceImage from "./myface4.png";
+import Contactme from "./Contactme";
 
 function HeroPage() {
   return (
-    <div className="bg-slate-800">
-      <div className="flex relative justify-center md:h-screen items-center bg-contain bg-center bg-no-repeat object-contain">
+    
+      <div className="flex relative justify-center md:h-[80vh] items-start bg-contain bg-center bg-no-repeat object-contain">
         <div className="flex flex-col md:flex-row bg-center gap-6 md:gap-32 w-full md:mx-12  bg-no-repeat bg-contain items-center justify-center">
           <div
             className="flex flex-col justify-center md:items-start items-center text-left"
@@ -28,16 +29,17 @@ function HeroPage() {
                 UI/UX designer | Graphic Designer
               </p>
             </div>
+            <Contactme/>
           </div>
 
           {/* <!-- image placer for the face of mine --> */}
           <img
-            className="md:w-[540px] object-contain"
+            className="md:w-[540px] object-contain "
             src={myfaceImage}
             alt="Text here of the"
           />
         </div>
-      </div>
+     
     </div>
   );
 }

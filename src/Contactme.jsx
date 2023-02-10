@@ -7,6 +7,7 @@ import { IoCall } from "react-icons/io5";
 
 export default function Contactme() {
   const [showDropdown, setShowDropdown] = useState(false);
+  const [position, setPosition] = useState("relative");
   
 
 function copytoclipboard (){
@@ -14,12 +15,25 @@ function copytoclipboard (){
     console.log("Here copying is done;")
    
 }
+
+
+  window.onscroll = function(){
+    var disScroll = document.documentElement.scrollTop;
+    console.log("Scrolled " , disScroll);
+
+    if(disScroll > 400){
+      setPosition("fixed bottom-10 right-10 "); 
+    }else{
+      setPosition("relative");
+    }
+
+  }
   
 
 
 
   return (
-    <div className="relative">
+    <div className={` ${position} transition-all duration-300 ease-in-out z-20`}>
       <div
         className="flex delay-500 items-center h-12 w-12 md:w-auto text-white shadow-md bg-leulePrime
         md:justify-start  justify-center  rounded-full md:px-4"
@@ -30,7 +44,7 @@ function copytoclipboard (){
       </div>
       {
         showDropdown && <>
-          <div className="absolute top-full space-y-2 mt-2">
+          <div className="absolute bottom-full space-y-2 mt-2">
 
               <div
                 className="flex delay-500 items-center h-12 text-white shadow-md bg-leulePrime

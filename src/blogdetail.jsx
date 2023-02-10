@@ -24,13 +24,17 @@ function BlogDetail() {
 
   return (
     <div className="flex justify-center text-white">
-      <div className="flex items-center flex-col">
-        <img
-          className="flex lg:h-1/2 w-full object-cover lg:rounded-md
-                    lg:w-5/6"
+
+      <div className="flex items-center flex-col"><div className="flex h-[80vh] items-center justify-center w-full">
+      <img className="flex h-[96%] w-full object-contain z-10 lg:r ounded-md lg:w-5/6 "
           src={`${blogFiles[id].imageID[imgindex]}`}
           alt="Ding design"
-        />
+          />
+      </div>
+        <div className="flex h-[70vh] items-center justify-center w-full absolute top-0 " >
+          <img src={`${blogFiles[id].imageID[imgindex]}`}  className="object-cover op-0 z-0 left-0 w-full h-full blur-2xl opacity-70" alt="Ding design" />
+          
+          </div>
 
         <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
           {blogFiles[id].imageID.map((pics,index) => (
