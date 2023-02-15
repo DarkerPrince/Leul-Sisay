@@ -4,7 +4,7 @@ import CertificationPage from "./certificationpage";
 import CarrerSummary from "./careersummary";
 import Galleries from "./galleryAnimate";
 import Categories from "./categories";
-import { CategoriesType } from "./files";
+import FooterComponent from "./footerPage";
 
 
 function Homepage() {
@@ -16,6 +16,7 @@ function Homepage() {
       <SkillsPage />
       <CertificationPage />
       <CarrerSummary />
+      <FooterComponent/>
     </div>
   );
 }

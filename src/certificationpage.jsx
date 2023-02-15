@@ -5,7 +5,7 @@ function CertificationPage() {
   return (
     <div
       id="my_certificate"
-      className="flex flex-col bg-slate-800 text-center bg-contain bg-no-repeat px-4"
+      className="flex flex-col my:4 lg:my-12  text-center bg-contain bg-no-repeat px-4"
       style={{ backgroundImage: `url(${leftdecor})` }}
     >
       <h1 className="flex flex-col text-4xl font-semibold text-leulePrime">

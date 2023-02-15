@@ -39,7 +39,7 @@ function GalleryAnimate() {
         <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
             text-leulePrime"
-        > My works
+        > Galleries
         </h2>
        <div className='w-full overflow-auto scrollbar-hide'>
        <div className="text-sm flex w-max overflow-x-auto gap-3 mb-6">

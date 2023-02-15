@@ -8,7 +8,7 @@ import { IoCall } from "react-icons/io5";
 export default function Contactme() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [position, setPosition] = useState("relative");
-  const [socialsArrangement, setsocialsArrangement] = useState("bottom-full");
+  const [socialsArrangement, setsocialsArrangement] = useState("flex flex-row bg-red-800 items-center justify-center gap-1");
   
 
 function copytoclipboard (){
@@ -24,11 +24,11 @@ function copytoclipboard (){
 
     if(disScroll > 300){
       setPosition("fixed bottom-10 right-10 ");
-      setsocialsArrangement("bottom-full") 
+      setsocialsArrangement("flex flex-col bottom-[110%]") 
      
     }else{
       setPosition("relative");
-      setsocialsArrangement("flex flex-row items-center justify-center gap-1")  
+      setsocialsArrangement("flex flex-row bg-red-800 items-center justify-center")  
     }
 
   }
@@ -48,10 +48,10 @@ function copytoclipboard (){
       </div>
       {
         showDropdown && <>
-          <div className={`absolute ${socialsArrangement} space-y-2 mt-2`}>
+          <div className={`absolute ${socialsArrangement} mt-2 gap-2`}>
               <div
                 className="flex delay-500 items-center h-12 text-white shadow-md bg-leulePrime
-      justify-start rounded-full px-4"
+                    justify-start rounded-full px-4"
               >
                 <AiFillBehanceCircle className="bg-cover rounded-full w-6 h-6 mr-2" />
             <a href="https://www.behance.net/luel_sisay" rel="noreferrer" target="_blank">

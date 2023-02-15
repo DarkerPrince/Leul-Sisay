@@ -4,16 +4,16 @@ import UILottieAnimation, {CodeLottieAnimation, GraphicLottieAnimation} from "./
 
 function Categories() {
   return (
-  <div className='flex flex-col items-center justify-center lg:h-screen bg-slate-900 py-12 px-4'>
+  <div className='flex flex-col items-center justify-center h-auto lg:h-auto bg-slate-900 py-12 px-4'>
       <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
             text-leulePrime"
         > Professions
         </h2>
-   <div className='flex flex-row flex-wrap gap-4  w-full items-center justify-center mt-4 lg:mt-8'>
+   <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 self-center  w-full mt-4 lg:mt-8'>
 
    
-<div className=" w-full max-w-sm bg-white border border-gray-200 px-4 pt-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="mx-auto h-full w-full self-center max-w-sm bg-white border border-gray-200 px-4 pt-4 rounded-lg dark:bg-gray-800 dark:border-gray-700">
     <div className="flex flex-col items-center pb-10">
         <UILottieAnimation className="h-48 w-48" play />;
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{CategoriesType[0].categoryName}</h5>
@@ -26,7 +26,7 @@ function Categories() {
    
 </div>
 
-<div className=" w-full max-w-sm bg-white border border-gray-200 px-4 pt-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="mx-auto h-full w-full self-center max-w-sm bg-white border border-gray-200 px-4 pt-4 rounded-lg dark:bg-gray-800 dark:border-gray-700">
   <div className="flex flex-col items-center pb-10">
         <CodeLottieAnimation className="h-48 w-48" play />;
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{CategoriesType[1].categoryName}</h5>
@@ -38,7 +38,7 @@ function Categories() {
     </div>
    
 </div>
-<div className=" w-full max-w-sm bg-white border border-gray-200 px-4 pt-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="mx-auto h-full w-full self-center max-w-sm bg-white border border-gray-200 px-4 pt-4 rounded-lg dark:bg-gray-800 dark:border-gray-700">
 <div className="flex flex-col items-center pb-10">
         <GraphicLottieAnimation className="h-48 w-48" play />;
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{CategoriesType[2].categoryName}</h5>
