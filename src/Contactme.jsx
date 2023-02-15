@@ -8,6 +8,7 @@ import { IoCall } from "react-icons/io5";
 export default function Contactme() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [position, setPosition] = useState("relative");
+  const [socialsArrangement, setsocialsArrangement] = useState("bottom-full");
   
 
 function copytoclipboard (){
@@ -21,10 +22,13 @@ function copytoclipboard (){
     var disScroll = document.documentElement.scrollTop;
     console.log("Scrolled " , disScroll);
 
-    if(disScroll > 400){
-      setPosition("fixed bottom-10 right-10 "); 
+    if(disScroll > 300){
+      setPosition("fixed bottom-10 right-10 ");
+      setsocialsArrangement("bottom-full") 
+     
     }else{
       setPosition("relative");
+      setsocialsArrangement("flex flex-row items-center justify-center gap-1")  
     }
 
   }
@@ -35,17 +39,16 @@ function copytoclipboard (){
   return (
     <div className={` ${position} transition-all duration-300 ease-in-out z-20`}>
       <div
-        className="flex delay-500 items-center h-12 w-12 md:w-auto text-white shadow-md bg-leulePrime
-        md:justify-start  justify-center  rounded-full md:px-4"
+        className="flex delay-500 items-center h-12 w-12 md:w-auto text-leulePrime shadow-md bg-white
+        md:justify-start  justify-center  rounded-full md:px-4 group"
         onClick={() => setShowDropdown((prev) => !prev)}
       >
         <BsPersonCircle className="bg-cover rounded-full w-6 h-6 md:mr-2" />
-        <span className="text-sm md:block hidden"> Contact me </span>
+        <span className="text-sm md:block hidden group-hover:visible"> Contact me </span>
       </div>
       {
         showDropdown && <>
-          <div className="absolute bottom-full space-y-2 mt-2">
-
+          <div className={`absolute ${socialsArrangement} space-y-2 mt-2`}>
               <div
                 className="flex delay-500 items-center h-12 text-white shadow-md bg-leulePrime
       justify-start rounded-full px-4"

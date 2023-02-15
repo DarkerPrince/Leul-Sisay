@@ -1114,4 +1114,25 @@ export const uiImages = [
   },
 ];
 
+export const CategoriesType = 
+[
+   {
+  id:1,
+  categoryName:"UI/UX",
+  categoriesDetail:"Designing the user interface and user experiance for digital devices",
+  image:"seom lotti files here"
+},{
+  id:2,
+  categoryName:"Mobile App Development",
+  categoriesDetail:"Creating simple and interactive software applications using cross platfom frameworks,",
+  image:"seom lotti files here"
+},
+{
+  id:3,
+  categoryName:"Graphics Designs",
+  categoriesDetail:"Simple Graphic designs(Business Cards , Banners, Booklets and others..)",
+  image:"seom lotti files here"
+}
+]
+
 export default blogFiles;

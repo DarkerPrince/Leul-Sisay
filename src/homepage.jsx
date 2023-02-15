@@ -3,11 +3,15 @@ import SkillsPage from "./skillspage";
 import CertificationPage from "./certificationpage";
 import CarrerSummary from "./careersummary";
 import Galleries from "./galleryAnimate";
+import Categories from "./categories";
+import { CategoriesType } from "./files";
+
 
 function Homepage() {
   return (
-    <div className="bg-slate-800 space-y-20 font-leuleFont">
+    <div className="bg-slate-800 font-leuleFont">
       <HeroPage />
+      <Categories  />  
       <Galleries />
       <SkillsPage />
       <CertificationPage />

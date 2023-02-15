@@ -12,8 +12,10 @@ function WorkGallery() {
 
 
   return (
-    <div id="my_work">
-      <div className="mx-4 md:mx-24">
+    <div id="my_work" className="bg-red-400">
+  
+      <div className="mx-4 md:mx-24 ">
+      
         <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
             text-leulePrime"
@@ -74,7 +76,7 @@ function WorkGallery() {
 
       
 
-      <div className="grid grid-cols-6 w-full gap-3">
+      {/* <div className="grid grid-cols-6 w-full gap-3">
         <div onClick={()=> navigateMethod(imageDisplay[0].id) } 
         className="relative overflow-hidden  rounded-md col-start-1 col-span-2 group">
           <div 
@@ -260,7 +262,7 @@ function WorkGallery() {
            alt={" here"}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

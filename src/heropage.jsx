@@ -1,10 +1,11 @@
 import myfaceImage from "./myface4.png";
 import Contactme from "./Contactme";
 
+
 function HeroPage() {
   return (
     
-      <div className="flex relative justify-center md:h-[80vh] items-start bg-contain bg-center bg-no-repeat object-contain">
+      <div className="flex relative justify-center md:h-[80vh] bg-gradient-to-b from-slate-800 to-slate-900 items-start bg-contain bg-center bg-no-repeat object-contain">
         <div className="flex flex-col md:flex-row bg-center gap-6 md:gap-32 w-full md:mx-12  bg-no-repeat bg-contain items-center justify-center">
           <div
             className="flex flex-col justify-center md:items-start items-center text-left"
@@ -28,6 +29,7 @@ function HeroPage() {
                 Software engineer | Mobile First app developer <br className="md:block hidden" />
                 UI/UX designer | Graphic Designer
               </p>
+              
             </div>
             <Contactme/>
           </div>

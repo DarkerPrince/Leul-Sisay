@@ -3,6 +3,7 @@ import Blog from "./blog";
 import BlogDetial from "./blogdetail";
 import Homepage from "./homepage";
 import NavigationBar from "./navigationbar";
+
 // import { useLocation  } from "react-router-dom";
 function App() {
   // const locate = useLocation();

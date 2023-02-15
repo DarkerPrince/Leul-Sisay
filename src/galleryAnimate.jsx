@@ -34,7 +34,7 @@ function GalleryAnimate() {
   
 
   return (
-    <div className='flex flex-col gap-2 w-full overflow-x-clip h-screen'>
+    <div className='flex flex-col gap-2 w-full overflow-x-clip h-screen bg-gradient-to-t from-slate-800 to-slate-900'>
       <div className="mx-4 md:mx-24">
         <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
