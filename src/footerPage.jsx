@@ -8,16 +8,16 @@ function FooterComponent() {
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">Blogposts</a>
+            <a href="/" class="mr-4 hover:underline md:mr-6 ">Blogposts</a>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Gallery</a>
+            <a href="/" class="mr-4 hover:underline md:mr-6">Gallery</a>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Categories</a>
+            <a href="/" class="mr-4 hover:underline md:mr-6">Categories</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">Profession</a>
+            <a href="/" class="hover:underline">Profession</a>
         </li>
     </ul>
 </footer>
