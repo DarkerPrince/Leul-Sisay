@@ -17,7 +17,7 @@ function Blog() {
             <img 
               src={`${file.imageID[0]}`}
               alt={file.title + " here"}
-              className={`rounded-lg hover:scale-125 opacity-100 transition-all left-4 duration-[0.8s] ease-in-out text-black object-contain h-64  w-full lg:w-1/2
+              className={`rounded-lg hover:scale-125  opacity-100 transition-all left-4 duration-[0.8s] ease-in-out text-black object-cover h-64  w-full lg:w-1/2
             `}/>    
             
             <div

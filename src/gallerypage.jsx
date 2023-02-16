@@ -14,7 +14,7 @@ function WorkGallery() {
   return (
     <div id="my_work" className="bg-red-400">
   
-      <div className="mx-4 md:mx-24 ">
+      <div className="mx-4 md:mx-24 bg-violet-300 ">
       
         <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
@@ -76,9 +76,9 @@ function WorkGallery() {
 
       
 
-      {/* <div className="grid grid-cols-6 w-full gap-3">
+      <div className="grid grid-cols-6 w-full gap-3 bg-green-300">
         <div onClick={()=> navigateMethod(imageDisplay[0].id) } 
-        className="relative overflow-hidden  rounded-md col-start-1 col-span-2 group">
+        className="relative overflow-hidden bg-red-300  rounded-md col-start-1 col-span-2 group">
           <div 
             
           className="invisible pt-4 group-hover:visible group-hover:scale-110 transition-all duration-300 ease-in-out group-hover:z-50 group-hover:delay-100 group-hover:overflow-hidden absolute text-white h-full w-full z-10 bg-gradient-to-b from-slate-800 to-slate-800/10">
@@ -262,7 +262,7 @@ function WorkGallery() {
            alt={" here"}
           />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

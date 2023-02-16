@@ -28,7 +28,7 @@ function copytoclipboard (){
      
     }else{
       setPosition("relative");
-      setsocialsArrangement("flex flex-row bg-red-800 items-center justify-center")  
+      setsocialsArrangement("flex flex-row items-center justify-center")  
     }
 
   }

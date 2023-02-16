@@ -23,8 +23,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: ["UX/Coop/mobCoop.png", "UX/Coop/mobCoop.png"],
-    imageID:["https://drive.google.com/uc?export=view&id=1_ra3_ODkI2yHgm8vdhFnw9kpNyq0LhqV"],
+    imageID:["https://drive.google.com/uc?export=view&id=1rOCmIpTvjeJTfN19Stb65pz8yf0Oscm3"],
     hint: "Coop's first compliant giving mobile application platform",
     developer: "Leul sisay",
     comments: [
@@ -70,8 +69,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: ["UX/Ding/mobDing.png", "UX/Ding/mobDing.png"],
-    imageID:["https://drive.google.com/uc?export=view&id=1jPqcSPCDNB5dSDH44N0lgRGOQleJCQM2"],
+    imageID:["https://drive.google.com/uc?export=view&id=1ukVsTxvRq47JkgbTIcQVEZlKrWHUZgfy"],
     hint: "Mobile car topup application for every country with thier service providers",
     developer: "Leul sisay",
     comments: [
@@ -123,7 +121,10 @@ var blogFiles = [
       "UX/360/web360.png",
       "UX/360/mobile360.png",
     ],
-    imageID:["https://drive.google.com/uc?export=view&id=1ZMlxZLjGN_aCZgTro9EGsqxjnjWutEdF","https://drive.google.com/uc?export=view&id=11lOXSL-kE7WaPl7PAJmNWN7AV8hXKSyL","https://drive.google.com/uc?export=view&id=1At5OEl3yfQBPfb3adL6j80DLT1s3X4BP","https://drive.google.com/uc?export=view&id=1OF3fmX5fcMnW1PjLJ6MFl2LB83ue-3u5"],
+    
+    imageID:["https://drive.google.com/uc?export=view&id=1zmVwk7VGG5SaTW8yQdWWen8XoJYSEs-_",
+    "https://drive.google.com/uc?export=view&id=1ef5zuul2eqGHoNG8ZvMIo3tBUMRv_Y-U",
+    "https://drive.google.com/uc?export=view&id=1sa2F1Zv8q2vJ_CScuRh8Tj28EHx9VVCh"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -173,9 +174,9 @@ var blogFiles = [
       "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
     ],
     imageID:[
-      "https://drive.google.com/uc?export=view&id=19ZBE1mubm8jfiYl7EnebVRdhse7ObH9s",
-      "https://drive.google.com/uc?export=view&id=1Uo3fqe4epDt2qjctxo2I4gD0L_jX-NNZ",
-       "https://drive.google.com/uc?export=view&id=1KsaUn5oUfyov8Pl68Rkqi8lnPphmJFTw",    
+      "https://drive.google.com/uc?export=view&id=1e8lqZOF0kJmQck68awKQbnv3zrGaynrT",
+      "https://drive.google.com/uc?export=view&id=1rvvbOcbGWlmJrIhVH73v5HLQljH7rgIb",
+       "https://drive.google.com/uc?export=view&id=1xtUjpZ2nXXoVduxMlANe7iTDmyu3ffyI",    
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -227,10 +228,10 @@ var blogFiles = [
       "UX/Telebirr/mobTelebirr3.png",
       "UX/Telebirr/mobTelebirr4.png"
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1FiR2V4vQgmEAwS9-QGEO7nUL0yezZnZK",
-         "https://drive.google.com/uc?export=view&id=14Qv3eB2X0pCFkGQevT0tCVYbsnbnq-nz",
-         "https://drive.google.com/uc?export=view&id=1a_2lGIR1E4TeX1IconO9OwJ_FYEw9wly",
-         "https://drive.google.com/uc?export=view&id=1lFx2FoD-tCkxlh1nEJSQZbq9s_LwU6bk",
+   imageID:["https://drive.google.com/uc?export=view&id=1bRa3feT4MImq97-EIrOKpqAH7Cj2tfss",
+         "https://drive.google.com/uc?export=view&id=1_BwX42niIGbyMhVnkvUQCHCZ9XDZZEj_",
+         "https://drive.google.com/uc?export=view&id=1KdhBicShyqkc1v3dzWS1K6cgPnry1S1r",
+         "https://drive.google.com/uc?export=view&id=1xGYJptP7ogB_vLEwuzwhiTlVriJK3wim",
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -276,7 +277,7 @@ var blogFiles = [
       "UX/Musinka/mobMusinka.png",
       "UX/Musinka/mobMusinka.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1dl8sN_vu10T1vI2wJyUc2OWq1OHdHbgJ"],
+   imageID:["https://drive.google.com/uc?export=view&id=1eYFh5WHWkf1DS_9A-8OGTAap5Kxq8aod"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -321,8 +322,8 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/Xet/mobXeth.png", "UX/Xet/mobXeth2.png"],
-   imageID:["https://drive.google.com/uc?export=view&id=1V_SKTUSmoK1jXXbex2HyvSLaMEOX9IP0",
-    "https://drive.google.com/uc?export=view&id=1zO66aOwAmtZdXSOk5a3Jil5us292S3mu",
+   imageID:["https://drive.google.com/uc?export=view&id=10gBB-JgnzUUAq_m_fp7cngC4D9kRSJvI",
+    "https://drive.google.com/uc?export=view&id=1ltm0L6YQ8uMrkqoefRXtDoHtuYCoM7dy",
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -369,8 +370,8 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
-   imageID:["https://drive.google.com/uc?export=view&id=1AHq6s2oLMs7vDVm2UR9iFEampCzTPl8J",
-  "https://drive.google.com/uc?export=view&id=1ZCqmownFTR8WSTwF_fCCSNn3jB0jWKYF"
+   imageID:["https://drive.google.com/uc?export=view&id=1nfNH-cFpSdhIV88koGejQARJkCwZ7owd",
+  "https://drive.google.com/uc?export=view&id=1DTpRj2WPA6lSE9XYzOZm6JIbvE9As_aE"
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -416,9 +417,9 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
-   imageID:["https://drive.google.com/uc?export=view&id=1hSD7WvJ5Dr8ZunyQp8QMo_qqlf2Yv4KH",
-  "https://drive.google.com/uc?export=view&id=14ECN-A5LDlcqW0CArbEr2V5GOqeHHCpb",
-  "https://drive.google.com/uc?export=view&id=1xia0OEukZ-4zDv6QNnmMdWcHunU50CG2"
+   imageID:["https://drive.google.com/uc?export=view&id=1Qch9Sb36QBZRGqqkftu6Q8h4MUk3Ob0a",
+  "https://drive.google.com/uc?export=view&id=1R80q4JdHX1fGHuOaW3fpH1UFIvf0ayTv",
+  "https://drive.google.com/uc?export=view&id=1Nm36ZMGBkC1xXqBnJAOIFgVR8c42rk4I"
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -467,11 +468,11 @@ var blogFiles = [
     ],
     pictures: ["UX/park/mobPark.png", "UX/park/mobPark2.png"],
    imageID:[
-  "https://drive.google.com/uc?export=view&id=1LnNQn5Y5XoMKVToNmnJbuT1E_lGymH8y",
-  "https://drive.google.com/uc?export=view&id=1ZosnUhCvTfIaPfh8wFvLU0xpJ2ShbY-y",
-  "https://drive.google.com/uc?export=view&id=1BF0095g7XGW0qpaNBuJXjhuMbP1sTxuc",
-  "https://drive.google.com/uc?export=view&id=1XWlTC6nUpRkLR9RD8OvHNVwS62PZyku6",
-  "https://drive.google.com/uc?export=view&id=1rmi-Nyc-glI3z--oSYZHN88CahDiql2N",
+  "https://drive.google.com/uc?export=view&id=1E_MDvfqXDjZiLxyYm9FKjfUmzadAzpxJ",
+  "https://drive.google.com/uc?export=view&id=11-UY0Npdr1dnHjz4gq0mqiQRvnyo-cgM",
+  "https://drive.google.com/uc?export=view&id=1LVmlDGRSI5ah9BK1R6UE-UDkA206A0H3",
+  "https://drive.google.com/uc?export=view&id=1ejAMYihzNs8Lu7mJCjJkuawhtv1wFzZv",
+  "https://drive.google.com/uc?export=view&id=1VPgicxWgg3WhwTmjBmUoyMdisJzOuNf-",
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -513,7 +514,7 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: ["UX/ET/mobET.png","UX/ET/mobET.png"],
-   imageID:["https://drive.google.com/uc?export=view&id=1LatbKcSj2KVU4NvbnnJH1n6EL-G-tLic"],
+   imageID:["https://drive.google.com/uc?export=view&id=1xzdr2SeKimCprIuT7nTl5Pg5_y-EIfZz"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -561,9 +562,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+   imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -614,7 +615,7 @@ var blogFiles = [
       "UX/hospital/webHospital.png",
     ],
    imageID:[
-  "https://drive.google.com/uc?export=view&id=1U-Mc1cvrrAJNqHZjwEgXM_5BaM_F_573"
+  "https://drive.google.com/uc?export=view&id=1CjpEwHDYF-Z1wh8QLKJF2lhAR-5Vqc-p"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -664,9 +665,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1dU1FJ8esKevrwXSQ8hmsfTkrNjoByowl",
-   "https://drive.google.com/uc?export=view&id=1sO_Z8_dlo2hNMDXV81kqwBg_D4VGBHav",
-   "https://drive.google.com/uc?export=view&id=1XhDGbLtEmo-9amatz7kS4OvcuDHCOJZM"
+   imageID:["https://drive.google.com/uc?export=view&id=10FZiz-mlwR4UUtgCBM4yqNz2nyt2g1Xk",
+   "https://drive.google.com/uc?export=view&id=1gL8dF2IyXCkjP1iVHz9NDPGWMaLbsz0g",
+   "https://drive.google.com/uc?export=view&id=1dDBPoqilRHu276DRK0DAlf_q2BvCcXpa"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -716,9 +717,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -768,9 +769,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -820,9 +821,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -872,9 +873,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -924,9 +925,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -976,9 +977,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -1028,9 +1029,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
-   imageID:["https://drive.google.com/uc?export=view&id=1faiCpMQZ9dMjvUJhK3k0d--xTepB6MzS",
-  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS",
-  "https://drive.google.com/uc?export=view&id=1KCMweKLVyEPMS4ohf1J_nzjIJlp2SjRv"
+ imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
+  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
+  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -1053,64 +1054,157 @@ var blogFiles = [
       },
     ],
   },
-];
-
-export const uiImages = [
   {
-    id: 1,
-    picture: [ "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 2,
-    picture: [ "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 3,
-    picture: [
-      "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
+    id: 22,
+    color:"bg-[#5432A1]",
+    title: "Negat Renting",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["https://drive.google.com/uc?export=view&id=1r3Ymk8xKTG_nkbRxiq0cf3tA5BtB0ywy",
+  "https://drive.google.com/uc?export=view&id=1QrSLyCxhpr1PMZJJvM73DHP7XGVGO_MO",
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
     ],
   },
   {
-    id: 4,
-    picture: [
-      "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
+    id: 23,
+    color:"bg-[#5432A1]",
+    title: "Ethio-Mart App",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+    ],
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["https://drive.google.com/uc?export=view&id=1eozdJ16GOHs37LnN3dpqGjhwkq3DRxyM",
+  "https://drive.google.com/uc?export=view&id=1RGuFe_Mejm-ASZSby0_98qKQowdU2Z_X",
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
     ],
   },
   {
-    id: 5,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 6,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 7,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 8,
-    picture: [
-      "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"
+    id: 24,
+    color:"bg-[#5432A1]",
+    title: "Alen Jobs",
+    content:
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+    moreContent: [
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
     ],
-  },
-  {
-    id: 9,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 10,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-   
-  },
-  {
-    id: 11,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-  },
-  {
-    id: 12,
-    picture: [  "https://drive.google.com/uc?export=view&id=1-UYHCyA5gPbXyOPLG0tEIKyf4oRJldwS"],
-    
+    postedDate: "Aug 12, 2022",
+    tags: [
+      "UI/UX",
+      "UI",
+      "UX",
+      "CaseStudy",
+      "Adobe XD",
+      "Adobe Suits",
+      "Illustrator",
+      "Photoshop",
+    ],
+    pictures: [
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
+    ],
+   imageID:["https://drive.google.com/uc?export=view&id=1RijPxssw2avEHW2xL7sLxegLNQoUGSok",
+  
+  ],
+    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
+    developer: "Leul sisay",
+    comments: [
+      {
+        content: "I Don't relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "I relly like this my friend",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+      {
+        content: "Im inlove with this",
+        date: "June 20,2022",
+        email: "emailcommenter@gmail.com",
+      },
+    ],
   },
 ];
 

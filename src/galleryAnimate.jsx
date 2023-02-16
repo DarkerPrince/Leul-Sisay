@@ -35,7 +35,7 @@ function GalleryAnimate() {
 
   return (
     <div className='flex flex-col gap-2 w-full overflow-x-clip h-screen bg-gradient-to-t from-slate-800 to-slate-900'>
-      <div className="mx-4 md:mx-24">
+      <div className="mx-4 md:mx-24 flex flex-col items-center justify-center">
         <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
             text-leulePrime"
@@ -95,7 +95,7 @@ function GalleryAnimate() {
         </div>
        </div>
       </div>
-    <div className='flex flex-col gap-2 w-[80%] items-center mx-24'>
+    <div className='flex bg-slate-700 shadow-[inset_4px_-2px_8px_#64748b] rounded-lg  overflow-clip flex-col gap-2  items-center mx-4 md:mx-24 py-4'>
     <div className={`flex  h-32 w-fit gap-2 ${styles[`moving-text`]} `}>
     {galleryList1.map((index) => (
             <GalleryItem val={index} />   
