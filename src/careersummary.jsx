@@ -32,7 +32,7 @@ function CarrerSummary() {
             <h3 className="m-0 font-medium text-leulePrime">
               AIT IT Solutions and Cybersecurity
             </h3>
-            <p className=" m-0 w-3/4 text-xs">
+            <p className=" m-0 w-3/4">
               I've been working as a UI/UX designer and a graphics designer on a
               mobile platform that performs ecommerce.
             </p>

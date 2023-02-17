@@ -1,5 +1,5 @@
 import myfaceImage from "./myface4.png";
-import Contactme from "./Contactme";
+import ContactmeNew from "./ContactmeNew";
 
 
 function HeroPage() {
@@ -8,14 +8,20 @@ function HeroPage() {
       <div className="flex relative justify-center md:h-[80vh] bg-gradient-to-b from-slate-800 to-slate-900 items-start bg-contain bg-center bg-no-repeat object-contain">
         <div className="flex flex-col md:flex-row bg-center gap-6 md:gap-32 w-full md:mx-12  bg-no-repeat bg-contain items-center justify-center">
           <div
-            className="flex flex-col justify-center md:items-start items-center text-left"
+            className="flex flex-col justify-center md:items-start items-center text-left "
           >
             <div className="flex flex-col items-center md:items-start">
+              <div className="relative fle gap-4">
               <h1
                 className="text-4xl text-leulePrime lg:text-8xl font-black drop-shadow-xl md:mb-6"
               >
-                Hey!
+                Hey !
               </h1>
+              <div className="lg:absolute lg:right-2 lg:top-10">
+
+              <ContactmeNew/>
+              </div>
+              </div>
               <h1
                 className="text-4xl text-leulePrime lg:text-8xl font-black drop-shadow-xl md:mb-6"
               >
@@ -31,7 +37,9 @@ function HeroPage() {
               </p>
               
             </div>
-            <Contactme/>
+         
+            
+            
           </div>
 
           {/* <!-- image placer for the face of mine --> */}

@@ -38,7 +38,7 @@ function BlogDetail() {
 
         <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
           {blogFiles[id].imageID.map((pics,index) => (
-            <div  className ={`flex lg:h-full w-48 lg:rounded-md mt-2 opacity-20 ${imgindex===index?"border-solid border-2 border-leulePrime opacity-100":""}`} key={index} 
+            <div  className ={`flex lg:h-full w-48 lg:rounded-md mt-2 ${imgindex===index?"border-solid border-2 border-green-400 opacity-100 ":"opacity-20"}`} key={index} 
             onClick={()=>{
               setImgIndex(index)
               console.log("Change the image index" , index)
