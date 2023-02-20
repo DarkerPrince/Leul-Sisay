@@ -3,6 +3,8 @@ import Blog from "./blog";
 import BlogDetial from "./blogdetail";
 import Homepage from "./homepage";
 import NavigationBar from "./navigationbar";
+import ScrollToTop from "./ScrolltoTop";
+
 
 // import { useLocation  } from "react-router-dom";
 function App() {
@@ -12,6 +14,7 @@ function App() {
   return (
     <div className="bg-slate-800">
       <BrowserRouter>
+        <ScrollToTop/>
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>

@@ -23,7 +23,7 @@ function HeroPage() {
               </div>
               </div>
               <h1
-                className="text-4xl text-leulePrime lg:text-8xl font-black drop-shadow-xl md:mb-6"
+                className="text-4xl text-leulePrime lg:text-8xl font-black drop-shadow-xl md:mb-6 buttonShaking"
               >
                 I am Leul
               </h1>
@@ -31,7 +31,7 @@ function HeroPage() {
             <div
               className="flex justify-center rounded-lg items-center p-2"
             >
-              <p className="mb-3 text-lg font-medium text-white text-center md:text-left">
+              <p className="mb-3 text-lg font-thin text-white text-center md:text-left">
                 Software engineer | Mobile First app developer <br className="md:block hidden" />
                 UI/UX designer | Graphic Designer
               </p>

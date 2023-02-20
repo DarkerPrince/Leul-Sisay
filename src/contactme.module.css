@@ -106,11 +106,16 @@ a {
   box-sizing: border-box;
   font-size: 20px;
   text-align: left;
+
+
+  
+
 }
 
 .menu-item:hover {
   background: white;
   color: #fd1b53;
+  
 }
 .menu-item:nth-child(3) {
   transition-duration: 180ms;
@@ -131,6 +136,14 @@ a {
   transition-duration: 400ms;
   transform: scale(1.1, 1.1) translate3d(0, 0, 0);
   cursor: pointer;
+
+
+ animation: shake 2s cubic-bezier(.36,.07,.19,.37) both;
+ transform: translate3d(0, 0, 0);
+ backface-visibility: hidden;
+ perspective: 1000px;
+ animation-iteration-count: infinite;
+ 
 }
 
 .menu-open-button:hover {
@@ -141,43 +154,12 @@ a {
   transition-timing-function: linear;
   transition-duration: 200ms;
   transform: scale(1, 1) translate3d(0, 0, 0);
+
+  animation: none;
+  
   
 }
 
-.ring {
-  display: block;
-  float: left;
-  position: absolute;
-  border-radius: 55px;
-  padding: 50px;
-  transform: scale(.25);
-  -ms-transform: scale(.25);
-  /* IE 9 */
-  -webkit-transform: scale(.25);
-  /* Safari and Chrome */
-  -o-transform: scale(.25);
-  /* Opera */
-  -moz-transform: scale(.25);
-  /* Firefox */
-  -webkit-transform-origin: center;
-  animation-iteration-count: infinite;
-  /* W3C and Opera */
-  -moz-animation-iteration-count: infinite;
-  /* Firefox */
-  -webkit-animation-iteration-count: infinite;
-  /*Safari and Chrome*/
-  -webkit-transform-origin: center;
-}
-
-.ping {
-  top: -35px;
-  left: -35px;
-  border: solid #FFF 3px;
-  -moz-animation-duration: 3s;
-  -webkit-animation-duration: 3s;
-  -moz-animation-name: ping;
-  -webkit-animation-name: ping;
-}
 
 
 
@@ -232,5 +214,30 @@ a {
   transform: translate3d(0, -320px, 0);
 }
 
+
+.buttonShaking {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 
 

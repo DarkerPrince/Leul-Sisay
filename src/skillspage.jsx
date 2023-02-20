@@ -11,6 +11,8 @@ import reactLogo from "./assets/skills/react.png";
 import sketch from "./assets/skills/sketch.png";
 import tailwind from "./assets/skills/tailwind.png";
 import xd from "./assets/skills/xd.png";
+import {ImPaintFormat} from 'react-icons/im';
+import {RiCodeBoxFill} from 'react-icons/ri';
 
 function SkillsPage() {
   return (
@@ -26,9 +28,9 @@ function SkillsPage() {
       <div
         className="mx-4 flex flex-col md:w-[650px] md:h-[700px] text-center rounded-md
          justify-center bg-white/5 items-center"
-      >
-        <h3 className="text-lg text-white font-semibold tracking-wider pt-6 ">
-          🎨 Design
+      > 
+        <h3 className="text-lg text-white text-center font-semibold tracking-wider pt-6 ">
+        <ImPaintFormat className="text-xl"/> Design
         </h3>
         <div
           className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center align-middle
@@ -128,7 +130,7 @@ function SkillsPage() {
       >
         <h3 className="text-lg text-white font-semibold tracking-wider pt-6 ">
           {" "}
-          💻 Programming
+          <RiCodeBoxFill className="text-xl"/> Programming
         </h3>
         <div
           className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center align-middle

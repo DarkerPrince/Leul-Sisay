@@ -36,11 +36,16 @@ export default function ContactmeNew() {
       }
 
 
+      function copytoclipboard (){
+        navigator.clipboard.writeText("@PrinceMagIV").then(()=> alert("Telegram username copied"));
+        console.log("Here copying is done;")
+       
+    }
 
 
 
   return (
-    <div className={` ${position} transition-all duration-300 ease-in-out z-20`}>
+    <div className={` ${position} transition-all duration-300 ease-in-out z-20 `}>
 
     <nav className={ ` ${styles["menu"]}  `} >
   <input type="checkbox" href="/" className={ ` ${contactDisplay} `}  name="menu-open" id="menu-open"/>
@@ -50,10 +55,10 @@ export default function ContactmeNew() {
     <span className={ ` ${styles["hamburger hamburger-3"]} `}> </span>
   </label>
   
-  <a href="/" className={ ` ${styles["menu-item"]} `}> <AiFillBehanceCircle/> </a>
-  <a href="/" className={ ` ${styles["menu-item"]} `}> <AiFillDribbbleCircle/>  </a>
-  <a href="/" className={ ` ${styles["menu-item"]} `}> <AiFillLinkedin/>  </a>
-  <a href="/" className={ ` ${styles["menu-item"]} `}> <BsTelegram/>  </a>
+  <a href="https://www.behance.net/luel_sisay" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillBehanceCircle/> </a>
+  <a href="https://dribbble.com/PrinceMag" className={ ` ${styles["menu-item"]} `}> <AiFillDribbbleCircle/>  </a>
+  <a  href="https://www.linkedin.com/in/luel-sisay-637494224/" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillLinkedin/>  </a>
+  <div className={ ` ${styles["menu-item"]} `}> <BsTelegram onClick={copytoclipboard}/>  </div>
   
     </nav>
 </div>  
