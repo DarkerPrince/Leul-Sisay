@@ -23,22 +23,24 @@ function BlogDetail() {
 
 
   return (
-    <div className="flex justify-center text-white">
+    <div className="flex relative justify-center text-white">
 
-      <div className="flex items-center flex-col"><div className="flex h-[80vh] items-center justify-center w-full">
-      <img className="flex h-[96%] w-full object-contain z-10 lg:r ounded-md lg:w-5/6 "
+      <div className="h-screen">
+        <div className=" fixed top-0  left-0 px-3 flex flex-col items-center justify-end lg:w-1/2 lg:h-full ">
+          <div className="flex h-[70vh] items-end justify-center w-full ">
+        <img className="flex h-[96%] w-full object-contain z-10 lg:r ounded-md lg:w-full "
           src={`${blogFiles[id].imageID[imgindex]}`}
           alt="Ding design"
           />
-      </div>
-        <div className="flex h-[70vh] items-center justify-center w-full absolute top-0 " >
+           </div>
+          <div className="flex h-[70vh] items-center justify-center w-full absolute top-0 " >
           <img src={`${blogFiles[id].imageID[imgindex]}`}  className="object-cover op-0 z-0 left-0 w-full h-full blur-2xl opacity-70" alt="Ding design" />
           
-          </div>
+           </div>
 
-        <div className="flex flex-row h-36 mt-2 space-x-2 lg:w-5/6">
+        <div className="flex flex-row h-36  mt-1  space-x-2 lg:w-full">
           {blogFiles[id].imageID.map((pics,index) => (
-            <div  className ={`flex lg:h-full w-48 lg:rounded-md mt-2 ${imgindex===index?"border-solid border-2 border-green-400 opacity-100 ":"opacity-20"}`} key={index} 
+            <div  className ={`flex lg:h-5/6 w-48 lg:rounded-md mt-2 ${imgindex===index?"border-solid border-2 opacity-100 ":"opacity-20"}`} key={index} 
             onClick={()=>{
               setImgIndex(index)
               console.log("Change the image index" , index)
@@ -51,17 +53,16 @@ function BlogDetail() {
               </div>
           ))}
         </div>
+        </div>
+       
 
-        <div
-          className=" flex flex-col lg:w-5/6 h-screen
-                    items-center"
-        >
+       
           <div
-            className=" flex flex-wrap justify-start
-                        text-justify
+            className=" absolute items-end flex-col lg:w-1/2 px-6 h-full  flex flex-wrap justify-start
+                        text-justify overflow-auto pb-4 
                         text-sm"
           >
-            <div className="w-full lg:w-1/2 lg:pr-6 px-4 lg:p-0">
+            <div className="w-full lg:pr-6 px-4 lg:p-0">
               {/* <!-- content title of the blog --> */}
               <div className="flex items-start justify-between mt-8 mb-4 pb-3 border-b border-leulePrime">
                 <div className="flex flex-col items-start">
@@ -82,32 +83,23 @@ function BlogDetail() {
                 </div>
               </div>
 
-              {leftPara.map((paragraph) => (
+              {blogFiles[id].moreContent.map((paragraph) => (
                 <p key={Math.random()} className="mt-6 text-justify">
                   {paragraph}
                 </p>
               ))}
-
-              {/* <!-- blog details in paragraph --> */}
-            </div>
-
-            {/* <!-- side detail with the tags of the blog --> */}
-            <div className="w-full lg:w-1/2 lg:pl-6 lg:mt-16 lg:p-0 px-4">
-              {rightPara.map((paragraph) => (
-                <p key={Math.random()} className="mt-6 text-justify">
-                  {paragraph}
-                </p>
-              ))}
-              <div className="flex text-sm flex-wrap gap-3 my-6 ">
-                {blogFiles[id].tags.map((tags) => (
-                  <div key={Math.random()} className="tag2">
-                    {tags}
-                  </div>
+               <div className=" flex text-sm flex-wrap gap-3 mt-4">
+                {blogFiles[id].tags.map((tag) => (
+                  <div key={tag} className="tag2">{tag}</div>
                 ))}
               </div>
+
+           
             </div>
+
+           
           </div>
-        </div>
+       
       </div>
     </div>
   );
