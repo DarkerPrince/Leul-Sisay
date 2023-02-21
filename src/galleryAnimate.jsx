@@ -41,7 +41,7 @@ function GalleryAnimate() {
             text-leulePrime"
         > UI Galleries
         </h2>
-       {/* <div className='w-full overflow-auto scrollbar-hide'>
+       <div className='w-full overflow-auto scrollbar-hide'>
        <div className="text-sm flex w-max overflow-x-auto gap-3 mb-6">
           <div className="tag-selected ">UI Design</div>
           <div
@@ -93,7 +93,7 @@ function GalleryAnimate() {
             <span className="w-max">Others</span>
           </div>
         </div>
-       </div> */}
+       </div>
       </div>
     <div className='flex bg-slate-700 shadow-[inset_4px_-2px_8px_#64748b] rounded-lg  overflow-clip flex-col gap-2  items-center mx-4 md:mx-24 py-4'>
     <div className={`flex  h-32 w-fit gap-2 ${styles[`moving-text`]} `}>
