@@ -21,85 +21,86 @@ function BlogDetail() {
     }
   }
 
-
   return (
-    <div className="flex relative justify-center text-white">
-
-      <div className="h-screen">
-        <div className=" fixed top-0  left-0 px-3 flex flex-col items-center justify-end lg:w-1/2 lg:h-full ">
-          <div className="flex h-[70vh] items-end justify-center w-full ">
-        <img className="flex h-[96%] w-full object-contain z-10 lg:r ounded-md lg:w-full "
-          src={`${blogFiles[id].imageID[imgindex]}`}
-          alt="Ding design"
+    <div className="flex relative justify-between flex-col md:flex-row text-white h-full bg-gray-700">
+      <div className=" px-3 flex flex-col items-center lg:w-1/2 lg:h-full ">
+        <div className="flex h-[70vh] items-end justify-center w-full ">
+          <img
+            className="flex h-[96%] w-full object-contain z-10 lg:r rounded-md lg:w-full "
+            src={`${blogFiles[id].imageID[imgindex]}`}
+            alt="Ding design"
           />
-           </div>
-          <div className="flex h-[70vh] items-center justify-center w-full absolute top-0 " >
-          <img src={`${blogFiles[id].imageID[imgindex]}`}  className="object-cover op-0 z-0 left-0 w-full h-full blur-2xl opacity-70" alt="Ding design" />
-          
-           </div>
-
+        </div>
+        <div className="flex h-[70vh] items-center justify-center md:w-1/2 absolute top-0 ">
+          <img
+            src={`${blogFiles[id].imageID[imgindex]}`}
+            className="object-cover op-0 z-0 left-0 w-full h-full blur-2xl opacity-70"
+            alt="Ding design"
+          />
+        </div>
+        <div className='w-full overflow-auto scrollbar-hide'>
         <div className="flex flex-row h-36  mt-1  space-x-2 lg:w-full">
-          {blogFiles[id].imageID.map((pics,index) => (
-            <div  className ={`flex lg:h-5/6 w-48 lg:rounded-md mt-2 ${imgindex===index?"border-solid border-2 opacity-100 ":"opacity-20"}`} key={index} 
-            onClick={()=>{
-              setImgIndex(index)
-              console.log("Change the image index" , index)
-            }}>
-            <img
-              className="object-cover"
-              src={pics}
-              alt={""}
-              />
-              </div>
+          {blogFiles[id].imageID.map((pics, index) => (
+            <div
+              className={`flex lg:h-5/6 md:w-48 w-40 bg-slate-600 rounded-md mt-2 ${
+                imgindex === index
+                  ? "border-solid border-2 opacity-100 "
+                  : "opacity-20"
+              }`}
+              key={index}
+              onClick={() => {
+                setImgIndex(index);
+                console.log("Change the image index", index);
+              }}
+            >
+              <img className="object-cover w-full" src={pics} alt={""} />
+            </div>
           ))}
         </div>
         </div>
-       
+      </div>
 
-       
-          <div
-            className=" absolute items-end flex-col lg:w-1/2 px-6 h-full  flex flex-wrap justify-start
-                        text-justify overflow-auto pb-4 
+      <div className=" h-screen overflow-auto lg:w-1/2 ">
+        <div
+          className="flex-col  px-6  flex flex-wrap justify-end
+                        text-justify pb-4 
                         text-sm"
-          >
-            <div className="w-full lg:pr-6 px-4 lg:p-0">
-              {/* <!-- content title of the blog --> */}
-              <div className="flex items-start justify-between mt-8 mb-4 pb-3 border-b border-leulePrime">
-                <div className="flex flex-col items-start">
-                  <h2
-                    className="flex flex-col text-xl font-semibold
+        >
+          <div className="w-full lg:pr-6 px-4 lg:p-0">
+            {/* <!-- content title of the blog --> */}
+            <div className="flex items-start justify-between mt-8 mb-4 pb-3 border-b border-leulePrime">
+              <div className="flex flex-col items-start">
+                <h2
+                  className="flex flex-col text-xl font-semibold
                   text-leulePrime"
-                  >
-                    {blogFiles[id].title}
-                  </h2>
-                  <span className="text-sm">{blogFiles[id].postedDate}</span>
-                </div>
-
-                <div className="flex items-center">
-                  <span className="text-sm mx-1">
-                    {blogFiles[id].comments.length}
-                  </span>
-                  <MdCommentBank className="text-leulePrime" />
-                </div>
+                >
+                  {blogFiles[id].title}
+                </h2>
+                <span className="text-sm">{blogFiles[id].postedDate}</span>
               </div>
 
-              {blogFiles[id].moreContent.map((paragraph) => (
-                <p key={Math.random()} className="mt-6 text-justify">
-                  {paragraph}
-                </p>
-              ))}
-               <div className=" flex text-sm flex-wrap gap-3 mt-4">
-                {blogFiles[id].tags.map((tag) => (
-                  <div key={tag} className="tag2">{tag}</div>
-                ))}
+              <div className="flex items-center">
+                <span className="text-sm mx-1">
+                  {blogFiles[id].comments.length}
+                </span>
+                <MdCommentBank className="text-leulePrime" />
               </div>
-
-           
             </div>
 
-           
+            {blogFiles[id].moreContent.map((paragraph) => (
+              <p key={Math.random()} className="mt-6 text-justify">
+                {paragraph}
+              </p>
+            ))}
+            <div className=" flex text-sm flex-wrap gap-3 mt-4">
+              {blogFiles[id].tags.map((tag) => (
+                <div key={tag} className="tag2">
+                  {tag}
+                </div>
+              ))}
+            </div>
           </div>
-       
+        </div>
       </div>
     </div>
   );

@@ -18,23 +18,34 @@ function SkillsPage() {
   return (
     <div
       // id="my_skill"
-      className="flex flex-col bg-slate-800 lg:flex-row gap-2 bg-contain bg-no-repeat
-         items-center
+      className=" snap-start flex flex-col  lg:flex-row gap-2 bg-contain bg-no-repeat
+         items-center md:h-[100vh]
         justify-center"
       style={{
         backgroundImage: `url(${topDecor})`,
       }}
     >
-      <div
-        className="mx-4 flex flex-col md:w-[650px] md:h-[700px] text-center rounded-md
-         justify-center bg-white/5 items-center"
+      {/* <div
+        className="mx-4 flex flex-col md:w-[650px] md:h-[650px] bg-green-200  text-center rounded-md justify-center marker:items-center"
       > 
-        <h3 className="text-lg text-white text-center font-semibold tracking-wider pt-6 ">
-        <ImPaintFormat className="text-xl"/> Design
+     
+        
+      
+      </div> */}
+
+      <div
+        className="mx-4 flex flex-col md:w-[650px] md:h-[650px] text-center rounded-md justify-center
+        items-center"
+      >
+        <div className="flex gap-3 items-center justify-center ">
+      <ImPaintFormat className="text-xl text-leulePrime"/>
+      <h3 className="text-lg text-white text-center font-semibold tracking-wider m-0 ">
+         Design
         </h3>
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center align-middle
-                p-12 rounded-lg"
+      </div>
+         <div
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center align-middle
+                px-12 py-6 rounded-lg"
         >
           {/* <!-- 00beff -->
                 <!-- 00d47b --> */}
@@ -120,21 +131,25 @@ function SkillsPage() {
           </div>
         </div>
       </div>
+
+
       {/* <!-- <h1 className="flex flex-col text-7xl text-orange-50 font-semibold
             mx-8">
             &
         </h1> --> */}
       <div
-        className="mx-4 flex flex-col md:w-[650px] md:h-[700px] text-center rounded-md justify-center bg-white/5
+        className="mx-4 flex flex-col md:w-[650px] md:h-[650px] text-center rounded-md justify-center
         items-center"
       >
-        <h3 className="text-lg text-white font-semibold tracking-wider pt-6 ">
-          {" "}
-          <RiCodeBoxFill className="text-xl"/> Programming
+         <div className="flex gap-3 items-center justify-center ">
+      <RiCodeBoxFill className="text-xl text-leulePrime "/>
+      <h3 className="text-lg text-white text-center font-semibold tracking-wider">
+         Programming
         </h3>
+         </div>
         <div
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center align-middle
-            p-12 rounded-lg"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6  justify-center align-middle
+            px-12 py-4 rounded-lg"
         >
           <div className="flex flex-col rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start bg-gradient-to-br from-[#027DFD] to-[#0553B1]">
             <img
@@ -148,6 +163,7 @@ function SkillsPage() {
               Crossplatform Mobile application development framework
             </span>
           </div>
+          
           <div className="flex flex-col bg-gradient-to-br from-[#0b6981] to-[#3d9db5] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
             <img
               className="flex bg-no-repeat bg-contain w-[50px]
@@ -182,7 +198,7 @@ function SkillsPage() {
             />
             <span className="text-left text-white font-semibold">CSS</span>
             <span className="text-left text-xs text-gray-300">
-              Frontend web development
+              Frontend web development styling ui components
             </span>
           </div>
           <div className="flex flex-col bg-gradient-to-br from-[#f99b34] to-[#f48131] rounded-lg hover:scale-110 transition-all duration-300 ease-in-out p-4  gap-2 items-start">
@@ -209,7 +225,7 @@ function SkillsPage() {
             />
             <span className="text-left text-white font-semibold">Tailwind</span>
             <span className="text-left text-xs text-gray-300">
-              Frontend web development
+              Frontend web development and coding UI
             </span>
           </div>
         </div>

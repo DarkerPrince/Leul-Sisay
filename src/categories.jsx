@@ -4,7 +4,7 @@ import UILottieAnimation, {CodeLottieAnimation, GraphicLottieAnimation} from "./
 
 function Categories() {
   return (
-  <div className='flex flex-col items-center justify-center h-auto lg:h-auto bg-slate-900 py-12 px-4'>
+  <div className=' snap-start flex flex-col items-center justify-center h-auto md:h-[100vh] bg-slate-900 py-12 px-4'>
       <h2
           className="flex flex-col text-xl lg:text-4xl font-semibold mb-2
             text-leulePrime"

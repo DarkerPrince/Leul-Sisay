@@ -5,7 +5,7 @@ import styles from './contactme.module.css'
 
 export default function ContactmeNew() {
     
-    const [position, setPosition] = useState(window.innerWidth <  1024 ?"fixed bottom-[90px] right-[50px] lg:bottom-[100px] lg:right-[100px] " : "relative");
+    const [position, setPosition] = useState(window.innerWidth <  1024 ?"fixed bottom-[90px] right-[50px] lg:bottom-[100px] lg:right-[100px]  " : "relative");
     const [contactDisplay, setContactDisplay] = useState(window.innerWidth <  1024 ? ` ${styles["menu-open-bottom"]} ${styles["ring"]} ${styles["ping"]} ` : ` ${styles["menu-open"]} `)
  
 
@@ -15,13 +15,14 @@ export default function ContactmeNew() {
     //   setContactDisplay(` ${styles["menu-open-bottom"]} ${styles["ring"]} ${styles["ping"]} `);
     //   setPosition("fixed bottom-[100px] right-[100px] ");
     // }
-
+    
+    console.log("😀😀😀😀😀😀😀😀😀😀😀😀😀");
 
     window.onscroll = function(){
         var disScroll = document.documentElement.scrollTop;
         console.log("Scrolled " , disScroll);
         console.log("Screen width of the screen ", window.screen.width); 
-        if(disScroll > 300 || window.screen.width < 1024){
+        if(disScroll > 300 || window.innerWidth < 1024){
             console.log("Screen width of the screen ", window.screen.width);
             setContactDisplay(` ${styles["menu-open-bottom"]} ${styles["ring"]} ${styles["ping"]} `);
             setPosition("fixed lg:bottom-[100px] lg:right-[100px] bottom-[90px] right-[50px] ");

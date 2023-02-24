@@ -15,7 +15,6 @@ function App() {
     <div className="bg-slate-800">
       <BrowserRouter>
         <ScrollToTop/>
-        <NavigationBar />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/blog" element={<Blog />} />

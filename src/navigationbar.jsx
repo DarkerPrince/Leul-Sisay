@@ -7,7 +7,7 @@ function NavigationBar() {
   const loc = useLocation();
 
   return(
-    <nav className="flex sticky top-0 z-[100] bg-slate-800/20 items-center justify-between px-6 md:px-24 text-white text-sm gap-12 py-6">
+    <nav className="flex z-[100] bg-slate-800/10 items-center justify-between px-6 md:px-24 text-white text-sm gap-12 py-6">
      <img src={logo} alt="Logo" className="h-8" />
      <div className="flex gap-6">
        <Link to={"/"}>
