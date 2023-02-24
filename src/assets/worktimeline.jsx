@@ -72,7 +72,7 @@ function WorkTimeline() {
           <img
             src={AIT}
             alt="AIT TECH"
-            className="w-[50px] h-[50px]   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
+            className="w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
           />
         </div>
       </div>
