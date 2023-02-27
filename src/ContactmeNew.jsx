@@ -16,12 +16,12 @@ export default function ContactmeNew() {
     //   setPosition("fixed bottom-[100px] right-[100px] ");
     // }
     
-    console.log("😀😀😀😀😀😀😀😀😀😀😀😀😀");
+    // console.log("😀😀😀😀😀😀😀😀😀😀😀😀😀");
 
     window.onscroll = function(){
         var disScroll = document.documentElement.scrollTop;
-        console.log("Scrolled " , disScroll);
-        console.log("Screen width of the screen ", window.screen.width); 
+        // console.log("Scrolled " , disScroll);
+        // console.log("Screen width of the screen ", window.screen.width); 
         if(disScroll > 300 || window.innerWidth < 1024){
             console.log("Screen width of the screen ", window.screen.width);
             setContactDisplay(` ${styles["menu-open-bottom"]} ${styles["ring"]} ${styles["ping"]} `);

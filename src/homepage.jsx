@@ -17,8 +17,9 @@ function Homepage() {
       <NavigationBar/>
       <HeroPage />
       <Categories />
-      <WorkGallery/>
       <SkillsPage />
+      <WorkGallery/>
+      
       <CertificationPage />
       <CarrerSummary />
     </div>

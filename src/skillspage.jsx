@@ -18,7 +18,7 @@ function SkillsPage() {
   return (
     <div
       // id="my_skill"
-      className=" snap-start flex flex-col  lg:flex-row gap-2 bg-contain bg-no-repeat
+      className=" snap-start flex flex-col bg-slate-900  lg:flex-row gap-2 bg-contain bg-no-repeat
          items-center md:h-[100vh]
         justify-center"
       style={{
@@ -54,6 +54,7 @@ function SkillsPage() {
               className="flex bg-no-repeat bg-contain w-[50px]
                     h-[50px] rounded-md"
               src={figma}
+              
               alt="Figma Logo"
             />
             <span className="text-left text-white font-semibold">Figma</span>

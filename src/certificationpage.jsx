@@ -1,17 +1,29 @@
 import leftdecor from "./assets/decoration/leftDecor.png";
 import calartCertificate from "./assets/Certificates/calarts.png";
+import CertificateNew from "./CertificateNew";
+
 
 function CertificationPage() {
   return (
     <div
       id="my_certificate"
-      className="snap-start flex flex-col my:4 lg:my-12 lg:h-screen  text-center bg-contain bg-no-repeat px-4"
+      className="snap-start flex bg-green-300 items-center justify-center flex-col my-4 lg:my-12 lg:h-screen  text-center bg-contain bg-no-repeat px-4"
       style={{ backgroundImage: `url(${leftdecor})` }}
     >
-      <h1 className="flex flex-col text-4xl font-semibold text-leulePrime">
+      <h1 className="flex text-4xl font-semibold text-leulePrime">
         Certification
       </h1>
-      <div className="flex items-center lg:flex-row flex-col w-full md:w-[50vw]  text-white shadow-lg rounded-lg lg:w-[70vw] md:mx-auto justify-start mt-8 px-0">
+      
+
+      <div className="flex flex-col md:flex-row bg-red-300 ">
+      <CertificateNew image={calartCertificate}/>
+      <CertificateNew image={calartCertificate}/>
+      </div>
+
+     
+
+
+      {/* <div className="flex items-center lg:flex-row flex-col w-full md:w-[50vw]  text-white shadow-lg rounded-lg lg:w-[70vw] md:mx-auto justify-start mt-8 px-0">
         <img
           className="lg:w-1/3  bg-contain
             bg-no-repeat justify-center items-center"
@@ -21,14 +33,10 @@ function CertificationPage() {
         />
         <div className="flex flex-col lg:w-2/3 w-full px-6 mx-12">
           <p className="text-lg font-semibold tracking-wider">
-            Cal Art certificate
+           
           </p>
           <p className="mb-6 text-xs">
-            It is the formal attestation or confirmation of certain
-            characteristics of an object, person, or organization. This
-            confirmation is often, but not always, provided by some form of
-            external review, education, assessment, or audit. Accreditation is a
-            specific organization's process of certification.
+          
           </p>
         </div>
       </div>
@@ -55,7 +63,7 @@ function CertificationPage() {
                 some details if not valued the right"
         />
        
-      </div>
+      </div> */}
     
     </div>
   );
