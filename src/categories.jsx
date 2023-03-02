@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import styles from './enteranceAnime.module.css'
 import { CategoriesType } from "./files";
 import UILottieAnimation, {
-  CodeLottieAnimation,
   GraphicLottieAnimation,
   MobileLottieAnimation
 } from "./assets/lotties";

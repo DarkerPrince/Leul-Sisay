@@ -1,7 +1,6 @@
 import React from 'react'
 import blogFiles from './files'
 import { useNavigate } from 'react-router-dom'
-import { Image, Shimmer } from 'react-shimmer'
 
 
 export default function GalleryItem(props) {

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blog from "./blog";
 import BlogDetial from "./blogdetail";
 import Homepage from "./homepage";
-import NavigationBar from "./navigationbar";
+
 import ScrollToTop from "./ScrolltoTop";
 
 
