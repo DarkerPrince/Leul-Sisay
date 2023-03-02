@@ -1,8 +1,8 @@
 import React from 'react'
-import AIT from "../assets/company/AIT.png";
-import Kibur from "../assets/company/kibur.jpg";
-import SSC from "../assets/company/SSC.png";
-import Kemer from "../assets/company/kemer.png";
+import AIT from "./assets/company/AIT.png";
+import Kibur from "./assets/company/kibur.jpg";
+import SSC from "./assets/company/SSC.png";
+import Kemer from "./assets/company/kemer.png";
 
 function WorkTimeline() {
   return (

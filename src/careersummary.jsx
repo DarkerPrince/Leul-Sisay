@@ -1,5 +1,5 @@
 import bottomdecor from "./assets/decoration/sidebottomDecor.png";
-import WorkTimeline from "./assets/worktimeline";
+import WorkTimeline from "./worktimeline";
 import FooterComponent from "./footerPage";
 
 

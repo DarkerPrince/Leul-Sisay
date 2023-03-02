@@ -6,10 +6,8 @@ import Homepage from "./homepage";
 import ScrollToTop from "./ScrolltoTop";
 
 
-// import { useLocation  } from "react-router-dom";
+
 function App() {
-  // const locate = useLocation();
-  // console.log("path name is ", locate.pathname);
 
   return (
     <div className="bg-slate-800">
