@@ -7,7 +7,7 @@ function CertificationPage() {
   return (
     <div
       id="my_certificate"
-      className="snap-start flex bg-green-300 items-center justify-center flex-col my-4 lg:my-12 lg:h-screen  text-center bg-contain bg-no-repeat px-4"
+      className="snap-start flex items-center justify-center space-y-32 flex-col my-4 lg:my-12 lg:h-screen  text-center bg-contain bg-no-repeat px-4"
       style={{ backgroundImage: `url(${leftdecor})` }}
     >
       <h1 className="flex text-4xl font-semibold text-leulePrime">
@@ -15,9 +15,9 @@ function CertificationPage() {
       </h1>
       
 
-      <div className="flex flex-col md:flex-row bg-red-300 ">
-      <CertificateNew image={calartCertificate}/>
-      <CertificateNew image={calartCertificate}/>
+      <div className="flex flex-col gap-40 items-start md:flex-row w-full">
+      <CertificateNew cert={calartCertificate}/>
+      <CertificateNew cert={calartCertificate}/>
       </div>
 
      

@@ -4,7 +4,8 @@ import CertificationPage from "./certificationpage";
 import CarrerSummary from "./careersummary";
 
 import Categories from "./categories";
-import FooterComponent from "./footerPage";
+
+
 import WorkGallery from "./gallerypage";
 import NavigationBar from "./navigationbar";
 
@@ -15,6 +16,7 @@ function Homepage() {
    
     <div className="font-leuleFont md:snap-proximity snap-y">
       <NavigationBar/>
+      
       <HeroPage />
       <Categories />
       <SkillsPage />

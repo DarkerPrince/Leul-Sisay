@@ -1,16 +1,9 @@
 import blogFiles  from "./files";
-
-import { useNavigate } from "react-router-dom";
 import GalleryItem from "./galleryItem";
 
 function WorkGallery() {
   var imageDisplay = blogFiles;
-  const navigate = useNavigate();
-  
-  function navigateMethod(idindex){
-    console.log("navigating on the gallery function")
-    navigate(`/blog/blogs/${idindex}`);
-  }
+ 
 
 
   return (
@@ -88,20 +81,20 @@ function WorkGallery() {
         <div  className="relative overflow-hidden  rounded-md group">
         <GalleryItem val={imageDisplay[8].id}/> 
         </div>
-        <div onClick={()=> navigateMethod(imageDisplay[2].id)}  className=" relative overflow-hidden lg:row-span-2  rounded-md group">
+        <div   className=" relative overflow-hidden lg:row-span-2  rounded-md group">
         <GalleryItem val={imageDisplay[2].id}/> 
         </div>
-        <div onClick={()=> navigateMethod(imageDisplay[3].id)}  className=" relative overflow-hidden  rounded-md lg:row-span-3 lg:col-span-3 group">
+        <div   className=" relative overflow-hidden  rounded-md lg:row-span-3 lg:col-span-3 group">
         <GalleryItem val={imageDisplay[3].id}/> 
         </div>
-        <div onClick={()=> navigateMethod(imageDisplay[4].id)}  className=" relative overflow-hidden lg:row-span-2  rounded-md group">
+        <div   className=" relative overflow-hidden lg:row-span-2  rounded-md group">
         <GalleryItem val={imageDisplay[4].id}/> 
         </div>
-        <div onClick={()=> navigateMethod(imageDisplay[5].id)}  className=" relative overflow-hidden   rounded-md  group">
+        <div   className=" relative overflow-hidden   rounded-md  group">
         <GalleryItem val={imageDisplay[5].id}/> 
         </div>
       
-        <div onClick={()=> navigateMethod(imageDisplay[6].id)}  className=" relative overflow-hidden col-span-2 lg:col-span-1 rounded-md group">
+        <div  className=" relative overflow-hidden col-span-2 lg:col-span-1 rounded-md group">
         <GalleryItem val={imageDisplay[6].id}/> 
         </div>
        

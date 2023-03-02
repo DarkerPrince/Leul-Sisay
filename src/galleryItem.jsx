@@ -22,20 +22,22 @@ export default function GalleryItem(props) {
               {`#${blogFiles[props.val].id} `} {`${blogFiles[props.val].title} `}
               </p>
               </div>
-              <Image
+              
+              {/* <Image
           
                  src={blogFiles[props.val].imageID[0]}
                  fadeIn = {true}
+            
                  fallback={<Shimmer className="object-cover h-full w-full rounded-md" />}
-      />
+      /> */}
 
-              {/* <img
+              <img
               className="object-cover h-full w-full rounded-md"
               src={blogFiles[props.val].imageID[0]}
-              fallback
+              
               loading="lazy"
               alt={""}
-              /> */}
+              />
               </div>
             </div>
   )
