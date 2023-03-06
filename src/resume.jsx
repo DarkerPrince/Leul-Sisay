@@ -22,8 +22,11 @@ export default function ResumeShowPage() {
   }
 
 
+console.log(numPages);
+
 
   function onDocumentLoadSuccess({ numPages }) {
+    
     setNumPages(numPages);
   }
   console.log("Here are some difficulties on the page of the temps ")
@@ -35,7 +38,7 @@ export default function ResumeShowPage() {
         </div>
     <div className='flex h-full items-center justify-center '>
       <Document file={resume}  onLoadSuccess={onDocumentLoadSuccess} className=" ">
-         <Page  scale={2} pageNumber={pageNumber} renderTextLayer={false}  renderMode="canva" className=""/>
+         <Page  scale={2} onClick={setPageNumber(pageNumber)} pageNumber={pageNumber} renderTextLayer={false}  renderMode="canva" className=""/>
       </Document>
     </div>
     </div>
