@@ -16,7 +16,6 @@ function Homepage() {
     <div className="font-leuleFont md:snap-proximity snap-y">
       <HeroPage />
       <Categories />
-      <ResumeShowPage/>
       <SkillsPage />
       <WorkGallery/>
       <CertificationPage />
