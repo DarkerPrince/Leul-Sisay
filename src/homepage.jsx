@@ -7,7 +7,7 @@ import Categories from "./categories";
 
 
 import WorkGallery from "./gallerypage";
-import ResumeShowPage from "./resume";
+
 
 
 
