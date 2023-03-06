@@ -26,7 +26,7 @@ export default function ResumeShowPage() {
 
 
   function onDocumentLoadSuccess({ numPages }) {
-    
+    setPageNumber(numPages)
     setNumPages(numPages);
   }
   console.log("Here are some difficulties on the page of the temps " , numPages)
