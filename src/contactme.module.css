@@ -130,6 +130,10 @@ a {
   transition-duration: 180ms;
 }
 
+.menu-item:nth-child(7) {
+  transition-duration: 180ms;
+}
+
 .menu-open-button {
   z-index: 2;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -183,7 +187,10 @@ a {
   transform: translate3d(320px, 0, 0);
 }
 
-
+.menu-open:checked ~ .menu-item:nth-child(7) {
+  transition-duration: 490ms;
+  transform: translate3d(400px, 0, 0);
+}
 
 /* Separater text is having a great value to display */
 
@@ -213,6 +220,10 @@ a {
 .menu-open-bottom:checked ~ .menu-item:nth-child(6) {
   transition-duration: 490ms;
   transform: translate3d(0, -320px, 0);
+}
+.menu-open-bottom:checked ~ .menu-item:nth-child(7) {
+  transition-duration: 490ms;
+  transform: translate3d(0, -400px, 0);
 }
 
 

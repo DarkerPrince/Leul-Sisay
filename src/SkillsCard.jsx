@@ -51,7 +51,7 @@ function SkillsCard({graphic}) {
         ref={inputRef}
         onMouseLeave={removeListener}
         onMouseMove={rotateToMouse}
-      className={` ${style.card} flex flex-col bg-gradient-to-br ${graphic.colors[0]} ${graphic.colors[1]}  rounded-lg transition-all duration-300 ease-in-out p-4  gap-2 items-start`}>
+      className={` ${style.card} flex flex-col bg-gradient-to-br ${graphic.colors}  rounded-lg transition-all duration-300 ease-in-out p-4  gap-2 items-start`}>
         <div ref={glowRef} className={style.glow}>
 
         </div>

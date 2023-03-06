@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import { BsPersonCircle, BsTelegram } from "react-icons/bs";
 import { AiFillBehanceCircle, AiFillDribbbleCircle, AiFillLinkedin } from "react-icons/ai";
+import {SiReadthedocs} from 'react-icons/si'
 import styles from './contactme.module.css'
+import { Link } from "react-router-dom";
 
 export default function ContactmeNew() {
     
@@ -60,6 +62,7 @@ export default function ContactmeNew() {
   <a href="https://dribbble.com/PrinceMag" className={ ` ${styles["menu-item"]} `}> <AiFillDribbbleCircle/>  </a>
   <a  href="https://www.linkedin.com/in/luel-sisay-637494224/" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillLinkedin/>  </a>
   <div className={ ` ${styles["menu-item"]} `}> <BsTelegram onClick={copytoclipboard}/>  </div>
+  <Link to={"resume"} rel="noreferrer" className={ ` ${styles["menu-item"]} `}> <SiReadthedocs/> </Link>
   
     </nav>
 </div>  

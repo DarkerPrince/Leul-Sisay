@@ -1227,7 +1227,7 @@ export const CategoriesType =
 },
 {
   id:3,
-  categoryName:"Graphics Designs",
+  categoryName:"Visual Designs",
   categoriesDetail:"Simple Graphic designs(Business Cards , Banners, Booklets and others..)",
   image:"seom lotti files here"
 }
@@ -1238,7 +1238,7 @@ export const GraphicSkillItems = [
     id:1,
     type:"Design",
     name:"Figma",
-    colors: ["from-[#1c1a1a]","to-[#1c1a1a]"],
+    colors: "from-[#1c1a1a] to-[#1c1a1a]",
     content: "For UI Design, brainstorming and creating a flowchart",
     textColor : "#FFFFFF",
     icon : "./assets/skills/figma.png"
@@ -1247,7 +1247,7 @@ export const GraphicSkillItems = [
     id:2,
     type:"Design",
     name:"XD",
-    colors: ["from-[#ff61f6]","to-[#470137]"],
+    colors: "from-[#ff61f6] to-[#470137]",
     content: "for UI Design, brainstorming and creating a flowchart",
     textColor : "#FFFFFF",
     icon : "./assets/skills/xd.png"
@@ -1256,7 +1256,7 @@ export const GraphicSkillItems = [
     id:3,
     type:"Design",
     name:"Sketch",
-    colors: ["from-[#ea6c00]","to-[#fdad00]"],
+    colors: "from-[#ea6c00] to-[#fdad00]",
     content: "For UI Design,",
     textColor : "#FFFFFF",
     icon : "./assets/skills/sketch.png"
@@ -1265,7 +1265,7 @@ export const GraphicSkillItems = [
     id:4,
     type:"Design",
     name:"Adobe Illustrator",
-    colors: ["from-[#ef931b]","to-[#ef931b]"],
+    colors: "from-[#ef931b] to-[#ef931b]",
     content: "Creating graphic design contents and illustrations",
     textColor : "#FFFFFF",
     icon : "./assets/skills/illustrator.png"
@@ -1274,7 +1274,7 @@ export const GraphicSkillItems = [
     id:5,
     type:"Design",
     name:"Adobe Photoshop",
-    colors: ["from-[#001834]","to-[#06448b]"],
+    colors: "from-[#001834] to-[#06448b]",
     content: "Editing photos and creating design mockups",
     textColor : "#FFFFFF",
     icon : "./assets/skills/photoshop.png"
@@ -1283,7 +1283,7 @@ export const GraphicSkillItems = [
     id:6,
     type:"Design",
     name:"Adobe Premiere",
-    colors: ["from-[#00005b]","to-[#383899]"],
+    colors: "from-[#00005b] to-[#383899]",
     content: "Editing videos just like mockup animation",
     textColor : "#FFFFFF",
     icon : "./assets/skills/premiere.png"
@@ -1295,7 +1295,7 @@ export const ProgrammingSkillItems = [
     id:1,
     type:"Dev",
     name:"Flutter",
-    colors: ["from-[#027DFD]","to-[#0553B1]"],
+    colors: "from-[#027DFD] to-[#0553B1]",
     content: " Crossplatform Mobile application development framework",
     textColor : "#FFFFFF",
     icon : "./assets/skills/flutter.png"
@@ -1304,7 +1304,7 @@ export const ProgrammingSkillItems = [
     id:2,
     type:"Dev",
     name:"React",
-    colors: ["from-[#0b6981]","to-[#3d9db5]"],
+    colors: "from-[#0b6981] to-[#3d9db5]",
     content: "Web application Development framework",
     textColor : "#FFFFFF",
     icon : "./assets/skills/react.png"
@@ -1313,7 +1313,7 @@ export const ProgrammingSkillItems = [
     id:3,
     type:"Dev",
     name:"HTML",
-    colors: ["from-[#8d2a12]","to-[#e34c26]"],
+    colors: "from-[#8d2a12] to-[#e34c26]",
     content: "Frontend web development / HTML5",
     textColor : "#FFFFFF",
     icon : "./assets/skills/html.png"
@@ -1322,7 +1322,7 @@ export const ProgrammingSkillItems = [
     id:4,
     type:"Dev",
     name:"CSS",
-    colors: ["from-[#027DFD]","to-[#0553B1]"],
+    colors: "from-[#027DFD] to-[#0553B1]",
     content: "Frontend web development styling ui components",
     textColor : "#FFFFFF",
     icon : "./assets/skills/css.png"
@@ -1331,7 +1331,7 @@ export const ProgrammingSkillItems = [
     id:5,
     type:"Dev",
     name:"Javascript",
-    colors: ["from-[#f99b34]","to-[#f48131]"],
+    colors: "from-[#f99b34] to-[#f48131]",
     content: "  Frontend web development ES6",
     textColor : "#FFFFFF",
     icon : "./assets/skills/js.png"
@@ -1340,7 +1340,7 @@ export const ProgrammingSkillItems = [
     id:6,
     type:"Dev",
     name:"Tailwind",
-    colors: ["from-[#0553B1]","to-[#0553B1]"],
+    colors: "from-[#0553B1] to-[#0553B1]",
     content: " Frontend web development and coding UI",
     textColor : "#FFFFFF",
     icon : "./assets/skills/tailwind.png"

@@ -7,25 +7,21 @@ import Categories from "./categories";
 
 
 import WorkGallery from "./gallerypage";
-import NavigationBar from "./navigationbar";
+import ResumeShowPage from "./resume";
+
 
 
 function Homepage() {
   return (
-    
-   
     <div className="font-leuleFont md:snap-proximity snap-y">
-      <NavigationBar/>
-      
       <HeroPage />
       <Categories />
+      <ResumeShowPage/>
       <SkillsPage />
       <WorkGallery/>
-      
       <CertificationPage />
       <CarrerSummary />
     </div>
-    
   );
 }
 

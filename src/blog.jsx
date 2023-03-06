@@ -6,9 +6,9 @@ function Blog() {
   
 
   return (
-    <div className=" px-8 lg:px-24 flex flex-col justify-between">
+    <div className=" px-4 lg:px-24 flex flex-col justify-between">
       {blogFiles.map((file) => (
-        <div key={file.id} className=" grid  grid-cols-1 py-4 lg:grid-cols-1 gap-3 border-b-2 border-white/5 ">
+        <div key={file.id} className=" grid  grid-cols-1 py-4  lg:grid-cols-1  gap-3 border-b-2 border-white/5 ">
           <div
             className={`flex flex-col   overflow-visible justify-end  lg:flex-row w-full
             mb-4 rounded-xl items-start text-white   p-4`}
@@ -18,12 +18,12 @@ function Blog() {
               src={`${file.imageID[0]}`}
               loading="lazy"
               alt={file.title + " here"}
-              className={`rounded-lg hover:scale-110  opacity-100 transition-all left-4 duration-[0.2s] ease-in-out text-black object-cover h-64  w-full lg:w-1/2
+              className={`rounded-lg mb-4 hover:scale-110  opacity-100 transition-all duration-[0.2s] ease-in-out text-black object-cover h-64  w-full lg:w-1/2
             `}/>    
             
             <div
               className="flex flex-col lg:w-1/2 justify-between gap-1
-                pl-5
+                lg:pl-5
                 text-start"
             >
               <div>
