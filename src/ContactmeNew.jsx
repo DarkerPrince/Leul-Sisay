@@ -3,7 +3,7 @@ import { BsPersonCircle, BsTelegram } from "react-icons/bs";
 import { AiFillBehanceCircle, AiFillDribbbleCircle, AiFillLinkedin } from "react-icons/ai";
 import {SiReadthedocs} from 'react-icons/si'
 import styles from './contactme.module.css'
-import { Link } from "react-router-dom";
+
 
 export default function ContactmeNew() {
     
