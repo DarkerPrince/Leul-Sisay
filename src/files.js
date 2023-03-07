@@ -1221,7 +1221,7 @@ export const CategoriesType =
   image:"seom lotti files here"
 },{
   id:2,
-  categoryName:"Mobile App Development",
+  categoryName:"Mobile and Web App Development",
   categoriesDetail:"Creating simple and interactive software applications using cross platfom frameworks,",
   image:"seom lotti files here"
 },

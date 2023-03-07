@@ -3,7 +3,7 @@ import styles from './enteranceAnime.module.css'
 import { CategoriesType } from "./files";
 import UILottieAnimation, {
   GraphicLottieAnimation,
-  MobileLottieAnimation
+  CodeLottieAnimation
 } from "./assets/lotties";
 import { useState } from "react";
 
@@ -59,11 +59,11 @@ function Categories() {
 
         <div className={` ${enteranceScene? styles.show : styles.hidden} ${styles.categorycard} mx-auto h-full w-full self-center max-w-sm px-4 pt-4 rounded-lg bg-gray-800 border-gray-700`}>
           <div className="flex flex-col items-center pb-10">
-            <MobileLottieAnimation className="h-48 w-48" play />;
-            <h5 className="mb-1 text-xl font-medium  text-white">
+            <CodeLottieAnimation className="h-48 w-48" play />;
+            <h5 className="mb-1 text-xl font-medium  text-white text-center">
               {CategoriesType[1].categoryName}
             </h5>
-            <span className="text-sm text-center w-3/4 text-gray-400">
+            <span className="text-sm text-center text-gray-400">
               {CategoriesType[1].categoriesDetail}
             </span>
             <div className="flex mt-4 space-x-3 md:mt-6">
