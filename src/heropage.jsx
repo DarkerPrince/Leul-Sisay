@@ -25,7 +25,7 @@ function HeroPage() {
               <h1
                 className="text-4xl text-leulePrime lg:text-8xl font-black drop-shadow-xl md:mb-6 buttonShaking"
               >
-                I am Leul
+                I am Leul S.
               </h1>
             </div>
             <div

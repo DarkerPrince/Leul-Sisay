@@ -8,7 +8,10 @@ function NavigationBar() {
 
   return(
     <nav className="flex z-[100] bg-slate-800/10 items-center justify-between px-6 md:px-24 text-white text-sm gap-12 py-6">
-     <img src={logo} alt="Logo" className="h-8" />
+     
+     <img src={logo} alt="Logo" className="h-16 w-16  object-cover" />
+    
+     
      <div className="flex gap-6">
        <Link to={"/"}>
          <div className={`${loc.pathname === "/"?"font-semibold text-leulePrime border-b-2 border-leulePrime":"font-regular text-slate-400 hover:text-leulePrime hover:border-b-2 hover:border-leulePrime"}`}>
