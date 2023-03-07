@@ -929,6 +929,7 @@ var blogFiles = [
   "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
   "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
   
+  
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",

@@ -1,11 +1,3 @@
-body {
-  background: #fd1b53;
-}
-
-a {
-  color: inherit;
-}
-
 .menu {
   filter: url("#shadowed-goo");
 }
@@ -26,28 +18,26 @@ a {
 
 
 .menu-item {
-  background: #fd1b53;
+ 
   background-color: hsla(0, 100%, 100%, 0.16);	
   color: hsla(0, 100%, 100%, 0.87);
   border-radius: 100%;
+ 
   padding: 12px;
   font-size: 32px;
   margin-left: -40px;
   position: absolute;
   top: 20px;
-  color: white;
   text-align: center;
   line-height: 80px;
-  transform: translate3d(0, 0, 0);
+  transform: scale(0.2, 0.2) translate3d(0, 0, 0);
   transition: transform ease-in-out 200ms;
-  
-
-  cursor: pointer;
-  transition: all ease-in-out 300ms;
+  cursor: "pointer";
 }
 
 .menu-open , .menu-open-bottom {
   display: none;
+  
 }
 
 
@@ -68,33 +58,13 @@ a {
   transform: translate3d(0, -8px, 0);
 }
 
-.hamburger-2 {
-  transform: translate3d(0, 0, 0);
-}
-
-.hamburger-3 {
-  transform: translate3d(0, 8px, 0);
-}
-
 .menu-open:checked + .menu-open-button .hamburger-1 {
   transform: translate3d(0, 0, 0) rotate(45deg);
-}
-.menu-open:checked + .menu-open-button .hamburger-2 {
-  transform: translate3d(0, 0, 0) scale(0.1, 1);
-}
-.menu-open:checked + .menu-open-button .hamburger-3 {
-  transform: translate3d(0, 0, 0) rotate(-45deg);
 }
 
 
 .menu-open-bottom:checked + .menu-open-button .hamburger-1 {
   transform: translate3d(0, 0, 0) rotate(45deg);
-}
-.menu-open-bottom:checked + .menu-open-button .hamburger-2 {
-  transform: translate3d(0, 0, 0) scale(0.1, 1);
-}
-.menu-open-bottom:checked + .menu-open-button .hamburger-3 {
-  transform: translate3d(0, 0, 0) rotate(-45deg);
 }
 
 
@@ -126,7 +96,6 @@ a {
 		0px 11px 15px -7px hsla(0,0%,0%,0.2);
 }
 
-.menu-item:nth-child()
 
 .menu-item:nth-child(3) {
   transition-duration: 180ms;
@@ -180,27 +149,33 @@ a {
 
 .menu-open:checked ~ .menu-item {
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+ 
 }
 .menu-open:checked ~ .menu-item:nth-child(3) {
   transition-duration: 190ms;
-  transform: translate3d(80px, 0, 0);
+  transform: scale(1, 1) translate3d(80px, 0, 0);
+ 
 }
 .menu-open:checked ~ .menu-item:nth-child(4) {
   transition-duration: 290ms;
-  transform: translate3d(160px, 0, 0);
+  transform: scale(1, 1) translate3d(160px, 0, 0);
+ 
 }
 .menu-open:checked ~ .menu-item:nth-child(5) {
   transition-duration: 390ms;
-  transform: translate3d(240px, 0, 0);
+  transform: scale(1, 1) translate3d(240px, 0, 0);
+ 
 }
 .menu-open:checked ~ .menu-item:nth-child(6) {
   transition-duration: 490ms;
-  transform: translate3d(320px, 0, 0);
+  transform: scale(1, 1) translate3d(320px, 0, 0);
+ 
 }
 
 .menu-open:checked ~ .menu-item:nth-child(7) {
   transition-duration: 490ms;
-  transform: translate3d(400px, 0, 0);
+  transform: scale(1, 1) translate3d(400px, 0, 0);
+ 
 }
 
 /* Separater text is having a great value to display */

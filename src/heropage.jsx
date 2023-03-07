@@ -1,5 +1,7 @@
-import myfaceImage from "./myface4.png";
+
 import ContactmeNew from "./ContactmeNew";
+import Heroimage from "./heroimage"
+
 
 
 function HeroPage() {
@@ -43,11 +45,10 @@ function HeroPage() {
           </div>
 
           {/* <!-- image placer for the face of mine --> */}
-          <img
-            className="md:w-[540px] object-contain "
-            src={myfaceImage}
-            alt="Text here of the"
-          />
+         
+           <Heroimage/>
+          
+       
         </div>
      
     </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./assets/company/mylogo.svg";
+
+
 import { useLocation, Link } from "react-router-dom";
 
 
@@ -10,6 +12,7 @@ function NavigationBar() {
     <nav className="flex z-[100] bg-slate-800/10 items-center justify-between px-6 md:px-24 text-white text-sm gap-12 py-6">
      
      <img src={logo} alt="Logo" className="h-16 w-16  object-cover" />
+     
     
      
      <div className="flex gap-6">

@@ -54,8 +54,6 @@ export default function ContactmeNew() {
   <input type="checkbox" href="/" className={ ` ${contactDisplay} `}  name="menu-open" id="menu-open"/>
   <label className={ ` ${styles["menu-open-button"]}  `}  htmlFor="menu-open">
     <span className={ ` ${styles["hamburger hamburger-1"]} `} ><BsPersonCircle/></span>
-    <span className={ ` ${styles["hamburger hamburger-2"]} `}></span>
-    <span className={ ` ${styles["hamburger hamburger-3"]} `}> </span>
   </label>
   
   <a href="https://www.behance.net/luel_sisay" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillBehanceCircle/> </a>
