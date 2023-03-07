@@ -40,7 +40,7 @@ export default function ResumeShowPage() {
         <GoCloudDownload className='text-2xl text-white'/>
         </div>
     <div className='flex h-full items-center justify-center '>
-      <Document file={resume}  onLoadSuccess={onDocumentLoadSuccess} className=" ">
+      <Document file={resume}  onLoadSuccess={onDocumentLoadSuccess} className=" " onLoadError={console.error}>
          <Page  scale={2} pageNumber={pageNumber} renderTextLayer={false}  renderMode="canva" className=""/>
       </Document>
     </div>
