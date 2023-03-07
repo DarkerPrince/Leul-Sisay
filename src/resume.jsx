@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resume from './assets/skills/resume.pdf'
+
 import {GoCloudDownload} from 'react-icons/go'
 
 export default function ResumeShowPage() {
+  
+  
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -15,7 +18,7 @@ export default function ResumeShowPage() {
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'resume.pdf';
+            alink.download = 'Leule_resume.pdf';
             alink.click();
         })
     });
