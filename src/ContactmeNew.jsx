@@ -61,8 +61,10 @@ export default function ContactmeNew() {
   <a href="https://www.behance.net/luel_sisay" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillBehanceCircle/> </a>
   <a href="https://dribbble.com/PrinceMag" className={ ` ${styles["menu-item"]} `}> <AiFillDribbbleCircle/>  </a>
   <a  href="https://www.linkedin.com/in/luel-sisay-637494224/" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillLinkedin/>  </a>
-  <div className={ ` ${styles["menu-item"]} `}> <BsTelegram onClick={copytoclipboard}/>  </div>
-  <Link to={"resume"} rel="noreferrer" className={ ` ${styles["menu-item"]} `}> <SiReadthedocs/> </Link>
+  <div className={ ` ${styles["menu-item"]}`}> <BsTelegram onClick={copytoclipboard}/>  </div>
+  
+  <a href="https://drive.google.com/file/d/1fRbBI0JGMnDhHyiFzbb4Qtwq0pSrYT1U/view?usp=share_link" className={ ` ${styles["menu-item"]}`}> <SiReadthedocs/>  </a>
+  {/* <Link to={"resume"} rel="noreferrer" className={ ` ${styles["menu-item"]} `}> <SiReadthedocs/> </Link> */}
   
     </nav>
 </div>  
