@@ -1,11 +1,21 @@
-import blogFiles  from "./files";
-import GalleryItem from "./galleryItem";
+import blogFiles , { socialMediaPost }  from "./files";
+import GalleryBox from "./GalleryBox";
+import { useState  } from "react";
 
 function WorkGallery() {
-  var imageDisplay = blogFiles;
+  const [ imageDisplayOG , setImageDisplay ] =  useState(blogFiles);
  
+   
+
+  const changeDisplay = (loc) =>{
+    console.log(" the Image display is changed from " , loc);
+    console.log("The old Array is ", imageDisplayOG);
+    setImageDisplay(socialMediaPost);
+    console.log("The new Array is ", imageDisplayOG);
+  }
 
 
+ 
   return (
     <div id="my_work" className=" snap-start flex  flex-col justify-center lg:h-screen py-16 lg:py-0 items-center bg-gradient-to-t from-slate-800 to-slate-900 gap-2  w-full px-12 py-18">
   
@@ -49,6 +59,7 @@ function WorkGallery() {
             <span className="w-max">Banners</span>
           </div>
           <div
+           onClick={()=>changeDisplay("social media")}
             className="tag3 hover:shadow-lg
                 hover:bg-leulePrime hover:text-white"
           >
@@ -72,34 +83,7 @@ function WorkGallery() {
 
       
 
-      <div className="grid grid-cols-2 lg:grid-cols-6 w-full gap-3 ">
-        <div   className=" relative overflow-hidden lg:row-span-2 rounded-md group">
-         
-          <GalleryItem val={imageDisplay[1].id}/> 
-         
-        </div>
-        <div  className="relative overflow-hidden  rounded-md group">
-        <GalleryItem val={imageDisplay[8].id}/> 
-        </div>
-        <div   className=" relative overflow-hidden lg:row-span-2  rounded-md group">
-        <GalleryItem val={imageDisplay[2].id}/> 
-        </div>
-        <div   className=" relative overflow-hidden  rounded-md lg:row-span-3 lg:col-span-3 group">
-        <GalleryItem val={imageDisplay[3].id}/> 
-        </div>
-        <div   className=" relative overflow-hidden lg:row-span-2  rounded-md group">
-        <GalleryItem val={imageDisplay[4].id}/> 
-        </div>
-        <div   className=" relative overflow-hidden   rounded-md  group">
-        <GalleryItem val={imageDisplay[5].id}/> 
-        </div>
-      
-        <div  className=" relative overflow-hidden col-span-2 lg:col-span-1 rounded-md group">
-        <GalleryItem val={imageDisplay[6].id}/> 
-        </div>
-       
-        
-      </div>
+      <GalleryBox imageDisplay = {imageDisplayOG}/>
     </div>
   );
 }
