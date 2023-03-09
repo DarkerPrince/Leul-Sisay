@@ -8,7 +8,7 @@ export default function GalleryItem({val}) {
     const navigate = useNavigate();
     function navigateMethod(idindex){
         console.log("navigating on the gallery function")
-        navigate(`/blog/blogs/${idindex}`);
+        navigate(`/blog/blogs/${idindex}` , { state : {...val}} );
       }
   return (
     <div 

@@ -1,23 +1,27 @@
 import blogFiles from "./files";
 import { MdCommentBank } from "react-icons/md";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { useState } from "react";
 
 function BlogDetail() {
+
+
+  const location  =  useLocation();
+  console.log(location.state , "🏀");
   const params = useParams();
   const [imgindex, setImgIndex] = useState(0);
   const id = params.id - 1;
   const leftPara = [];
   const rightPara = [];
-  const totalparagraphSize = blogFiles[id].moreContent.length;
-  console.log("Blog details info is", blogFiles[id]);
+  const totalparagraphSize = location.state.moreContent.length;
+  console.log("Blog details info is", location.state);
   let paragSecSize = Math.ceil(totalparagraphSize / 2);
   console.log("the paragraph contains splitted", paragSecSize);
   for (let i = 0; i < totalparagraphSize; i++) {
     if (i < paragSecSize) {
-      leftPara.push(`${blogFiles[id].moreContent[i]}`);
+      leftPara.push(`${location.state.moreContent[i]}`);
     } else {
-      rightPara.push(`${blogFiles[id].moreContent[i]}`);
+      rightPara.push(`${location.state.moreContent[i]}`);
     }
   }
 
@@ -27,20 +31,20 @@ function BlogDetail() {
         <div className="flex h-[70vh] items-end justify-center w-full ">
           <img
             className="flex h-[96%] w-full object-contain z-10 lg:r rounded-md lg:w-full "
-            src={`${blogFiles[id].imageID[imgindex]}`}
+            src={`${location.state.imageID[imgindex]}`}
             alt="Ding design"
           />
         </div>
         <div className="flex h-[70vh] items-center justify-center md:w-1/2 absolute top-0 ">
           <img
-            src={`${blogFiles[id].imageID[imgindex]}`}
+            src={`${location.state.imageID[imgindex]}`}
             className="object-cover op-0 z-0 left-0 w-full h-full blur-2xl opacity-70"
             alt="Ding design"
           />
         </div>
         <div className='w-full overflow-auto scrollbar-hide'>
         <div className="flex flex-row h-36  mt-1  space-x-2 lg:w-full">
-          {blogFiles[id].imageID.map((pics, index) => (
+          {location.state.imageID.map((pics, index) => (
             <div
               className={`flex lg:h-5/6 md:w-48 w-40 bg-slate-600 rounded-md mt-2 ${
                 imgindex === index
@@ -74,26 +78,26 @@ function BlogDetail() {
                   className="flex flex-col text-xl font-semibold
                   text-leulePrime"
                 >
-                  {blogFiles[id].title}
+                  {location.state.title}
                 </h2>
-                <span className="text-sm">{blogFiles[id].postedDate}</span>
+                <span className="text-sm">{location.state.postedDate}</span>
               </div>
 
               <div className="flex items-center">
                 <span className="text-sm mx-1">
-                  {blogFiles[id].comments.length}
+                  {location.state.comments.length}
                 </span>
                 <MdCommentBank className="text-leulePrime" />
               </div>
             </div>
 
-            {blogFiles[id].moreContent.map((paragraph) => (
+            {location.state.moreContent.map((paragraph) => (
               <p key={Math.random()} className="mt-6 text-justify">
                 {paragraph}
               </p>
             ))}
             <div className=" flex text-sm flex-wrap gap-3 mt-4">
-              {blogFiles[id].tags.map((tag) => (
+              {location.state.tags.map((tag) => (
                 <div key={tag} className="tag2">
                   {tag}
                 </div>

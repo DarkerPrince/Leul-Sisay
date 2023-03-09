@@ -1,10 +1,11 @@
 import React from 'react'
 import GalleryItem from "./galleryItem";
+import style from './cardsHover.module.css';
 
 function GalleryBox({imageDisplay}) {
     console.log({imageDisplay})
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-6 w-full gap-3 ">
+    <div className={`grid ${style.gridFixedHeight} grid-cols-2 lg:grid-cols-6 w-full gap-3 `}>
         <div   className=" relative overflow-hidden lg:row-span-2 rounded-md group">
          
           <GalleryItem val={imageDisplay[0]}/> 

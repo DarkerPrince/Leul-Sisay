@@ -1,17 +1,41 @@
-import blogFiles , { socialMediaPost }  from "./files";
+import blogFiles , { socialMediaPost , VisualDesigns }  from "./files";
 import GalleryBox from "./GalleryBox";
 import { useState  } from "react";
 
 function WorkGallery() {
   const [ imageDisplayOG , setImageDisplay ] =  useState(blogFiles);
+  const [buttonsSelected , setbuttonsSelected] = useState([true, false , false]);
  
    
 
   const changeDisplay = (loc) =>{
-    console.log(" the Image display is changed from " , loc);
-    console.log("The old Array is ", imageDisplayOG);
-    setImageDisplay(socialMediaPost);
-    console.log("The new Array is ", imageDisplayOG);
+    let arrayButtonsView  = [];
+    switch(loc){
+      case 'uiux':
+        console.log(" the Image display is changed from " , loc);
+        console.log("Array is ", blogFiles);
+        setImageDisplay(blogFiles);
+         arrayButtonsView = [true , false , false];
+        setbuttonsSelected(arrayButtonsView);
+        break;
+
+        case 'visual':
+        console.log(" the Image display is changed from " , loc);
+        console.log("Array is ", VisualDesigns);
+        setImageDisplay(VisualDesigns);
+        arrayButtonsView = [false , true , false];
+        setbuttonsSelected(arrayButtonsView);
+        break;
+
+        case 'social':
+        console.log(" the Image display is changed from " , loc);
+        setImageDisplay(socialMediaPost);
+        console.log("Array is ", socialMediaPost);
+        arrayButtonsView = [false , false , true];
+        setbuttonsSelected(arrayButtonsView);
+        break;
+    }
+
   }
 
 
@@ -27,56 +51,23 @@ function WorkGallery() {
         </h2>
        <div className='w-screen lg:w-full overflow-auto scrollbar-hide px-6'>
        <div className="text-sm  flex w-max gap-3 mb-6">
-          <div className="tag-selected ">UI Design</div>
           <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
+          onClick={()=>changeDisplay("uiux")}
+          className={buttonsSelected[0]?"tag-selected ": "tag3 hover:shadow-lg hover:bg-leulePrime hover:text-white" }>UI-Design and Developed</div>
+
+          <div
+            onClick={()=>changeDisplay("visual")}
+            className={buttonsSelected[1]?"tag-selected ": "tag3 hover:shadow-lg hover:bg-leulePrime hover:text-white" }
           >
-            <span className="w-max">Developed</span>{" "}
+            <span className="w-max">Visual Designs</span>{" "}
           </div>
           <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
-          >
-            <span className="w-max">Case Studies</span>
-          </div>
-          <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
-          >
-            <span className="w-max">Business Cards</span>
-          </div>
-          <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
-          >
-            <span className="w-max">Booklets</span>
-          </div>
-          <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
-          >
-            <span className="w-max">Banners</span>
-          </div>
-          <div
-           onClick={()=>changeDisplay("social media")}
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
+           onClick={()=>changeDisplay("social")}
+           className={buttonsSelected[2]?"tag-selected ": "tag3 hover:shadow-lg hover:bg-leulePrime hover:text-white" }
           >
             <span className="w-max">Social Media Posts</span>
           </div>
-          <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
-          >
-            <span className="w-max">Logo Designs</span>
-          </div>
-          <div
-            className="tag3 hover:shadow-lg
-                hover:bg-leulePrime hover:text-white"
-          >
-            <span className="w-max">Others</span>
-          </div>
+         
         </div>
        </div>
       </div>

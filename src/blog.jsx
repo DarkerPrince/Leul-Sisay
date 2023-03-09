@@ -1,15 +1,23 @@
 import blogFiles from "./files";
-import { Link } from "react-router-dom";
+
+import { useNavigate } from 'react-router-dom'
 import { MdCommentBank } from "react-icons/md";
 
 function Blog() {
-  
+  const navigate = useNavigate();
+
+  function navigateMethod(idindex){
+    console.log("navigating on the gallery function")
+    navigate(`/blog/blogs/${idindex}` , { state : {...blogFiles[idindex]}} );
+  }
 
   return (
     <div className=" px-4 lg:px-24 flex flex-col justify-between">
       {blogFiles.map((file) => (
-        <div key={file.id} className=" grid  grid-cols-1 py-4  lg:grid-cols-1  gap-3 border-b-2 border-white/5 ">
-          <div
+        <div key={file.id} 
+          onClick={()=> navigateMethod(file.id)} 
+        className=" grid  grid-cols-1 py-4  lg:grid-cols-1  gap-3 border-b-2 border-white/5 ">
+          <div 
             className={`flex flex-col   overflow-visible justify-end  lg:flex-row w-full
             mb-4 rounded-xl items-start text-white   p-4`}
     
@@ -29,14 +37,12 @@ function Blog() {
               <div>
                 <div className="flex items-start justify-between mb-4 pb-3 border-b border-white/25">
                   <div className="flex flex-col items-start">
-                    <Link to={"blogs/" + file.id}>
                       <h2
                         className="flex flex-col text-xl font-semibold
                   text-leulePrime"
                       >
                         {`#${file.id} ${file.title}`}
                       </h2>
-                    </Link>
                     <span className="text-sm text-gray-400">{file.postedDate}</span>
                   </div>
 
