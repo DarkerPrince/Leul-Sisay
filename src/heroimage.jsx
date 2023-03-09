@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const svgVariants = {
-    hidden : {rotate  : 4 },
+    hidden : {rotate  : 1 },
     visible : {
         rotate : 0,
         transition : { duration : 1,
