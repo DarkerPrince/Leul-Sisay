@@ -8,7 +8,7 @@ function BlogDetail() {
 
   const location  =  useLocation();
   console.log(location.state , "🏀");
-  const params = useParams();
+
   const [imgindex, setImgIndex] = useState(0);
   // const id = params.id - 1;
   const leftPara = [];
