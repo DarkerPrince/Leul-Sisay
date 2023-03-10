@@ -34,6 +34,15 @@ function WorkGallery() {
         arrayButtonsView = [false , false , true];
         setbuttonsSelected(arrayButtonsView);
         break;
+
+        default:
+          console.log(" default " , loc);
+        console.log("Array is ", blogFiles);
+        setImageDisplay(blogFiles);
+         arrayButtonsView = [true , false , false];
+        setbuttonsSelected(arrayButtonsView);
+        break;
+
     }
 
   }

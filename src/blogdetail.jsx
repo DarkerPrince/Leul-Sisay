@@ -10,7 +10,7 @@ function BlogDetail() {
   console.log(location.state , "🏀");
   const params = useParams();
   const [imgindex, setImgIndex] = useState(0);
-  const id = params.id - 1;
+  // const id = params.id - 1;
   const leftPara = [];
   const rightPara = [];
   const totalparagraphSize = location.state.moreContent.length;
