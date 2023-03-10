@@ -1,4 +1,4 @@
-import blogFiles from "./files";
+
 import { MdCommentBank } from "react-icons/md";
 import { useLocation, useParams } from "react-router-dom";
 import { useState } from "react";
