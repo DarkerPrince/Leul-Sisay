@@ -5,7 +5,7 @@ export default function Modal() {
   return (
     <>
       <button
-        className="bg-leulePrime  active:bg-leulePrime/80 text-white font-bold uppercase text-sm px-6 py-3 rounded shadow  hover:shadow-xs outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="bg-leulePrime  active:bg-leulePrime/80 font-leuleFont text-white font-bold text-sm px-6 py-3 shadow-green-400 shadow-xs outline-none focus:outline-none mr-1 mb-1 mt-4 rounded-full ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >

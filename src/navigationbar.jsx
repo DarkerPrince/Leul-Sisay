@@ -12,8 +12,14 @@ function NavigationBar() {
   return(
     <nav className="flex z-[100] bg-slate-800/10 items-center justify-between px-6 md:px-24 text-white text-sm gap-12 py-6">
      
+     <Link to={"/"}>
+     <div className="flex items-center justify-center gap-1">
+
      <img src={logo} alt="Logo" className="h-16 w-16  object-cover" />
+     <p className="text-2xl font-leuleFont text-slate-700 font-semibold ">Luel Sisay</p>
      
+     </div>
+     </Link>
     
      
      <div className="flex gap-6">
