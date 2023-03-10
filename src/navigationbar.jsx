@@ -5,6 +5,7 @@ import logo from "./assets/company/mylogo.svg";
 import { useLocation, Link } from "react-router-dom";
 
 
+
 function NavigationBar() {
   const loc = useLocation();
 

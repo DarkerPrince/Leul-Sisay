@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import resume from './assets/skills/resume.pdf'
+import resume2 from './assets/skills/resume2.pdf'
 
 import {GoCloudDownload} from 'react-icons/go'
 
@@ -40,7 +41,7 @@ export default function ResumeShowPage() {
         <GoCloudDownload className='text-2xl text-white'/>
         </div>
     <div className='flex h-full items-center justify-center '>
-      <Document file={resume}  onLoadSuccess={onDocumentLoadSuccess} className=" " onLoadError={console.error}>
+      <Document file={resume2}  onLoadSuccess={onDocumentLoadSuccess} className = "h-[2430px] overflow-hidden" onLoadError={console.error}>
          <Page  scale={2} pageNumber={pageNumber} renderTextLayer={false}  renderMode="canva" className=""/>
       </Document>
     </div>

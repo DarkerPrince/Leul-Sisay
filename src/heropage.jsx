@@ -1,6 +1,7 @@
 
 import ContactmeNew from "./ContactmeNew";
 import Heroimage from "./heroimage"
+import Modal from "./modalview";
 
 
 
@@ -33,13 +34,13 @@ function HeroPage() {
               </h1>
             </div>
             <div
-              className="flex justify-center rounded-lg items-center p-2"
+              className="flex flex-col items-start justify-center rounded-lg p-2"
             >
               <p className="mb-3 text-lg font-thin text-white text-center md:text-left">
                 Software engineer | Mobile First app developer | <br className="md:block hidden" />
                 UI/UX designer | Graphic Designer
               </p>
-              
+              <Modal/>
             </div>
          
             
