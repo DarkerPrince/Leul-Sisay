@@ -26,7 +26,7 @@ function BlogDetail() {
   }
 
   return (
-    <div className="flex relative justify-between flex-col md:flex-row text-white h-full bg-gray-700">
+    <div className="flex relative justify-between flex-col md:flex-row text-white h-full">
       <div className=" px-3 flex flex-col items-center lg:w-1/2 lg:h-full ">
         <div className="flex h-[70vh] items-end justify-center w-full ">
           <img
@@ -38,7 +38,7 @@ function BlogDetail() {
         <div className="flex h-[70vh] items-center justify-center md:w-1/2 absolute top-0 ">
           <img
             src={`${location.state.imageID[imgindex]}`}
-            className="object-cover op-0 z-0 left-0 w-full h-full blur-2xl opacity-70"
+            className="object-cover z-0 left-0 w-full h-full blur-2xl opacity-50"
             alt="Ding design"
           />
         </div>
