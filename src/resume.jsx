@@ -41,7 +41,7 @@ export default function ResumeShowPage() {
         <GoCloudDownload className='text-2xl text-white'/>
         </div>
     <div className='flex h-full items-center justify-center '>
-      <Document file={resume2}  onLoadSuccess={onDocumentLoadSuccess} className = "h-[2430px] overflow-hidden" onLoadError={console.error}>
+      <Document file={resume2} options={{workerSrc: "pdf.worker.js"}}  onLoadSuccess={onDocumentLoadSuccess} className = "h-[2430px] overflow-hidden" onLoadError={console.error}>
          <Page  scale={2} pageNumber={pageNumber} renderTextLayer={false}  renderMode="canva" className=""/>
       </Document>
     </div>
