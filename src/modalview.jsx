@@ -1,11 +1,33 @@
 import React from "react";
+import emailjs from '@emailjs/browser'; 
+import { useRef } from "react";
+import {RiCloseLine} from  'react-icons/ri'
 
 export default function Modal() {
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log("..... sending the email");
+    emailjs.sendForm('service_er7vo1n', 'template_dd9w8on', form.current, 'FRxqZkMD3q3ETE3-I')
+      .then((result) => {
+        console.log("Sending the email Success ✅");
+          console.log(result.text);
+      }, (error) => {
+         console.log("EOOOEEEERRRRRRRRR 🤬")
+          console.log(error.text);
+      });
+      setShowModal(false);
+      e.target.reset();
+      alert("Thanks for Reaching Out 🙂");
+  };
+
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
       <button
-        className="bg-leulePrime  active:bg-leulePrime/80 font-leuleFont text-white font-bold text-sm px-6 py-3 shadow-green-400 shadow-xs outline-none focus:outline-none mr-1 mb-1 mt-4 rounded-full ease-linear transition-all duration-150"
+        className="bg-leulePrime hover:shadow-md hover:shadow-[#7A5FFF] active:bg-leulePrime/80 font-leuleFont text-white font-bold text-sm px-6 py-3  shadow-xs outline-none focus:outline-none mr-1 mb-1 mt-4 rounded-full ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -16,64 +38,59 @@ export default function Modal() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+            <div className="relative  w-full md:w-1/2 my-6 mx-auto max-w-3xl">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-400/80 outline-none focus:outline-none">
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-800/80 outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                 <div>
-                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Me</h2>
-               <p class="mb-4 lg:mb-4 font-light text-center text-slate-800 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+                <div className="flex items-start justify-between px-6 py-4 border-b border-solid border-slate-600 rounded-t">
+                 <div className="flex flex-col items-start justify-center">
+                 <h2 class="mb-1 text-3xl tracking-tight font-extrabold text-start text-leulePrime">Get in touch</h2>
+               <p class="mb-2 lg:mb-2 font-light text-start text-slate-500 sm:text-lg">Ready to do great things with you.</p>
         
                  </div>
-                  <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button>
+
+                    <RiCloseLine onClick={() => setShowModal(false)} className=" float-right h-6 w-6 text-white/50"/>
+                  
+                 
                 </div>
+                <form ref={form} onSubmit={sendEmail}>
                 {/*body*/}
-                <div className="relative p-6 flex-auto">
-                <form action="#" class="space-y-8">
+                <div className="relative p-6 space-y-6 flex-auto">
           <div>
-              <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
-              <input type="email" id="email" class="shadow-sm border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@flowbite.com" required/>
+              <label for="Name" class="block mb-2 text-sm font-medium text-gray-300">Your full name</label>
+              <input type="text" name="user_name" class="shadow-sm border border-slate-500 text-gray-300 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="luel sisay" required/>
+          </div>     
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-300">Your email</label>
+              <input type="email" name="user_email" class="shadow-sm border border-slate-500 text-gray-300 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@gmail.com" required/>
           </div>
           <div>
-              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 ">Subject</label>
-              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Let us know how we can help you" required />
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-300 ">Subject</label>
+              <input type="text" name="subject" class="block p-3 w-full text-sm text-gray-300 rounded-lg border border-slate-500 shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Let me know how I can help you" required />
           </div>
           <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
-              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-300 ">Your message</label>
+              <textarea name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-300 rounded-lg shadow-sm border border-slate-500 focus:ring-primary-500 focus:border-primary-500 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
-          <button type="submit" class="py-3 px-5 text-sm font-medium text-center  rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 bg-primary-600 hover:bg-primary-700 focus:ring-primary-800">Send message</button>
-      </form>
+        
                 </div>
                 {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                <div className="flex items-center justify-center p-6 border-t border-solid border-slate-600 rounded-b">
+
+
+                 
                   <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
+                    className="bg-leulePrime w-full md:w-1/2  active:bg-leulePrime/70 text-white text-sm px-6 py-3 rounded-full mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="submit"
                   >
-                    Close
-                  </button>
-                  <button
-                    className="bg-emerald-500  active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Save Changes
+                    Send Messsage
                   </button>
                 </div>
+                </form>
               </div>
             </div>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+          <div className="opacity-50 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
     </>

@@ -40,7 +40,10 @@ function HeroPage() {
                 Software engineer | Mobile First app developer | <br className="md:block hidden" />
                 UI/UX designer | Graphic Designer
               </p>
-              <Modal/>
+              <div className=" w-full flex items-center justify-center md:justify-start">
+              <Modal />
+              </div>
+              
             </div>
          
             

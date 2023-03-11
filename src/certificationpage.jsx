@@ -1,5 +1,7 @@
 import leftdecor from "./assets/decoration/leftDecor.png";
-import calartCertificate from "./assets/Certificates/calarts.png";
+
+import { Certificates } from "./files";
+
 import CertificateNew from "./CertificateNew";
 
 
@@ -13,11 +15,14 @@ function CertificationPage() {
       <h1 className="flex text-4xl font-semibold text-leulePrime">
         Certification
       </h1>
+     
       
 
       <div className="flex flex-col gap-40 items-start md:flex-row w-full">
-      <CertificateNew cert={calartCertificate}/>
-      <CertificateNew cert={calartCertificate}/>
+      {
+        Certificates.map((cert)=>
+          <CertificateNew cert={cert}/>)
+      }
       </div>
 
      

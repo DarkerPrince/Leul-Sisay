@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { BsPersonCircle, BsTelegram } from "react-icons/bs";
+import {GiMouthWatering} from 'react-icons/gi'
+import { BsTelegram } from "react-icons/bs";
 import { AiFillBehanceCircle, AiFillDribbbleCircle, AiFillLinkedin } from "react-icons/ai";
 import {SiReadthedocs} from 'react-icons/si'
 import styles from './contactme.module.css'
@@ -54,7 +55,7 @@ export default function ContactmeNew() {
     <nav className={ ` ${styles["menu"]}  `} >
   <input type="checkbox" href="/" className={ ` ${contactDisplay} `}  name="menu-open" id="menu-open"/>
   <label className={ ` ${styles["menu-open-button"]}  `}  htmlFor="menu-open">
-    <span className={ ` ${styles["hamburger hamburger-1"]} `} ><BsPersonCircle/></span>
+    <span className={ ` ${styles["hamburger hamburger-1"]} `} ><GiMouthWatering/></span>
   </label>
   
   <a href="https://www.behance.net/luel_sisay" rel="noreferrer" target="_blank" className={ ` ${styles["menu-item"]} `}> <AiFillBehanceCircle/> </a>

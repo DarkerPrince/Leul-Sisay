@@ -2,10 +2,10 @@
   filter: url("#shadowed-goo");
 }
 .menu-open-button {
-  background: white;
-  color: #fd1b53;
+  background: #fd1b53;
+  color: white;
   border-radius: 100%;
-  padding: 12px;
+  padding: 10px;
   font-size: 32px;
   margin-left: -40px;
   position: absolute;

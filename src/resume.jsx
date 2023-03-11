@@ -22,7 +22,7 @@ export default function ResumeShowPage() {
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'Leule_resume.pdf';
+            alink.download = 'LuelSisay-resume.pdf';
             alink.click();
         })
     });

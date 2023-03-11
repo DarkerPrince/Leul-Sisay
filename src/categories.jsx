@@ -36,7 +36,7 @@ function Categories() {
         {" "}
         Professions
       </h2>
-      <div ref={myRef} className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 self-center  w-full mt-4 lg:mt-8`}>
+      <div ref={myRef} className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 md:gap-6 self-center  w-full md:px-12 mt-4 lg:mt-8`}>
         <div className={`${enteranceScene? styles.show : styles.hidden} ${styles.categorycard} mx-auto h-full w-full self-center max-w-sm px-4 pt-4 rounded-lg bg-gray-800 border-gray-700`}>
           <div className="flex flex-col items-center pb-10">
             <UILottieAnimation className="h-48 w-48" play />;

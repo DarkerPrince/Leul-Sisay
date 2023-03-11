@@ -2047,4 +2047,19 @@ export const ProgrammingSkillItems = [
   },
 ]
 
+export const Certificates = [
+  {
+    id:1,
+    title: "Cal Arts",
+    contents :"It is the formal attestation or confirmation of certain characteristics of an object, person, or organization. This confirmation is often, but not always, provided by some form of external review, education, assessment, or audit. Accreditation is a specific organization's process of certification.",
+    imageID : "./assets/Certificates/calarts.png"
+  },
+  {
+    id:2,
+    title: "Kibur College Certificate",
+    contents :"It is the formal attestation or confirmation of certain characteristics of an object, person, or organization. This confirmation is often, but not always, provided by some form of external review, education, assessment, or audit. Accreditation is a specific organization's process of certification.",
+    imageID : "./assets/Certificates/calarts.png"
+  }
+]
+
 
