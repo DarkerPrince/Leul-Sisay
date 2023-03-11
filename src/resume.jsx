@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import {pdfjs} from 'react-pdf'
 import resume from './assets/skills/resume.pdf'
 import resume2 from './assets/skills/resume2.pdf'
 
 import {GoCloudDownload} from 'react-icons/go'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function ResumeShowPage() {
   
