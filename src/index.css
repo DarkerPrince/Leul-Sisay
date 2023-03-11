@@ -9,6 +9,7 @@
   @apply bg-white/20 rounded-md inline px-4 py-2;
 }
 
+
 .tag3 {
   @apply bg-white/20 text-slate-50  w-max rounded-md inline px-4 py-2;
 }
