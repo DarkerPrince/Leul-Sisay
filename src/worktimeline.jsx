@@ -3,6 +3,7 @@ import AIT from "./assets/company/AIT.png";
 import Kibur from "./assets/company/kibur.jpg";
 import SSC from "./assets/company/SSC.png";
 import Kemer from "./assets/company/kemer.png";
+import lmis from "./assets/company/lmislogo.png"
 
 function WorkTimeline() {
   return (
@@ -70,7 +71,7 @@ function WorkTimeline() {
           <img
             src={AIT}
             alt="AIT TECH"
-            className="w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
+            className="shadow-lg w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
           />
         </div>
       </div>
@@ -122,7 +123,7 @@ function WorkTimeline() {
           <img
             src={SSC}
             alt="SSC TECH"
-            className="w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
+            className="shadow-lg w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
           />
         </div>
       </div>
@@ -178,7 +179,7 @@ function WorkTimeline() {
           <img
             src={Kemer}
             alt="Kemer Habesha"
-            className="w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
+            className="shadow-lg w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
           />
         </div>
       </div>
@@ -238,7 +239,7 @@ function WorkTimeline() {
           <img
             src={Kibur}
             alt="Kibur College"
-            className="w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
+            className="shadow-lg w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
           />
         </div>
       </div>
@@ -297,9 +298,9 @@ function WorkTimeline() {
             </div>
           </div>
           <img
-            src={Kemer}
+            src={lmis}
             alt="Kemer Habesha"
-            className="w-[50px] h-[50px] mb-5   object-contain bg-white rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
+            className="w-[50px] h-[50px] mb-5   object-contain bg-white p-2 shadow-lg rounded-full border-leulePrime border-2 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"   
           />
         </div>
       </div>

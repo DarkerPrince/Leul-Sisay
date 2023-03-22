@@ -2,11 +2,11 @@ import HeroPage from "./heropage";
 import SkillsPage from "./skillspage";
 import CertificationPage from "./certificationpage";
 import CarrerSummary from "./careersummary";
-import FooterComponent from "./footerPage";
+
 
 import Categories from "./categories";
 
-import { Link } from "react-router-dom";
+
 import WorkGallery from "./gallerypage";
 
 

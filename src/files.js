@@ -898,7 +898,7 @@ var blogFiles = [
   {
     id: 19,
     color:"bg-[#5432A1]",
-    title: "Ethiopian Migrants Database Management system",
+    title: "Labor Dashboard counting Design",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
     moreContent: [
@@ -922,9 +922,9 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
- imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
-  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
-  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
+ imageID:["https://drive.google.com/uc?export=view&id=1d43OcBS6ke1flmnUPtOH9uftrghV-Bbs",
+  "https://drive.google.com/uc?export=view&id=1A3-81mo3c84JTypACLn0qamSgE4SGkMo",
+
   
   
   ],
