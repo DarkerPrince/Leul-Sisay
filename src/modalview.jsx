@@ -42,10 +42,10 @@ export default function Modal() {
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-800/80 outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start justify-between px-6 py-4 border-b border-solid border-slate-600 rounded-t">
-                 <div className="flex flex-col items-start justify-center">
-                 <h2 class="mb-1 text-3xl tracking-tight font-extrabold text-start text-leulePrime">Get in touch</h2>
-               <p class="mb-2 lg:mb-2 font-light text-start text-slate-500 sm:text-lg">Ready to do great things with you.</p>
+                <div className="flex items-start justify-between px-6  py-2 border-b border-solid border-slate-600 rounded-t">
+                 <div className="flex flex-col items-center w-full justify-center">
+                 <h2 class="mb-1 text-2xl tracking-tight font-bold text-start text-leulePrime">Get in touch</h2>
+               <p class="mb-2 lg:mb-2 font-light text-start text-slate-600 sm:text-lg">Ready to do great things with you.</p>
         
                  </div>
 
@@ -70,17 +70,15 @@ export default function Modal() {
           </div>
           <div class="sm:col-span-2">
               <label for="message" class="block mb-2 text-sm font-medium text-gray-300 ">Your message</label>
-              <textarea name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-300 rounded-lg shadow-sm border border-slate-500 focus:ring-primary-500 focus:border-primary-500 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+              <textarea name="message" rows="6" class="block p-3 w-full text-sm text-gray-300 rounded-lg shadow-sm border border-slate-500 focus:ring-primary-500 focus:border-primary-500 bg-gray-700 placeholder-gray-400  focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
         
                 </div>
                 {/*footer*/}
-                <div className="flex items-center justify-center p-6 border-t border-solid border-slate-600 rounded-b">
-
-
+                <div className="flex items-center justify-center p-2.5 pb-3 ">
                  
                   <button
-                    className="bg-leulePrime w-full md:w-1/2  active:bg-leulePrime/70 text-white text-sm px-6 py-3 rounded-full mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="bg-leulePrime w-full md:w-1/2  active:bg-leulePrime/70 text-white text-sm px-6 py-3 rounded-lg mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                   >
                     Send Messsage

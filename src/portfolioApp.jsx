@@ -4,7 +4,7 @@ import BlogDetial from "./blogdetail";
 import Homepage from "./homepage";
 import NavigationBar from "./navigationbar";
 import ResumeShowPage from "./resume";
-
+import { AnimatePresence } from "framer-motion";
 import ScrollToTop from "./ScrolltoTop";
 
 
@@ -18,12 +18,14 @@ function App() {
       <BrowserRouter>
       <NavigationBar/>
         <ScrollToTop/>
+        <AnimatePresence initial={false} mode="wait">
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/blog" element={<Blog />} />
           <Route path="/resume" element={<ResumeShowPage />} />
           <Route path="/blog/blogs/:id" element={<BlogDetial/>} />
         </Routes>
+        </AnimatePresence>
       </BrowserRouter>
     </div>
   );

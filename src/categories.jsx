@@ -17,7 +17,6 @@ function Categories() {
     useEffect(() => {
       
       const observer = new IntersectionObserver((enteries)=>{
-
        const entry = enteries[0];
        setEnteranceScene(entry.isIntersecting);
        });

@@ -1,10 +1,15 @@
 import blogFiles from "./files";
 
+
 import { useNavigate } from 'react-router-dom'
 import { MdCommentBank } from "react-icons/md";
+import BlogImage from "./blogImage";
 
 function Blog() {
   const navigate = useNavigate();
+
+
+  
 
   function navigateMethod(idindex){
     console.log("navigating on the gallery function")
@@ -15,19 +20,23 @@ function Blog() {
     <div className=" px-4 lg:px-24 flex flex-col justify-between">
       {blogFiles.map((file) => (
         <div key={file.id} 
-          onClick={()=> navigateMethod(file.id)} 
-        className=" grid  grid-cols-1 py-4  lg:grid-cols-1  gap-3 border-b-2 border-white/5 ">
+          onClick={()=> navigateMethod(file.id-1)} 
+           className=" grid  grid-cols-1 py-4 lg:px-[10%]  lg:grid-cols-1  gap-3 border-b-2 border-white/5 ">
           <div 
             className={`flex flex-col   overflow-visible justify-end  lg:flex-row w-full
             mb-4 rounded-xl items-start text-white   p-4`}
     
           >
-            <img 
+            <div  className={`h-64  w-full lg:w-1/2 `}>
+            <BlogImage file={file}/>
+            </div>
+       
+            {/* <img 
               src={`${file.imageID[0]}`}
               loading="lazy"
               alt={file.title + " here"}
               className={`rounded-lg mb-4 hover:scale-110  opacity-100 transition-all duration-[0.2s] ease-in-out text-black object-cover h-64  w-full lg:w-1/2
-            `}/>    
+            `}/>     */}
             
             <div
               className="flex flex-col lg:w-1/2 justify-between gap-1

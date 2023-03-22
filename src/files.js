@@ -49,7 +49,7 @@ var blogFiles = [
     color:"bg-[#dbdbda]",
     title: "Ding - Ideal for Mobile topup for ethiopia",
     content:
-      "The Cooperative Bank of Oromia (also known as Coopbank) is a community-oriented bank that provides banking services to individuals, cooperatives, businesses, foreigners, and Ethiopians in the Diaspora. Coopbank has more than 567 branch networks, 8.8 million account holders, and 11,500+ employees.",
+      "I discovered a website called [Ding] that aids those other nations in assisting them in resolving the issues they were having, in showing their love and support for those in need by, among other things, providing them with gifts that include mobile top-ups from their country, which will greatly benefit them and make them smile.",
     moreContent: [
       "It is estimated that more than 3 million Ethiopians reside abroad. North America, Europe, and the Gulf are Ethiopian migrants' top destinations. Most of the time, they find it tough to find ways to assist their loved ones, and most of the time it takes longer time, and about 90% of them have relatives living inside of Ethiopia, which they support by any form of income they gained there. ",
       "The majority of them struggle with how to transmit any kind of assistance, like money, documents, or in our case, cell top-up platforms, across the country. However, there are some that can aid them with this process but are a bit challenging for them to use.",
@@ -717,11 +717,7 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
- imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
-  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
-  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
-  
-  ],
+ imageID:["https://drive.google.com/uc?export=view&id=1d-rQgGSxpV0ujPlGWSCpUrMyYROoRtAt"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
     comments: [
@@ -873,9 +869,10 @@ var blogFiles = [
       "UX/hospital/mobHospital.png",
       "UX/hospital/webHospital.png",
     ],
- imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
-  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
-  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
+ imageID:["https://drive.google.com/uc?export=view&id=14fFgnMGME5-oYDDwBWGWNdcjOFEzUwUx",
+  "https://drive.google.com/uc?export=view&id=1F4KUJEdgjm1b9X149XK7Nlp66lkQFsrL",
+  "https://drive.google.com/uc?export=view&id=1CjDRkB0WSd8Ymh5VYvE7v7HmPNJAk4Ju",
+  "https://drive.google.com/uc?export=view&id=1ILPjQ_FfC3cKC1_EhSr6u45AoRPBtxuA"
   
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
@@ -1917,7 +1914,7 @@ export const CategoriesType =
    {
   id:1,
   categoryName:"UI/UX",
-  categoriesDetail:"Designing the user interface and user experiance for digital devices",
+  categoriesDetail:"Designing the user interface and user experience for digital devices",
   image:"seom lotti files here"
 },{
   id:2,
