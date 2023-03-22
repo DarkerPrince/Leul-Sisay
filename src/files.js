@@ -147,15 +147,14 @@ var blogFiles = [
   },
   {
     id: 4,
-    color:"bg-[#f44336]",
-    title: "Anbessa Bus\nPassenger and Driver side application",
+    color:"bg-[#5432A1]",
+    title: "Ethiopian Labor Market Information System Landing page",
     content:
-      " It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
     moreContent: [
-      "The Anbessa City Bus started as a share company founded in 1945 and owned by Emperor Haile Selassie and members of the royal family, before it was nationalized in 1974. It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
-      "In order for the anbessa bus transporters to easily access their preferred public bus transportation with their mobile devices, I designed and developed the mobile application. This platform primarily has three sides, which are the passenger, driver, and admin sides. Below, I'll explain some fundamental functionalities for the drivers and passengers.",
-      "Anbessa bus passengers: The bus passengers utilize this application to simply find where the bus they needed was heading and be told when it arrived at their destination where they were located. They can also easily find out where the buses are beginning and ending as well as all the intermediate bus stops. They can easily rate the driver, either by complimenting them or by criticizing them if they feel they are not doing a good job. Finally, the most important step is purchasing a ticket. This might be a daily ticket, a package for a week or a month, or a monthly ticket with a discount , and those tickets are scanned by the driver when they enter the bus",
-      "Anbessa bus Driver: The bus driver has fewer functionalities than the passengers. He will only log in with his account and if he is assigned a path or road (in our case, the bus number), he will insert that number and start his journey.  The bus driver can read the qr code tickets that the passengers purchased and allow them to board the bus. He can also print manual tickets for those who do not have access to smartphones, which are quite common in our country, and print them for them.",
+      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
+      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -169,14 +168,15 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: [
-      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
-      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
-      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
+      "UX/hospital/deskHospital.png",
+      "UX/hospital/mobHospital.png",
+      "UX/hospital/webHospital.png",
     ],
-    imageID:[
-      "https://drive.google.com/uc?export=view&id=1e8lqZOF0kJmQck68awKQbnv3zrGaynrT",
-      "https://drive.google.com/uc?export=view&id=1rvvbOcbGWlmJrIhVH73v5HLQljH7rgIb",
-       "https://drive.google.com/uc?export=view&id=1xtUjpZ2nXXoVduxMlANe7iTDmyu3ffyI",    
+ imageID:["https://drive.google.com/uc?export=view&id=14fFgnMGME5-oYDDwBWGWNdcjOFEzUwUx",
+  "https://drive.google.com/uc?export=view&id=1F4KUJEdgjm1b9X149XK7Nlp66lkQFsrL",
+  "https://drive.google.com/uc?export=view&id=1CjDRkB0WSd8Ymh5VYvE7v7HmPNJAk4Ju",
+  "https://drive.google.com/uc?export=view&id=1ILPjQ_FfC3cKC1_EhSr6u45AoRPBtxuA"
+  
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -844,14 +844,15 @@ var blogFiles = [
   },
   {
     id: 18,
-    color:"bg-[#5432A1]",
-    title: "Ethiopian Labor Market Information System Landing page",
+    color:"bg-[#f44336]",
+    title: "Anbessa Bus\nPassenger and Driver side application",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      " It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "The Anbessa City Bus started as a share company founded in 1945 and owned by Emperor Haile Selassie and members of the royal family, before it was nationalized in 1974. It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
+      "In order for the anbessa bus transporters to easily access their preferred public bus transportation with their mobile devices, I designed and developed the mobile application. This platform primarily has three sides, which are the passenger, driver, and admin sides. Below, I'll explain some fundamental functionalities for the drivers and passengers.",
+      "Anbessa bus passengers: The bus passengers utilize this application to simply find where the bus they needed was heading and be told when it arrived at their destination where they were located. They can also easily find out where the buses are beginning and ending as well as all the intermediate bus stops. They can easily rate the driver, either by complimenting them or by criticizing them if they feel they are not doing a good job. Finally, the most important step is purchasing a ticket. This might be a daily ticket, a package for a week or a month, or a monthly ticket with a discount , and those tickets are scanned by the driver when they enter the bus",
+      "Anbessa bus Driver: The bus driver has fewer functionalities than the passengers. He will only log in with his account and if he is assigned a path or road (in our case, the bus number), he will insert that number and start his journey.  The bus driver can read the qr code tickets that the passengers purchased and allow them to board the bus. He can also print manual tickets for those who do not have access to smartphones, which are quite common in our country, and print them for them.",
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -865,15 +866,14 @@ var blogFiles = [
       "Photoshop",
     ],
     pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
+      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
+      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
+      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
     ],
- imageID:["https://drive.google.com/uc?export=view&id=14fFgnMGME5-oYDDwBWGWNdcjOFEzUwUx",
-  "https://drive.google.com/uc?export=view&id=1F4KUJEdgjm1b9X149XK7Nlp66lkQFsrL",
-  "https://drive.google.com/uc?export=view&id=1CjDRkB0WSd8Ymh5VYvE7v7HmPNJAk4Ju",
-  "https://drive.google.com/uc?export=view&id=1ILPjQ_FfC3cKC1_EhSr6u45AoRPBtxuA"
-  
+    imageID:[
+      "https://drive.google.com/uc?export=view&id=1e8lqZOF0kJmQck68awKQbnv3zrGaynrT",
+      "https://drive.google.com/uc?export=view&id=1rvvbOcbGWlmJrIhVH73v5HLQljH7rgIb",
+       "https://drive.google.com/uc?export=view&id=1xtUjpZ2nXXoVduxMlANe7iTDmyu3ffyI",    
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",

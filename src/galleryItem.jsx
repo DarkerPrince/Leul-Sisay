@@ -10,7 +10,9 @@ export default function GalleryItem({val}) {
         console.log("navigating on the gallery function")
         navigate(`/blog/blogs/${idindex}` , { state : {...val}} );
       }
+      console.log(val.id===4, val.title);
   return (
+   
     <div 
             onClick={()=> navigateMethod(val.id+1) } 
             className='h-full w-full overflow-hidden rounded-md group'>
@@ -22,16 +24,9 @@ export default function GalleryItem({val}) {
               </p>
               </div>
               
-              {/* <Image
-          
-                 src={blogFiles[props.val].imageID[0]}
-                 fadeIn = {true}
-            
-                 fallback={<Shimmer className="object-cover h-full w-full rounded-md" />}
-      /> */}
-
+           
               <img
-              className="object-cover h-full w-full rounded-md"
+              className={`${val.id===4?"object-contain":"object-cover"} h-full w-full rounded-md`}
               src={val.imageID[0]}
               
               loading="lazy"
