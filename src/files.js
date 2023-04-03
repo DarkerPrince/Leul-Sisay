@@ -150,11 +150,12 @@ var blogFiles = [
     color:"bg-[#5432A1]",
     title: "Ethiopian Labor Market Information System Landing page",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "ELMIS - Ethiopian Labor Market Information System",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "The Ethiopian Labor Market Information System (ELMIS) is a comprehensive online platform for employers, employees and job seekers in Ethiopia. This system was developed by the International Labour Organization (ILO) with the aim of improving access to labor market information in Ethiopia. The ELMIS provides users with up-to-date data on employment opportunities, wages, working conditions and other relevant information related to the local labor market. ",
+      "UI design plays an important role in making sure that people can easily use any application or website they interact with. For ELMIS specifically, UI design helps ensure that users are able to quickly find what they need within this complex database of information about jobs and wages across different sectors within Ethiopia’s economy. ",
+      " To make sure it meets user needs effectively, ILO has conducted extensive research into how best to structure its interface so as not only provide easy navigation but also display all necessary details clearly without being too cluttered or overwhelming for users unfamiliar with using such databases before hand . As part of this process , ILO has identified key elements which should be included when designing a successful user interface for ELMIS including; clear menus , search filters , visualisations & graphs as well as intuitively organised content . Additionally , usability testing was conducted among target audiences from various backgrounds prior launching the final product ensuring their feedback & insights were taken into account during development stages . ",
+    "Overall UI Design is an integral aspect when creating applications like ELMSI since it determines whether potential customers will be attracted towards using them or not due its intuitiveness & accessibility factors thus having great impact on overall success rate over long term period"
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -167,11 +168,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
  imageID:["https://drive.google.com/uc?export=view&id=14fFgnMGME5-oYDDwBWGWNdcjOFEzUwUx",
   "https://drive.google.com/uc?export=view&id=1F4KUJEdgjm1b9X149XK7Nlp66lkQFsrL",
   "https://drive.google.com/uc?export=view&id=1CjDRkB0WSd8Ymh5VYvE7v7HmPNJAk4Ju",
@@ -557,11 +554,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
    imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
   "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
   "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
@@ -592,11 +585,12 @@ var blogFiles = [
     color:"bg-[#5432A1]",
     title: "Wedding Website",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Wedding Website Hero Page design",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "Creating an effective user interface (UI) for a wedding website is key to keeping users engaged and coming back. A UI designer needs to consider the audience, target market, content, and features when designing the website's hero page. In this blog post we'll discuss some of the best practices for creating a great UI design on a wedding website hero page. ",
+      "First off, it’s important to understand who your audience is so that you can tailor your design accordingly. Are you targeting couples planning their own weddings or those attending someone else’s? Knowing this information will help inform decisions such as which types of images should be featured on the homepage and what language should be used in copywriting elements like headlines or calls-to-action (CTAs). ",
+      "Research plays an essential role in successful web design projects – especially when it comes to crafting effective UIs for websites with specific audiences like weddings sites have. It’s important to research similar websites within your industry so that you can get inspired by what works well from them while avoiding any potential pitfalls they may have encountered along their journey into success! Additionally researching competitors gives insight into how other businesses are marketing themselves towards customers who are looking for services related yours - giving ideas about how different aspects could potentially look better than before!  ",
+      "The next step involves understanding exactly what type of content needs highlighting on the homepage; photos from real weddings create instant engagement since people tend relate more easily with visuals rather than text alone - showcasing happy couples tying knot helps set tone & feel desired atmosphere right away! Other elements such as video clips featuring testimonials also work wonders because they give potential customers glimpse at kind service provided through first person accounts instead just relying solely upon written descriptions given by company itself – further helping build trustworthiness reputation site has amongst its visitors too!. Finally don't forget include clear CTAs throughout entire webpage ensure viewers know exactly how take action if interested any offerings presented thereupon ensuring maximum conversions possible each visit made!."
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -609,11 +603,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
    imageID:[
   "https://drive.google.com/uc?export=view&id=1CjpEwHDYF-Z1wh8QLKJF2lhAR-5Vqc-p"
   
@@ -643,11 +633,12 @@ var blogFiles = [
     color:"bg-[#5432A1]",
     title: "Quiz Bet",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Win eazy MONEY💰 just by answering simple questions.",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "The world of online betting is becoming increasingly popular, and mobile applications are making it even more accessible. One such app that has recently gained traction is a quiz-style betting game that rewards users with money if they answer all the questions correctly. This type of application combines two popular activities - gambling and education - into one unique experience. ",
+      "When designing a user interface (UI) for this kind of application, there are several factors to consider in order to ensure an enjoyable experience for players. Firstly, the UI should be intuitive and easy to navigate so as not to deter potential customers from playing the game due to confusion or frustration over how it works or looks like on their device screens; secondly, research should be conducted into what types of questions would best engage players while also providing them with an educational benefit; lastly but most importantly – safety measures must be put in place so as not only protect users’ data but also give them peace-of-mind when playing these games online. ",
+      "In terms of question selection for this type of app, developers need to choose topics carefully based on market research into what kinds people would find interesting yet challenging enough at the same time whilst still being somewhat educational in nature – science related topics seem particularly suitable here given its popularity amongst many demographics today . Furthermore , since this particular genre requires real money stakes , developers must take extra care ensuring all security protocols are up-to date ; encryption technology can help keep player information safe while payment gateways such as Stripe & PayPal can provide secure transactions between parties involved . ",
+      " To sum up , developing a UI design specifically tailored towards quiz style betting apps involves careful consideration regarding both UX/UI elements plus additional features needed including appropriate question selections & robust security measures too . With proper planning & execution however , these types applications have great potentials bringing fun filled experiences combined with learning opportunities together through engaging gameplay mechanics which may appeal greatly within certain markets around today's digital age"
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -660,11 +651,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
    imageID:["https://drive.google.com/uc?export=view&id=10FZiz-mlwR4UUtgCBM4yqNz2nyt2g1Xk",
    "https://drive.google.com/uc?export=view&id=1gL8dF2IyXCkjP1iVHz9NDPGWMaLbsz0g",
    "https://drive.google.com/uc?export=view&id=1dDBPoqilRHu276DRK0DAlf_q2BvCcXpa"
@@ -695,11 +682,12 @@ var blogFiles = [
     color:"bg-[#5432A1]",
     title: "Investment Web",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "This is a conceptual platform for connecting investors with wide range of businesses",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "As the world of technology continues to evolve, so too does the way that investors are able to interact with startups and small businesses. In Ethiopia, a new investment platform has been created that allows investors to invest in startup ideas and businesses while also providing resources for those who have an idea but need funding or patent rights. ",
+      "The UI design I created for this platform was designed with simplicity in mind; it's easy-to-use interface allows users to quickly navigate through various sections such as investment options, portfolio management tools, and research materials. All of these features are organized into intuitive menus which allow users to easily find what they’re looking for without having any prior knowledge about investing or business operations. Additionally, all information is presented clearly on each page so that even novice investors can understand how things work quickly and accurately make decisions about their investments accordingly. ",
+      "The main goal of this UI design was not only ease-of use but also security; we made sure every user’s data is encrypted at all times by using industry standard encryption algorithms throughout the entire platform - from login pages right down individual transactions - ensuring maximum protection against cyber threats like identity theft or fraudulence activities . We also implemented two factor authentication systems which require both a username & password combination as well as another form of identification (such as fingerprint scanning) before allowing access into user accounts – adding an extra layer safety when handling sensitive financial information online . ",
+      " Overall , my team did an excellent job creating a secure yet simple UI design tailored specifically towards helping Ethiopian entrepreneurs get started with their innovative ideas while simultaneously enabling more experienced investor s gain better insights on potential investments opportunities within Ethiopia ‘s growing market landscape"
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -712,11 +700,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
  imageID:["https://drive.google.com/uc?export=view&id=1d-rQgGSxpV0ujPlGWSCpUrMyYROoRtAt"],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -741,7 +725,7 @@ var blogFiles = [
   {
     id: 16,
     color:"bg-[#5432A1]",
-    title: "Ethiopian Labor Market Information System Job portal",
+    title: "Ethiopian Labor Market Information System Biometrics Registration",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
     moreContent: [
@@ -760,11 +744,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
  imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
   "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
   "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
@@ -792,58 +772,6 @@ var blogFiles = [
   },
   {
     id: 17,
-    color:"bg-[#5432A1]",
-    title: "Ethiopian Labor Market Information System Biometrics Registration",
-    content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-    moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
-    ],
-    postedDate: "Aug 12, 2022",
-    tags: [
-      "UI/UX",
-      "UI",
-      "UX",
-      "CaseStudy",
-      "Adobe XD",
-      "Adobe Suits",
-      "Illustrator",
-      "Photoshop",
-    ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
- imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
-  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
-  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
-  
-  ],
-    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
-    developer: "Leul sisay",
-    comments: [
-      {
-        content: "I Don't relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "I relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "Im inlove with this",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-    ],
-  },
-  {
-    id: 18,
     color:"bg-[#f44336]",
     title: "Anbessa Bus\nPassenger and Driver side application",
     content:
@@ -896,15 +824,16 @@ var blogFiles = [
     ],
   },
   {
-    id: 19,
+    id: 18,
     color:"bg-[#5432A1]",
     title: "Labor Dashboard counting Design",
     content:
       "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "The Labor Market Information System (LMIS) is a platform developed by Ethiopians to help track and count the number of registered laborers in Ethiopia. This system was created with the aim of helping businesses better understand labor trends, allowing them to make informed decisions about hiring practices and workforce development strategies. By providing employers with up-to-date information on available workers, LMIS helps ensure that there are enough qualified applicants for positions when they become available. ",
+      "As part of this system, an intuitive user interface (UI) has been designed to give users access to data regarding registered laborers in Ethiopia at any given time. The UI allows users not only view this data but also filter it based on various criteria such as location or profession type so they can more easily find what they’re looking for without having to scroll through pages upon pages of results manually. Additionally, the dashboard provides visualizations that allow employers quickly assess labor trends over time which makes it easier for them plan their staffing needs accordingly.  ",
+      " In order maximize usability and effectiveness , designers have taken great care when designing LMIS's UI by incorporating best design principles such as simplicity , clarity , consistency & responsiveness . For example: simple navigation structure enables users navigate between sections easily; clear labels & icons provide quick understanding ; consistent layout ensures no confusion while browsing; responsive design adapts well different device sizes making sure all content is visible regardless size screen used . All these features together create an enjoyable experience while using platform enabling people use effectively & efficiently without getting frustrated due lack usability issues common many other platforms out there today ",
+      "Overall, Ethiopian Government has done tremendous job creating Labor Market Information System - a powerful tool designed specifically address country’s need tracking& counting labors within its borders.. With its intuitive user interface combined best UX/UI practices  LMIS offers streamlined way view relevant information quickly accurately ensuring decision makers get most accurate picture possible when assessing current state affairs .."
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -917,11 +846,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
  imageID:["https://drive.google.com/uc?export=view&id=1d43OcBS6ke1flmnUPtOH9uftrghV-Bbs",
   "https://drive.google.com/uc?export=view&id=1A3-81mo3c84JTypACLn0qamSgE4SGkMo",
 
@@ -949,119 +874,16 @@ var blogFiles = [
     ],
   },
   {
-    id: 20,
-    color:"bg-[#5432A1]",
-    title: "ELMIS - Job Demand Management System",
-    content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-    moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
-    ],
-    postedDate: "Aug 12, 2022",
-    tags: [
-      "UI/UX",
-      "UI",
-      "UX",
-      "CaseStudy",
-      "Adobe XD",
-      "Adobe Suits",
-      "Illustrator",
-      "Photoshop",
-    ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
- imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
-  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
-  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
-  
-  ],
-    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
-    developer: "Leul sisay",
-    comments: [
-      {
-        content: "I Don't relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "I relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "Im inlove with this",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-    ],
-  },
-  {
-    id: 21,
-    color:"bg-[#5432A1]",
-    title: "Project Freedom",
-    content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-    moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
-    ],
-    postedDate: "Aug 12, 2022",
-    tags: [
-      "UI/UX",
-      "UI",
-      "UX",
-      "CaseStudy",
-      "Adobe XD",
-      "Adobe Suits",
-      "Illustrator",
-      "Photoshop",
-    ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
- imageID:["https://drive.google.com/uc?export=view&id=1B2dNbbTCybl6hntDf_cHbot2A-NaiDwU",
-  "https://drive.google.com/uc?export=view&id=1eifGecF-H4TnjkyfVWFD4A1233fmw4_i",
-  "https://drive.google.com/uc?export=view&id=1RxY5KxFTkE5z6PXSffdctZ4U5DJ99hcA"
-  
-  ],
-    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
-    developer: "Leul sisay",
-    comments: [
-      {
-        content: "I Don't relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "I relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "Im inlove with this",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-    ],
-  },
-  {
-    id: 22,
+    id: 19,
     color:"bg-[#5432A1]",
     title: "Negat Renting",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "Renting anything. Negat Renting",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "Renting mobile applications are becoming more and more popular with consumers, as they provide an easy way to rent or lend items from a wide range of categories. Whether you’re looking for clothing, furniture, electronics, or something else entirely – there’s likely a rental app that can help you out. But before launching any such application it is important to understand the user interface (UI) design and research involved in creating an intuitive experience for users. ",
+      "The first step in UI design is understanding who your target audience is and what their needs are when using the application. This includes researching competitors within this space as well as conducting surveys with potential customers to get feedback on current designs or features they would like included in the product itself. Once this information has been gathered it can be used to create wireframes which outline how each page should look and function within the app itself - including buttons/icons placement & sizes along with other visual elements such as colors & fonts used throughout its pages/screens etc.. Additionally usability testing should also be conducted at various stages during development process so that any issues found by real users can be addressed quickly before launch date arrives! ",
+      "The next step involves researching different types of accessories available through rental apps; from clothes & furniture pieces all way up till electronic gadgets like laptops/TVs etc.. It's important here too understand what kind of items people would want access most frequently since these will need special attention when designing product features related them (like sorting options based on category). Additionally pricing structures should also researched thoroughly so that customers have access competitively priced rentals while still making sure company makes enough profit off each transaction!",
+      "Finally after all necessary data has been collected , developers then have task creating actual UI layout which takes into account both customer feedback UX best practices . This means incorporating things like clear navigation menus , logical hierarchy between pages / screens plus ensuring overall aesthetic remains consistent across entire platform ! By following these steps one can ensure their mobile renting application provides great user experience right away upon launch day - allowing everyone enjoy convenience offered by technology today without ever having worry about complicated setup processes getting lost among hundreds other similar products market !"
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -1074,11 +896,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
    imageID:["https://drive.google.com/uc?export=view&id=1r3Ymk8xKTG_nkbRxiq0cf3tA5BtB0ywy",
   "https://drive.google.com/uc?export=view&id=1QrSLyCxhpr1PMZJJvM73DHP7XGVGO_MO",
   
@@ -1104,15 +922,15 @@ var blogFiles = [
     ],
   },
   {
-    id: 23,
+    id: 20,
     color:"bg-[#5432A1]",
     title: "Ethio-Mart App",
     content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
+      "E Commerce for ethiopia,  Best and Fast",
     moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
+      "As Ethiopia continues to develop and embrace technology, the need for ecommerce mobile applications has become increasingly important. One such application is Ethiomart, an ecommerce platform designed specifically for Ethiopian customers. With this app, users can easily shop online from a variety of local businesses in Ethiopia and have their purchases delivered directly to their doorstep. ",
+      "The UI design of Ethiomart was developed with both user experience (UX) and user interface (UI) research in mind. The team conducted extensive market research into what people wanted from an e-commerce experience before designing the look and feel of the app itself. This included understanding how Ethiopians use digital devices like smartphones as well as researching customer preferences when it comes to shopping online versus offline experiences within Ethiopia’s cultural context. As a result, they created an intuitive interface that makes it easy for users to navigate through different product categories quickly while also providing helpful information about each item listed on the platform such as price comparisons or reviews written by other shoppers who have purchased similar products before them – all which helps make informed decisions easier than ever before! ",
+      "Additionally, Ethiomart also offers secure payment options via credit/debit cards or cash on delivery services so customers can be sure that their transactions are safe at all times even when purchasing items over long distances across countries without having accesses traditional banking systems like ATMs etc… All these features combined create a seamless shopping experience tailored towards Ethiopian needs making ethioMart one of its kind!"
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -1125,11 +943,7 @@ var blogFiles = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
+   
    imageID:["https://drive.google.com/uc?export=view&id=1eozdJ16GOHs37LnN3dpqGjhwkq3DRxyM",
   "https://drive.google.com/uc?export=view&id=1RGuFe_Mejm-ASZSby0_98qKQowdU2Z_X",
   
@@ -1153,55 +967,7 @@ var blogFiles = [
         email: "emailcommenter@gmail.com",
       },
     ],
-  },
-  {
-    id: 24,
-    color:"bg-[#5432A1]",
-    title: "Alen Jobs",
-    content:
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-    moreContent: [
-      "This is a conceptual platform for hospitals that will help them manage their patients and files much better.",
-      "Additionally, these applications will assist them in scheduling patients to see the doctors of their choice and allowing them to view all the physicians who have received the patients' approval.",
-      "Only the first stage of the design has been identified for both mobile and web-based platforms, and it will be able to display doctors when their appointments are and how many patients they will be seeing that day. On the other side, patients will also schedule with the doctor's available times and dates.",
-    ],
-    postedDate: "Aug 12, 2022",
-    tags: [
-      "UI/UX",
-      "UI",
-      "UX",
-      "CaseStudy",
-      "Adobe XD",
-      "Adobe Suits",
-      "Illustrator",
-      "Photoshop",
-    ],
-    pictures: [
-      "UX/hospital/deskHospital.png",
-      "UX/hospital/mobHospital.png",
-      "UX/hospital/webHospital.png",
-    ],
-   imageID:["https://drive.google.com/uc?export=view&id=1RijPxssw2avEHW2xL7sLxegLNQoUGSok"],
-    hint: "Reasearch Gathering analyzing and submitting mobile and web application",
-    developer: "Leul sisay",
-    comments: [
-      {
-        content: "I Don't relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "I relly like this my friend",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-      {
-        content: "Im inlove with this",
-        date: "June 20,2022",
-        email: "emailcommenter@gmail.com",
-      },
-    ],
-  },
+  }
 ];
 export default blogFiles;
 
@@ -1214,10 +980,11 @@ export const socialMediaPost = [
     content:
       " It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
     moreContent: [
-      "The Anbessa City Bus started as a share company founded in 1945 and owned by Emperor Haile Selassie and members of the royal family, before it was nationalized in 1974. It came to be a public enterprise only after it was re-established in 1994. Anbessa has recently begun to acquire buses assembled locally by the Metal & Engineering Corporation, a newly established military industrial complex of the Ethiopian government. It has included in its fleet more than 500 of these locally assembled buses known as Bishoftu Buses,",
-      "In order for the anbessa bus transporters to easily access their preferred public bus transportation with their mobile devices, I designed and developed the mobile application. This platform primarily has three sides, which are the passenger, driver, and admin sides. Below, I'll explain some fundamental functionalities for the drivers and passengers.",
-      "Anbessa bus passengers: The bus passengers utilize this application to simply find where the bus they needed was heading and be told when it arrived at their destination where they were located. They can also easily find out where the buses are beginning and ending as well as all the intermediate bus stops. They can easily rate the driver, either by complimenting them or by criticizing them if they feel they are not doing a good job. Finally, the most important step is purchasing a ticket. This might be a daily ticket, a package for a week or a month, or a monthly ticket with a discount , and those tickets are scanned by the driver when they enter the bus",
-      "Anbessa bus Driver: The bus driver has fewer functionalities than the passengers. He will only log in with his account and if he is assigned a path or road (in our case, the bus number), he will insert that number and start his journey.  The bus driver can read the qr code tickets that the passengers purchased and allow them to board the bus. He can also print manual tickets for those who do not have access to smartphones, which are quite common in our country, and print them for them.",
+      "Welcome to the Golden Door Spa! As a spa, we understand how important it is to have an eye-catching and engaging presence on social media. That's why we've invested in creating beautiful graphic designs for our posts that will help draw people in and make them feel inspired. ",
+      "Graphic design plays an important role when it comes to social media post design for spas like ours. It can be used as a way of communicating our brand message, showcasing our services, or even just adding some personality and flair into everyday posts. With the right graphics, you can easily create something unique that stands out from other similar businesses in your industry – which is essential if you want customers to take notice of your business online. ",
+      "At Golden Door Spa, we use high-quality visuals such as photos or illustrations that capture attention while still remaining consistent with our branding guidelines so they look professional yet inviting at the same time – perfect for drawing potential clients in! We also use creative typography combined with minimalistic shapes and colors so viewers are immediately drawn into what they're seeing without being overwhelmed by too much information all at once - this helps keep their attention focused on what matters most: Our products & services! ",
+      "Additionally ,we also leverage animation techniques such as GIFs or videos whenever possible because these types of content tend to perform better than static images alone; plus they add another layer of interactivity which helps engage users more effectively than traditional text-based posts would do alone . This combination makes sure no matter where someone sees us online (on Instagram , Facebook etc.),they'll always recognize us instantly thanks to its recognizable style & aesthetic appeal. ",
+      "So whether you're looking for ways spice up your existing social media strategy or need help getting started from scratch — let us know ! We'd love nothing more than helping bring life back into yours through captivating visual storytelling strategies tailored specifically towards achieving success within today’s digital landscape"
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -1225,13 +992,11 @@ export const socialMediaPost = [
       "Illustrator",
       "Photoshop",
     ],
-    pictures: [
-      "UX/Anbessa/AnbessaDriver/TabAnbessa.png",
-      "UX/Anbessa/AnbessaDriver/TabAnbessa2.png",
-      "UX/Anbessa/AnbessaPassenger/mobAnbessa.png",
-    ],
     imageID:[
-      "https://drive.google.com/uc?export=view&id=10N1OlB1vXMpNw5yrqdPU7tzx_2Yu6t_2" 
+      "https://drive.google.com/uc?export=view&id=10N1OlB1vXMpNw5yrqdPU7tzx_2Yu6t_2", 
+      "https://drive.google.com/uc?export=view&id=1FivsMV1xxyxAFg8TIVh9UgcIt36bAkxA",
+      "https://drive.google.com/uc?export=view&id=17FnK9CYDC8FaQcCZux7GWvMwDREy4u_u",
+      "https://drive.google.com/uc?export=view&id=1hc9qftcv8hbQOA67zuTOYkqAvu7vJJZa"
   ],
     hint: "Reasearch Gathering analyzing and submitting mobile and web application",
     developer: "Leul sisay",
@@ -1473,12 +1238,15 @@ export const socialMediaPost = [
     color:"bg-[#f2f2f1]",
     title: "Tevise Watch",
     content:
-      "X-ethiopia is conceptual design what might look like a great ethiopian featured mobile app",
+      "Tevise Watch with different themes",
     moreContent: [
-      "Ethiopia is located in the Horn of Africa, bordering Sudan, South Sudan, Kenya, Somalia, Eritrea and Djibouti. The country has the second biggest population in Africa, with over 50% of people being under 25 years of age.1 Due to the vast size of the population, it is important to recognise that descriptions of Ethiopian cultural customs can vary significantly. There are many distinct cultural practices that are specific to people’s region, ethnicity or religion. Despite this diversity, Ethiopians are generally united by their patriotism and pride in the country’s overarching cultural identity.",
-      "Ethiopia is the oldest independent country in Africa, once ruled as a dynasty by a series of monarchs. It is distinct from most other African nations as it is one of the only countries that successfully resisted European colonization. It also has a historical connection to Christianity, with the region adopting the religion before many Western nations were exposed to it. This legacy of the country’s independence and the Ethiopian ‘Tewahedo’ Orthodox Church are very important to Ethiopians’ sense of national pride. Their sense of morality and cultural refinement are shaped by centuries of practice, and continue to inform how they see themselves in the contemporary setting. Generally speaking, Ethiopians are renowned for being welcoming, considerate, cooperative and non-confrontational people.      ",
-      "Since I've lived here my entire life, I just wanted to represent my country and give Ethiopian identity to most of the things I do. For example, as you can see, this is the user authentication side for the X-Ethiopia conceptual design. above that, you can see the buildings and monuments in Ethiopia that are immediately recognizable to anyone who sees them, and for those who don't, they will gain a general understanding of Ethiopian culture.      ",
-      "I hope you like it and if you are in ethiopia , i just wanted to say (ሰላም የሀገሬ ልጅ, አመሰግናለሁ) it means hey home boy and thankyou",
+      "Graphic design is an integral part of any successful social media post. Whether you’re promoting a product, service or event, your visuals need to be on point in order to capture the attention of potential customers and followers. For example, if you are trying to promote Tevise watches from different brands and themes then it’s important that your graphic design stands out amongst the competition. ",
+
+     " The first thing you should do when designing graphics for a Tevise watch promotion is decide what kind of visual style best suits the brand and theme being promoted. Is it modern? Vintage? Minimalist? Once this has been established then all other elements can be designed with this style in mind such as colors, fonts and imagery used within the post itself. Additionally think about how these elements work together - does one particular color stand out more than others or does everything blend together nicely? ",
+      
+     " Once all these aspects have been considered its time for some creative thinking! Think outside-the-box when creating graphics for social media posts – use unique shapes (like circles instead of squares) or add animation effects like parallax scrolling which can help draw people into your content even further! You could also consider adding interactive features such as quizzes or polls which would make engaging with users much easier while giving them something interesting to interact with too!  ",
+      
+     " Finally don’t forget about typography – using bold typefaces will ensure that key words/phrases are highlighted so they stand out from other text on screen whilst still keeping things looking neat & tidy overall; plus try experimenting by combining different font styles together too create eye catching headlines etc...  All these little touches will give viewers something extra special helping them remember who they saw those awesome designs from: YOU!!",
     ],
     postedDate: "Aug 12, 2022",
     tags: [
@@ -1519,11 +1287,11 @@ export const socialMediaPost = [
     content:
       "I therefore had the opportunity to develop this start-up concept for drivers to see where guaranteed parking spaces are located, how much it will cost them per hour, and other reasons to use, and not only will it show them other parking spaces but also help the find garages and car washes so that they don't get into trouble with the service they need with their car in handling process and be secured with where they place their cars and other items.",
     moreContent: [
-      "Addis Ababa’s parking system is mainly dominated by on-street parking, although there are a few off-street parking areas or parking spaces inside buildings. However, there are no readily accessible parking areas near public transport terminals, which contribute to the inefficient utilization of the road network, especially in terms of road users’ safety and traffic congestion. This, in turn, contributes to higher carbon emissions from vehicles and further impacts on air quality. Addis Ababa’s Transport Programs Management Office (TPMO) is making efforts to solve parking issues through the development of optimized parking systems, particularly with the construction of smart parking systems equipped with modern devices, such as cameras and sensors.",
-      "The Addis Ababa’s Master Plan, which has been in place since 2017 and will be operational until 2027, embeds the construction of 60 parking areas. It is hoped to address the critical traffic congestion in Ethiopia’s capital.",
-      "I therefore had the opportunity to develop this start-up concept for drivers to see where guaranteed parking spaces are located, how much it will cost them per hour, and other reasons to use, and not only will it show them other parking spaces but also help the find garages and car washes so that they don't get into trouble with the service they need with their car in handling process and be secured with where they place their cars and other items.",
-      "Additionally, users may easily purchase a package with the application that includes golden, silver, or bronze packages so that when they purchase these packages, other people benefit as well.",
-      "Thank you for reading this and you can view more on my behance account.",
+      "Welcome to Heaven Decor! We are a decor works company specializing in creating beautiful, custom-crafted designs that bring your spaces to life. Our team of skilled designers and craftsmen can help you create the perfect look for any space, whether it be residential or commercial. We understand how important it is to make sure your home or business looks its best and we strive to provide our customers with the highest quality design services available.",
+
+     "Graphic design plays an integral role in making sure that Heaven Decor stands out from other companies offering similar services. Through graphic design, we can create unique logos, advertisements and promotional materials such as flyers and brochures that will attract potential customers’ attention while also conveying our brand message clearly. Graphic design also helps us maintain consistency across all of our marketing efforts by ensuring everything has a cohesive look throughout different mediums like print media or digital platforms like social media posts .",
+      " Social Media Post Design is another great way for us at Heaven Decors showcase what sets us apart from other decor works companies on online platforms such as Instagram , Facebook etc . By utilizing attractive visuals along with concise captions ,we are able capture people's attention quickly so they know exactly what makes us special right away . Additionally , through strategic use of hashtags & influencer collaborations we can reach more potential clients who may not have heard about Heavenly Décor before but could now become future loyal customers !  ",
+      "At Heavenly décor ,our goal is always customer satisfaction which means providing superior service every step of the way - starting from when someone first discovers about who were are till after their project has been completed successfully !",
     ],
     postedDate: "Aug 12, 2022",
     tags: [
