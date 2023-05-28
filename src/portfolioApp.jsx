@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Blog from "./blog";
-import BlogDetial from "./blogdetail";
-import Homepage from "./homepage";
-import NavigationBar from "./navigationbar";
-import ResumeShowPage from "./resume";
+import Blog from "./blog/blog";
+import BlogDetial from "./blog/blogdetail";
+import Homepage from "./Home/homepage";
+import NavigationBar from './Home/Hero/navigationbar'
+import ResumeShowPage from "./Resume/resume";
 import { AnimatePresence } from "framer-motion";
 import ScrollToTop from "./ScrolltoTop";
 
