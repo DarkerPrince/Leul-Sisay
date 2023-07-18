@@ -90,9 +90,9 @@ function BlogDetail() {
               </div>
 
               <div className="flex items-center">
-                <span className="text-sm mx-1">
+                {/* <span className="text-sm mx-1">
                   {location.state.comments.length}
-                </span>
+                </span> */}
                 <MdCommentBank className="text-leulePrime" />
               </div>
             </div>
