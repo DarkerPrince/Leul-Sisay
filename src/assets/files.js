@@ -1033,6 +1033,7 @@ var blogFiles = [
     ],
   },
 ];
+
 export default blogFiles;
 
 export const socialMediaPost = [
